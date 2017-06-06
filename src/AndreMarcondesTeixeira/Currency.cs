@@ -17,10 +17,5 @@ namespace AndreMarcondesTeixeira
             this.DefaultDecimalPlaces = defaultDecimalPlaces;
             this.Name = name;
         }
-
-        public static Money ConvertTo(Currency currency, Money money, decimal conversionFactor)
-        {
-            return new Money(money.Amount * conversionFactor, currency);
-        }
     }
 }
