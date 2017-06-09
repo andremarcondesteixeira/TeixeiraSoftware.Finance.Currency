@@ -31,7 +31,7 @@ namespace AndreMarcondesTeixeira
                 throw new ArgumentException("Currency must not be null");
             }
 
-            return a.ISONumber == b.ISONumber;
+            return a.Number == b.Number;
         }
     }
 }
