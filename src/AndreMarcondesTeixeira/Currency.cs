@@ -4,17 +4,16 @@ namespace AndreMarcondesTeixeira
 {
     public partial class Currency
     {
-        public string ISOCode { get; }
-        public string ISONumber { get; }
-        public byte DefaultDecimalPlaces { get; }
+        public string Code { get; }
+        public byte MinorUnits { get; }
         public string Name { get; }
-        public string Country { get; }
+        public string Number { get; }
 
-        public Currency(string ISOCode, string ISONumber, byte defaultDecimalPlaces, string name)
+        public Currency(string code, string number, byte minorUnits, string name)
         {
-            this.ISOCode = ISOCode;
-            this.ISONumber = ISONumber;
-            this.DefaultDecimalPlaces = defaultDecimalPlaces;
+            this.Code = code;
+            this.Number = number;
+            this.MinorUnits = minorUnits;
             this.Name = name;
         }
     }
