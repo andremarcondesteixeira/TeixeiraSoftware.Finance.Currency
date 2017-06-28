@@ -9,7 +9,17 @@ namespace AndreMarcondesTeixeira
         public string Name { get; }
         public string Number { get; }
 
-        public Currency(string code, string number, byte minorUnits, string name)
+        /// <summary>
+        /// Use the static, lazy loaded properties of
+        /// the Currency class instead of the constructor
+        /// </summary>
+        /// <example>
+        /// This sample shows you how to get an instance of a currency:
+        /// <code>
+        /// var currency = Currency.XXX;
+        /// </code>
+        /// </example>
+        private Currency(string code, string number, byte minorUnits, string name)
         {
             this.Code = code;
             this.Number = number;
