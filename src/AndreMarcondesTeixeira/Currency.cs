@@ -10,7 +10,9 @@ namespace AndreMarcondesTeixeira
     ///     All currencies are represented, except for "ANTARCTICA", "PALESTINE, STATE OF"
     ///     and "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS". ISO describes those as
     ///     "no universal currency", and gives them no letter codes.
-    ///     <para>This class does not provide the list of countries that use each currency.</para>
+    ///     <para>
+    ///         This class does not provide the list of countries that use each currency.
+    ///     </para>
     ///     <para>
     ///         For more information:
     ///         <see href="https://www.currency-iso.org/en/home.html">
