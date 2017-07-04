@@ -46,7 +46,11 @@ namespace AndreMarcondesTeixeira
                 throw new ArgumentException("Currency must not be null");
             }
 
-            return a.Number == b.Number;
+            return
+                a.Number == b.Number
+                && a.Code == b.Code
+                && a.MinorUnits == b.MinorUnits
+                && a.Name == b.Name;
         }
     }
 }

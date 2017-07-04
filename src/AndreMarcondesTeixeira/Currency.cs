@@ -37,6 +37,8 @@ namespace AndreMarcondesTeixeira
         /// <summary>The numeric ISO code of the currency</summary>
         public string Number { get; }
 
+        
+
         /// <summary>
         ///     Initializes a new instance of the <see cref="Currency" /> class.
         /// </summary>
@@ -68,6 +70,16 @@ namespace AndreMarcondesTeixeira
             this.Number = number;
             this.MinorUnits = minorUnits;
             this.Name = name;
+        }
+
+        public static object GetByLetterCode(string v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static object GetByNumericCode(string v)
+        {
+            throw new NotImplementedException();
         }
     }
 }

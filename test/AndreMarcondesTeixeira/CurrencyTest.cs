@@ -6,13 +6,21 @@ namespace AndreMarcondesTeixeira
     public class CurrencyTest
     {
         [Fact]
-        public void Currency_Instances_Are_Compared_Through_Their_Numeric_ISO_Code()
+        public void Currency_Instances_Are_Compared_Through_Their_Properties()
         {
-            var customCurrency1 = new Currency("", "000", 0, "");
-            var customCurrency2 = new Currency("ZZZ", "000", 2, "Test");
+            var customCurrency = new Currency("ZZ", "000", 2, "Test");
+            var differentLetterCode = new Currency("ZZZ", "000", 2, "Test");
+            var differentNumberCode = new Currency("ZZ", "00", 2, "Test");
+            var differentMinorUnits = new Currency("ZZ", "000", 1, "Test");
+            var differentName = new Currency("ZZ", "000", 2, "Different Name");
+            var equivalentCurrency = new Currency("ZZ", "000", 2, "Test");
 
-            Assert.True(customCurrency1 == customCurrency2);
-            Assert.False(customCurrency1 != customCurrency2);
+            Assert.True(customCurrency != differentLetterCode);
+            Assert.True(customCurrency != differentNumberCode);
+            Assert.True(customCurrency != differentMinorUnits);
+            Assert.True(customCurrency != differentName);
+            Assert.True(customCurrency == equivalentCurrency);
+            Assert.False(customCurrency != equivalentCurrency);
             Assert.False(Currency.XXX == Currency.XTS);
             Assert.True(Currency.XTS != Currency.XXX);
         }
