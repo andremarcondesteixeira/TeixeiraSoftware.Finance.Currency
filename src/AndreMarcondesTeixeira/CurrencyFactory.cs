@@ -2,1604 +2,1604 @@ namespace AndreMarcondesTeixeira
 {
     public partial class Currency
     {
+        /// <summary>UAE Dirham</summary>
         public static Currency AED
         {
             get
             {
-                /// <summary>UAE Dirham</summary>
                 return new Currency("AED", "784", 2, "UAE Dirham");
             }
         }
 
+        /// <summary>Afghani</summary>
         public static Currency AFN
         {
             get
             {
-                /// <summary>Afghani</summary>
                 return new Currency("AFN", "971", 2, "Afghani");
             }
         }
 
+        /// <summary>Lek</summary>
         public static Currency ALL
         {
             get
             {
-                /// <summary>Lek</summary>
                 return new Currency("ALL", "008", 2, "Lek");
             }
         }
 
+        /// <summary>Armenian Dram</summary>
         public static Currency AMD
         {
             get
             {
-                /// <summary>Armenian Dram</summary>
                 return new Currency("AMD", "051", 2, "Armenian Dram");
             }
         }
 
+        /// <summary>Netherlands Antillean Guilder</summary>
         public static Currency ANG
         {
             get
             {
-                /// <summary>Netherlands Antillean Guilder</summary>
                 return new Currency("ANG", "532", 2, "Netherlands Antillean Guilder");
             }
         }
 
+        /// <summary>Kwanza</summary>
         public static Currency AOA
         {
             get
             {
-                /// <summary>Kwanza</summary>
                 return new Currency("AOA", "973", 2, "Kwanza");
             }
         }
 
+        /// <summary>Argentine Peso</summary>
         public static Currency ARS
         {
             get
             {
-                /// <summary>Argentine Peso</summary>
                 return new Currency("ARS", "032", 2, "Argentine Peso");
             }
         }
 
+        /// <summary>Australian Dollar</summary>
         public static Currency AUD
         {
             get
             {
-                /// <summary>Australian Dollar</summary>
                 return new Currency("AUD", "036", 2, "Australian Dollar");
             }
         }
 
+        /// <summary>Aruban Florin</summary>
         public static Currency AWG
         {
             get
             {
-                /// <summary>Aruban Florin</summary>
                 return new Currency("AWG", "533", 2, "Aruban Florin");
             }
         }
 
+        /// <summary>Azerbaijanian Manat</summary>
         public static Currency AZN
         {
             get
             {
-                /// <summary>Azerbaijanian Manat</summary>
                 return new Currency("AZN", "944", 2, "Azerbaijanian Manat");
             }
         }
 
+        /// <summary>Convertible Mark</summary>
         public static Currency BAM
         {
             get
             {
-                /// <summary>Convertible Mark</summary>
                 return new Currency("BAM", "977", 2, "Convertible Mark");
             }
         }
 
+        /// <summary>Barbados Dollar</summary>
         public static Currency BBD
         {
             get
             {
-                /// <summary>Barbados Dollar</summary>
                 return new Currency("BBD", "052", 2, "Barbados Dollar");
             }
         }
 
+        /// <summary>Taka</summary>
         public static Currency BDT
         {
             get
             {
-                /// <summary>Taka</summary>
                 return new Currency("BDT", "050", 2, "Taka");
             }
         }
 
+        /// <summary>Bulgarian Lev</summary>
         public static Currency BGN
         {
             get
             {
-                /// <summary>Bulgarian Lev</summary>
                 return new Currency("BGN", "975", 2, "Bulgarian Lev");
             }
         }
 
+        /// <summary>Bahraini Dinar</summary>
         public static Currency BHD
         {
             get
             {
-                /// <summary>Bahraini Dinar</summary>
                 return new Currency("BHD", "048", 3, "Bahraini Dinar");
             }
         }
 
+        /// <summary>Burundi Franc</summary>
         public static Currency BIF
         {
             get
             {
-                /// <summary>Burundi Franc</summary>
                 return new Currency("BIF", "108", 0, "Burundi Franc");
             }
         }
 
+        /// <summary>Bermudian Dollar</summary>
         public static Currency BMD
         {
             get
             {
-                /// <summary>Bermudian Dollar</summary>
                 return new Currency("BMD", "060", 2, "Bermudian Dollar");
             }
         }
 
+        /// <summary>Brunei Dollar</summary>
         public static Currency BND
         {
             get
             {
-                /// <summary>Brunei Dollar</summary>
                 return new Currency("BND", "096", 2, "Brunei Dollar");
             }
         }
 
+        /// <summary>Boliviano</summary>
         public static Currency BOB
         {
             get
             {
-                /// <summary>Boliviano</summary>
                 return new Currency("BOB", "068", 2, "Boliviano");
             }
         }
 
+        /// <summary>Mvdol</summary>
         public static Currency BOV
         {
             get
             {
-                /// <summary>Mvdol</summary>
                 return new Currency("BOV", "984", 2, "Mvdol");
             }
         }
 
+        /// <summary>Brazilian Real</summary>
         public static Currency BRL
         {
             get
             {
-                /// <summary>Brazilian Real</summary>
                 return new Currency("BRL", "986", 2, "Brazilian Real");
             }
         }
 
+        /// <summary>Bahamian Dollar</summary>
         public static Currency BSD
         {
             get
             {
-                /// <summary>Bahamian Dollar</summary>
                 return new Currency("BSD", "044", 2, "Bahamian Dollar");
             }
         }
 
+        /// <summary>Ngultrum</summary>
         public static Currency BTN
         {
             get
             {
-                /// <summary>Ngultrum</summary>
                 return new Currency("BTN", "064", 2, "Ngultrum");
             }
         }
 
+        /// <summary>Pula</summary>
         public static Currency BWP
         {
             get
             {
-                /// <summary>Pula</summary>
                 return new Currency("BWP", "072", 2, "Pula");
             }
         }
 
+        /// <summary>Belarusian Ruble</summary>
         public static Currency BYN
         {
             get
             {
-                /// <summary>Belarusian Ruble</summary>
                 return new Currency("BYN", "933", 2, "Belarusian Ruble");
             }
         }
 
+        /// <summary>Belize Dollar</summary>
         public static Currency BZD
         {
             get
             {
-                /// <summary>Belize Dollar</summary>
                 return new Currency("BZD", "084", 2, "Belize Dollar");
             }
         }
 
+        /// <summary>Canadian Dollar</summary>
         public static Currency CAD
         {
             get
             {
-                /// <summary>Canadian Dollar</summary>
                 return new Currency("CAD", "124", 2, "Canadian Dollar");
             }
         }
 
+        /// <summary>Congolese Franc</summary>
         public static Currency CDF
         {
             get
             {
-                /// <summary>Congolese Franc</summary>
                 return new Currency("CDF", "976", 2, "Congolese Franc");
             }
         }
 
+        /// <summary>WIR Euro</summary>
         public static Currency CHE
         {
             get
             {
-                /// <summary>WIR Euro</summary>
                 return new Currency("CHE", "947", 2, "WIR Euro");
             }
         }
 
+        /// <summary>Swiss Franc</summary>
         public static Currency CHF
         {
             get
             {
-                /// <summary>Swiss Franc</summary>
                 return new Currency("CHF", "756", 2, "Swiss Franc");
             }
         }
 
+        /// <summary>WIR Franc</summary>
         public static Currency CHW
         {
             get
             {
-                /// <summary>WIR Franc</summary>
                 return new Currency("CHW", "948", 2, "WIR Franc");
             }
         }
 
+        /// <summary>Unidad de Fomento</summary>
         public static Currency CLF
         {
             get
             {
-                /// <summary>Unidad de Fomento</summary>
                 return new Currency("CLF", "990", 4, "Unidad de Fomento");
             }
         }
 
+        /// <summary>Chilean Peso</summary>
         public static Currency CLP
         {
             get
             {
-                /// <summary>Chilean Peso</summary>
                 return new Currency("CLP", "152", 0, "Chilean Peso");
             }
         }
 
+        /// <summary>Yuan Renminbi</summary>
         public static Currency CNY
         {
             get
             {
-                /// <summary>Yuan Renminbi</summary>
                 return new Currency("CNY", "156", 2, "Yuan Renminbi");
             }
         }
 
+        /// <summary>Colombian Peso</summary>
         public static Currency COP
         {
             get
             {
-                /// <summary>Colombian Peso</summary>
                 return new Currency("COP", "170", 2, "Colombian Peso");
             }
         }
 
+        /// <summary>Unidad de Valor Real</summary>
         public static Currency COU
         {
             get
             {
-                /// <summary>Unidad de Valor Real</summary>
                 return new Currency("COU", "970", 2, "Unidad de Valor Real");
             }
         }
 
+        /// <summary>Costa Rican Colon</summary>
         public static Currency CRC
         {
             get
             {
-                /// <summary>Costa Rican Colon</summary>
                 return new Currency("CRC", "188", 2, "Costa Rican Colon");
             }
         }
 
+        /// <summary>Peso Convertible</summary>
         public static Currency CUC
         {
             get
             {
-                /// <summary>Peso Convertible</summary>
                 return new Currency("CUC", "931", 2, "Peso Convertible");
             }
         }
 
+        /// <summary>Cuban Peso</summary>
         public static Currency CUP
         {
             get
             {
-                /// <summary>Cuban Peso</summary>
                 return new Currency("CUP", "192", 2, "Cuban Peso");
             }
         }
 
+        /// <summary>Cabo Verde Escudo</summary>
         public static Currency CVE
         {
             get
             {
-                /// <summary>Cabo Verde Escudo</summary>
                 return new Currency("CVE", "132", 2, "Cabo Verde Escudo");
             }
         }
 
+        /// <summary>Czech Koruna</summary>
         public static Currency CZK
         {
             get
             {
-                /// <summary>Czech Koruna</summary>
                 return new Currency("CZK", "203", 2, "Czech Koruna");
             }
         }
 
+        /// <summary>Djibouti Franc</summary>
         public static Currency DJF
         {
             get
             {
-                /// <summary>Djibouti Franc</summary>
                 return new Currency("DJF", "262", 0, "Djibouti Franc");
             }
         }
 
+        /// <summary>Danish Krone</summary>
         public static Currency DKK
         {
             get
             {
-                /// <summary>Danish Krone</summary>
                 return new Currency("DKK", "208", 2, "Danish Krone");
             }
         }
 
+        /// <summary>Dominican Peso</summary>
         public static Currency DOP
         {
             get
             {
-                /// <summary>Dominican Peso</summary>
                 return new Currency("DOP", "214", 2, "Dominican Peso");
             }
         }
 
+        /// <summary>Algerian Dinar</summary>
         public static Currency DZD
         {
             get
             {
-                /// <summary>Algerian Dinar</summary>
                 return new Currency("DZD", "012", 2, "Algerian Dinar");
             }
         }
 
+        /// <summary>Egyptian Pound</summary>
         public static Currency EGP
         {
             get
             {
-                /// <summary>Egyptian Pound</summary>
                 return new Currency("EGP", "818", 2, "Egyptian Pound");
             }
         }
 
+        /// <summary>Nakfa</summary>
         public static Currency ERN
         {
             get
             {
-                /// <summary>Nakfa</summary>
                 return new Currency("ERN", "232", 2, "Nakfa");
             }
         }
 
+        /// <summary>Ethiopian Birr</summary>
         public static Currency ETB
         {
             get
             {
-                /// <summary>Ethiopian Birr</summary>
                 return new Currency("ETB", "230", 2, "Ethiopian Birr");
             }
         }
 
+        /// <summary>Euro</summary>
         public static Currency EUR
         {
             get
             {
-                /// <summary>Euro</summary>
                 return new Currency("EUR", "978", 2, "Euro");
             }
         }
 
+        /// <summary>Fiji Dollar</summary>
         public static Currency FJD
         {
             get
             {
-                /// <summary>Fiji Dollar</summary>
                 return new Currency("FJD", "242", 2, "Fiji Dollar");
             }
         }
 
+        /// <summary>Falkland Islands Pound</summary>
         public static Currency FKP
         {
             get
             {
-                /// <summary>Falkland Islands Pound</summary>
                 return new Currency("FKP", "238", 2, "Falkland Islands Pound");
             }
         }
 
+        /// <summary>Pound Sterling</summary>
         public static Currency GBP
         {
             get
             {
-                /// <summary>Pound Sterling</summary>
                 return new Currency("GBP", "826", 2, "Pound Sterling");
             }
         }
 
+        /// <summary>Lari</summary>
         public static Currency GEL
         {
             get
             {
-                /// <summary>Lari</summary>
                 return new Currency("GEL", "981", 2, "Lari");
             }
         }
 
+        /// <summary>Ghana Cedi</summary>
         public static Currency GHS
         {
             get
             {
-                /// <summary>Ghana Cedi</summary>
                 return new Currency("GHS", "936", 2, "Ghana Cedi");
             }
         }
 
+        /// <summary>Gibraltar Pound</summary>
         public static Currency GIP
         {
             get
             {
-                /// <summary>Gibraltar Pound</summary>
                 return new Currency("GIP", "292", 2, "Gibraltar Pound");
             }
         }
 
+        /// <summary>Dalasi</summary>
         public static Currency GMD
         {
             get
             {
-                /// <summary>Dalasi</summary>
                 return new Currency("GMD", "270", 2, "Dalasi");
             }
         }
 
+        /// <summary>Guinea Franc</summary>
         public static Currency GNF
         {
             get
             {
-                /// <summary>Guinea Franc</summary>
                 return new Currency("GNF", "324", 0, "Guinea Franc");
             }
         }
 
+        /// <summary>Quetzal</summary>
         public static Currency GTQ
         {
             get
             {
-                /// <summary>Quetzal</summary>
                 return new Currency("GTQ", "320", 2, "Quetzal");
             }
         }
 
+        /// <summary>Guyana Dollar</summary>
         public static Currency GYD
         {
             get
             {
-                /// <summary>Guyana Dollar</summary>
                 return new Currency("GYD", "328", 2, "Guyana Dollar");
             }
         }
 
+        /// <summary>Hong Kong Dollar</summary>
         public static Currency HKD
         {
             get
             {
-                /// <summary>Hong Kong Dollar</summary>
                 return new Currency("HKD", "344", 2, "Hong Kong Dollar");
             }
         }
 
+        /// <summary>Lempira</summary>
         public static Currency HNL
         {
             get
             {
-                /// <summary>Lempira</summary>
                 return new Currency("HNL", "340", 2, "Lempira");
             }
         }
 
+        /// <summary>Kuna</summary>
         public static Currency HRK
         {
             get
             {
-                /// <summary>Kuna</summary>
                 return new Currency("HRK", "191", 2, "Kuna");
             }
         }
 
+        /// <summary>Gourde</summary>
         public static Currency HTG
         {
             get
             {
-                /// <summary>Gourde</summary>
                 return new Currency("HTG", "332", 2, "Gourde");
             }
         }
 
+        /// <summary>Forint</summary>
         public static Currency HUF
         {
             get
             {
-                /// <summary>Forint</summary>
                 return new Currency("HUF", "348", 2, "Forint");
             }
         }
 
+        /// <summary>Rupiah</summary>
         public static Currency IDR
         {
             get
             {
-                /// <summary>Rupiah</summary>
                 return new Currency("IDR", "360", 2, "Rupiah");
             }
         }
 
+        /// <summary>New Israeli Sheqel</summary>
         public static Currency ILS
         {
             get
             {
-                /// <summary>New Israeli Sheqel</summary>
                 return new Currency("ILS", "376", 2, "New Israeli Sheqel");
             }
         }
 
+        /// <summary>Indian Rupee</summary>
         public static Currency INR
         {
             get
             {
-                /// <summary>Indian Rupee</summary>
                 return new Currency("INR", "356", 2, "Indian Rupee");
             }
         }
 
+        /// <summary>Iraqi Dinar</summary>
         public static Currency IQD
         {
             get
             {
-                /// <summary>Iraqi Dinar</summary>
                 return new Currency("IQD", "368", 3, "Iraqi Dinar");
             }
         }
 
+        /// <summary>Iranian Rial</summary>
         public static Currency IRR
         {
             get
             {
-                /// <summary>Iranian Rial</summary>
                 return new Currency("IRR", "364", 2, "Iranian Rial");
             }
         }
 
+        /// <summary>Iceland Krona</summary>
         public static Currency ISK
         {
             get
             {
-                /// <summary>Iceland Krona</summary>
                 return new Currency("ISK", "352", 0, "Iceland Krona");
             }
         }
 
+        /// <summary>Jamaican Dollar</summary>
         public static Currency JMD
         {
             get
             {
-                /// <summary>Jamaican Dollar</summary>
                 return new Currency("JMD", "388", 2, "Jamaican Dollar");
             }
         }
 
+        /// <summary>Jordanian Dinar</summary>
         public static Currency JOD
         {
             get
             {
-                /// <summary>Jordanian Dinar</summary>
                 return new Currency("JOD", "400", 3, "Jordanian Dinar");
             }
         }
 
+        /// <summary>Yen</summary>
         public static Currency JPY
         {
             get
             {
-                /// <summary>Yen</summary>
                 return new Currency("JPY", "392", 0, "Yen");
             }
         }
 
+        /// <summary>Kenyan Shilling</summary>
         public static Currency KES
         {
             get
             {
-                /// <summary>Kenyan Shilling</summary>
                 return new Currency("KES", "404", 2, "Kenyan Shilling");
             }
         }
 
+        /// <summary>Som</summary>
         public static Currency KGS
         {
             get
             {
-                /// <summary>Som</summary>
                 return new Currency("KGS", "417", 2, "Som");
             }
         }
 
+        /// <summary>Riel</summary>
         public static Currency KHR
         {
             get
             {
-                /// <summary>Riel</summary>
                 return new Currency("KHR", "116", 2, "Riel");
             }
         }
 
+        /// <summary>Comoro Franc</summary>
         public static Currency KMF
         {
             get
             {
-                /// <summary>Comoro Franc</summary>
                 return new Currency("KMF", "174", 0, "Comoro Franc");
             }
         }
 
+        /// <summary>North Korean Won</summary>
         public static Currency KPW
         {
             get
             {
-                /// <summary>North Korean Won</summary>
                 return new Currency("KPW", "408", 2, "North Korean Won");
             }
         }
 
+        /// <summary>Won</summary>
         public static Currency KRW
         {
             get
             {
-                /// <summary>Won</summary>
                 return new Currency("KRW", "410", 0, "Won");
             }
         }
 
+        /// <summary>Kuwaiti Dinar</summary>
         public static Currency KWD
         {
             get
             {
-                /// <summary>Kuwaiti Dinar</summary>
                 return new Currency("KWD", "414", 3, "Kuwaiti Dinar");
             }
         }
 
+        /// <summary>Cayman Islands Dollar</summary>
         public static Currency KYD
         {
             get
             {
-                /// <summary>Cayman Islands Dollar</summary>
                 return new Currency("KYD", "136", 2, "Cayman Islands Dollar");
             }
         }
 
+        /// <summary>Tenge</summary>
         public static Currency KZT
         {
             get
             {
-                /// <summary>Tenge</summary>
                 return new Currency("KZT", "398", 2, "Tenge");
             }
         }
 
+        /// <summary>Kip</summary>
         public static Currency LAK
         {
             get
             {
-                /// <summary>Kip</summary>
                 return new Currency("LAK", "418", 2, "Kip");
             }
         }
 
+        /// <summary>Lebanese Pound</summary>
         public static Currency LBP
         {
             get
             {
-                /// <summary>Lebanese Pound</summary>
                 return new Currency("LBP", "422", 2, "Lebanese Pound");
             }
         }
 
+        /// <summary>Sri Lanka Rupee</summary>
         public static Currency LKR
         {
             get
             {
-                /// <summary>Sri Lanka Rupee</summary>
                 return new Currency("LKR", "144", 2, "Sri Lanka Rupee");
             }
         }
 
+        /// <summary>Liberian Dollar</summary>
         public static Currency LRD
         {
             get
             {
-                /// <summary>Liberian Dollar</summary>
                 return new Currency("LRD", "430", 2, "Liberian Dollar");
             }
         }
 
+        /// <summary>Loti</summary>
         public static Currency LSL
         {
             get
             {
-                /// <summary>Loti</summary>
                 return new Currency("LSL", "426", 2, "Loti");
             }
         }
 
+        /// <summary>Libyan Dinar</summary>
         public static Currency LYD
         {
             get
             {
-                /// <summary>Libyan Dinar</summary>
                 return new Currency("LYD", "434", 3, "Libyan Dinar");
             }
         }
 
+        /// <summary>Moroccan Dirham</summary>
         public static Currency MAD
         {
             get
             {
-                /// <summary>Moroccan Dirham</summary>
                 return new Currency("MAD", "504", 2, "Moroccan Dirham");
             }
         }
 
+        /// <summary>Moldovan Leu</summary>
         public static Currency MDL
         {
             get
             {
-                /// <summary>Moldovan Leu</summary>
                 return new Currency("MDL", "498", 2, "Moldovan Leu");
             }
         }
 
+        /// <summary>Malagasy Ariary</summary>
         public static Currency MGA
         {
             get
             {
-                /// <summary>Malagasy Ariary</summary>
                 return new Currency("MGA", "969", 2, "Malagasy Ariary");
             }
         }
 
+        /// <summary>Denar</summary>
         public static Currency MKD
         {
             get
             {
-                /// <summary>Denar</summary>
                 return new Currency("MKD", "807", 2, "Denar");
             }
         }
 
+        /// <summary>Kyat</summary>
         public static Currency MMK
         {
             get
             {
-                /// <summary>Kyat</summary>
                 return new Currency("MMK", "104", 2, "Kyat");
             }
         }
 
+        /// <summary>Tugrik</summary>
         public static Currency MNT
         {
             get
             {
-                /// <summary>Tugrik</summary>
                 return new Currency("MNT", "496", 2, "Tugrik");
             }
         }
 
+        /// <summary>Pataca</summary>
         public static Currency MOP
         {
             get
             {
-                /// <summary>Pataca</summary>
                 return new Currency("MOP", "446", 2, "Pataca");
             }
         }
 
+        /// <summary>Ouguiya</summary>
         public static Currency MRO
         {
             get
             {
-                /// <summary>Ouguiya</summary>
                 return new Currency("MRO", "478", 2, "Ouguiya");
             }
         }
 
+        /// <summary>Mauritius Rupee</summary>
         public static Currency MUR
         {
             get
             {
-                /// <summary>Mauritius Rupee</summary>
                 return new Currency("MUR", "480", 2, "Mauritius Rupee");
             }
         }
 
+        /// <summary>Rufiyaa</summary>
         public static Currency MVR
         {
             get
             {
-                /// <summary>Rufiyaa</summary>
                 return new Currency("MVR", "462", 2, "Rufiyaa");
             }
         }
 
+        /// <summary>Malawi Kwacha</summary>
         public static Currency MWK
         {
             get
             {
-                /// <summary>Malawi Kwacha</summary>
                 return new Currency("MWK", "454", 2, "Malawi Kwacha");
             }
         }
 
+        /// <summary>Mexican Peso</summary>
         public static Currency MXN
         {
             get
             {
-                /// <summary>Mexican Peso</summary>
                 return new Currency("MXN", "484", 2, "Mexican Peso");
             }
         }
 
+        /// <summary>Mexican Unidad de Inversion (UDI)</summary>
         public static Currency MXV
         {
             get
             {
-                /// <summary>Mexican Unidad de Inversion (UDI)</summary>
                 return new Currency("MXV", "979", 2, "Mexican Unidad de Inversion (UDI)");
             }
         }
 
+        /// <summary>Malaysian Ringgit</summary>
         public static Currency MYR
         {
             get
             {
-                /// <summary>Malaysian Ringgit</summary>
                 return new Currency("MYR", "458", 2, "Malaysian Ringgit");
             }
         }
 
+        /// <summary>Mozambique Metical</summary>
         public static Currency MZN
         {
             get
             {
-                /// <summary>Mozambique Metical</summary>
                 return new Currency("MZN", "943", 2, "Mozambique Metical");
             }
         }
 
+        /// <summary>Namibia Dollar</summary>
         public static Currency NAD
         {
             get
             {
-                /// <summary>Namibia Dollar</summary>
                 return new Currency("NAD", "516", 2, "Namibia Dollar");
             }
         }
 
+        /// <summary>Naira</summary>
         public static Currency NGN
         {
             get
             {
-                /// <summary>Naira</summary>
                 return new Currency("NGN", "566", 2, "Naira");
             }
         }
 
+        /// <summary>Cordoba Oro</summary>
         public static Currency NIO
         {
             get
             {
-                /// <summary>Cordoba Oro</summary>
                 return new Currency("NIO", "558", 2, "Cordoba Oro");
             }
         }
 
+        /// <summary>Norwegian Krone</summary>
         public static Currency NOK
         {
             get
             {
-                /// <summary>Norwegian Krone</summary>
                 return new Currency("NOK", "578", 2, "Norwegian Krone");
             }
         }
 
+        /// <summary>Nepalese Rupee</summary>
         public static Currency NPR
         {
             get
             {
-                /// <summary>Nepalese Rupee</summary>
                 return new Currency("NPR", "524", 2, "Nepalese Rupee");
             }
         }
 
+        /// <summary>New Zealand Dollar</summary>
         public static Currency NZD
         {
             get
             {
-                /// <summary>New Zealand Dollar</summary>
                 return new Currency("NZD", "554", 2, "New Zealand Dollar");
             }
         }
 
+        /// <summary>Rial Omani</summary>
         public static Currency OMR
         {
             get
             {
-                /// <summary>Rial Omani</summary>
                 return new Currency("OMR", "512", 3, "Rial Omani");
             }
         }
 
+        /// <summary>Balboa</summary>
         public static Currency PAB
         {
             get
             {
-                /// <summary>Balboa</summary>
                 return new Currency("PAB", "590", 2, "Balboa");
             }
         }
 
+        /// <summary>Sol</summary>
         public static Currency PEN
         {
             get
             {
-                /// <summary>Sol</summary>
                 return new Currency("PEN", "604", 2, "Sol");
             }
         }
 
+        /// <summary>Kina</summary>
         public static Currency PGK
         {
             get
             {
-                /// <summary>Kina</summary>
                 return new Currency("PGK", "598", 2, "Kina");
             }
         }
 
+        /// <summary>Philippine Peso</summary>
         public static Currency PHP
         {
             get
             {
-                /// <summary>Philippine Peso</summary>
                 return new Currency("PHP", "608", 2, "Philippine Peso");
             }
         }
 
+        /// <summary>Pakistan Rupee</summary>
         public static Currency PKR
         {
             get
             {
-                /// <summary>Pakistan Rupee</summary>
                 return new Currency("PKR", "586", 2, "Pakistan Rupee");
             }
         }
 
+        /// <summary>Zloty</summary>
         public static Currency PLN
         {
             get
             {
-                /// <summary>Zloty</summary>
                 return new Currency("PLN", "985", 2, "Zloty");
             }
         }
 
+        /// <summary>Guarani</summary>
         public static Currency PYG
         {
             get
             {
-                /// <summary>Guarani</summary>
                 return new Currency("PYG", "600", 0, "Guarani");
             }
         }
 
+        /// <summary>Qatari Rial</summary>
         public static Currency QAR
         {
             get
             {
-                /// <summary>Qatari Rial</summary>
                 return new Currency("QAR", "634", 2, "Qatari Rial");
             }
         }
 
+        /// <summary>Romanian Leu</summary>
         public static Currency RON
         {
             get
             {
-                /// <summary>Romanian Leu</summary>
                 return new Currency("RON", "946", 2, "Romanian Leu");
             }
         }
 
+        /// <summary>Serbian Dinar</summary>
         public static Currency RSD
         {
             get
             {
-                /// <summary>Serbian Dinar</summary>
                 return new Currency("RSD", "941", 2, "Serbian Dinar");
             }
         }
 
+        /// <summary>Russian Ruble</summary>
         public static Currency RUB
         {
             get
             {
-                /// <summary>Russian Ruble</summary>
                 return new Currency("RUB", "643", 2, "Russian Ruble");
             }
         }
 
+        /// <summary>Rwanda Franc</summary>
         public static Currency RWF
         {
             get
             {
-                /// <summary>Rwanda Franc</summary>
                 return new Currency("RWF", "646", 0, "Rwanda Franc");
             }
         }
 
+        /// <summary>Saudi Riyal</summary>
         public static Currency SAR
         {
             get
             {
-                /// <summary>Saudi Riyal</summary>
                 return new Currency("SAR", "682", 2, "Saudi Riyal");
             }
         }
 
+        /// <summary>Solomon Islands Dollar</summary>
         public static Currency SBD
         {
             get
             {
-                /// <summary>Solomon Islands Dollar</summary>
                 return new Currency("SBD", "090", 2, "Solomon Islands Dollar");
             }
         }
 
+        /// <summary>Seychelles Rupee</summary>
         public static Currency SCR
         {
             get
             {
-                /// <summary>Seychelles Rupee</summary>
                 return new Currency("SCR", "690", 2, "Seychelles Rupee");
             }
         }
 
+        /// <summary>Sudanese Pound</summary>
         public static Currency SDG
         {
             get
             {
-                /// <summary>Sudanese Pound</summary>
                 return new Currency("SDG", "938", 2, "Sudanese Pound");
             }
         }
 
+        /// <summary>Swedish Krona</summary>
         public static Currency SEK
         {
             get
             {
-                /// <summary>Swedish Krona</summary>
                 return new Currency("SEK", "752", 2, "Swedish Krona");
             }
         }
 
+        /// <summary>Singapore Dollar</summary>
         public static Currency SGD
         {
             get
             {
-                /// <summary>Singapore Dollar</summary>
                 return new Currency("SGD", "702", 2, "Singapore Dollar");
             }
         }
 
+        /// <summary>Saint Helena Pound</summary>
         public static Currency SHP
         {
             get
             {
-                /// <summary>Saint Helena Pound</summary>
                 return new Currency("SHP", "654", 2, "Saint Helena Pound");
             }
         }
 
+        /// <summary>Leone</summary>
         public static Currency SLL
         {
             get
             {
-                /// <summary>Leone</summary>
                 return new Currency("SLL", "694", 2, "Leone");
             }
         }
 
+        /// <summary>Somali Shilling</summary>
         public static Currency SOS
         {
             get
             {
-                /// <summary>Somali Shilling</summary>
                 return new Currency("SOS", "706", 2, "Somali Shilling");
             }
         }
 
+        /// <summary>Surinam Dollar</summary>
         public static Currency SRD
         {
             get
             {
-                /// <summary>Surinam Dollar</summary>
                 return new Currency("SRD", "968", 2, "Surinam Dollar");
             }
         }
 
+        /// <summary>South Sudanese Pound</summary>
         public static Currency SSP
         {
             get
             {
-                /// <summary>South Sudanese Pound</summary>
                 return new Currency("SSP", "728", 2, "South Sudanese Pound");
             }
         }
 
+        /// <summary>Dobra</summary>
         public static Currency STD
         {
             get
             {
-                /// <summary>Dobra</summary>
                 return new Currency("STD", "678", 2, "Dobra");
             }
         }
 
+        /// <summary>El Salvador Colon</summary>
         public static Currency SVC
         {
             get
             {
-                /// <summary>El Salvador Colon</summary>
                 return new Currency("SVC", "222", 2, "El Salvador Colon");
             }
         }
 
+        /// <summary>Syrian Pound</summary>
         public static Currency SYP
         {
             get
             {
-                /// <summary>Syrian Pound</summary>
                 return new Currency("SYP", "760", 2, "Syrian Pound");
             }
         }
 
+        /// <summary>Lilangeni</summary>
         public static Currency SZL
         {
             get
             {
-                /// <summary>Lilangeni</summary>
                 return new Currency("SZL", "748", 2, "Lilangeni");
             }
         }
 
+        /// <summary>Baht</summary>
         public static Currency THB
         {
             get
             {
-                /// <summary>Baht</summary>
                 return new Currency("THB", "764", 2, "Baht");
             }
         }
 
+        /// <summary>Somoni</summary>
         public static Currency TJS
         {
             get
             {
-                /// <summary>Somoni</summary>
                 return new Currency("TJS", "972", 2, "Somoni");
             }
         }
 
+        /// <summary>Turkmenistan New Manat</summary>
         public static Currency TMT
         {
             get
             {
-                /// <summary>Turkmenistan New Manat</summary>
                 return new Currency("TMT", "934", 2, "Turkmenistan New Manat");
             }
         }
 
+        /// <summary>Tunisian Dinar</summary>
         public static Currency TND
         {
             get
             {
-                /// <summary>Tunisian Dinar</summary>
                 return new Currency("TND", "788", 3, "Tunisian Dinar");
             }
         }
 
+        /// <summary>Pa’anga</summary>
         public static Currency TOP
         {
             get
             {
-                /// <summary>Pa’anga</summary>
                 return new Currency("TOP", "776", 2, "Pa’anga");
             }
         }
 
+        /// <summary>Turkish Lira</summary>
         public static Currency TRY
         {
             get
             {
-                /// <summary>Turkish Lira</summary>
                 return new Currency("TRY", "949", 2, "Turkish Lira");
             }
         }
 
+        /// <summary>Trinidad and Tobago Dollar</summary>
         public static Currency TTD
         {
             get
             {
-                /// <summary>Trinidad and Tobago Dollar</summary>
                 return new Currency("TTD", "780", 2, "Trinidad and Tobago Dollar");
             }
         }
 
+        /// <summary>New Taiwan Dollar</summary>
         public static Currency TWD
         {
             get
             {
-                /// <summary>New Taiwan Dollar</summary>
                 return new Currency("TWD", "901", 2, "New Taiwan Dollar");
             }
         }
 
+        /// <summary>Tanzanian Shilling</summary>
         public static Currency TZS
         {
             get
             {
-                /// <summary>Tanzanian Shilling</summary>
                 return new Currency("TZS", "834", 2, "Tanzanian Shilling");
             }
         }
 
+        /// <summary>Hryvnia</summary>
         public static Currency UAH
         {
             get
             {
-                /// <summary>Hryvnia</summary>
                 return new Currency("UAH", "980", 2, "Hryvnia");
             }
         }
 
+        /// <summary>Uganda Shilling</summary>
         public static Currency UGX
         {
             get
             {
-                /// <summary>Uganda Shilling</summary>
                 return new Currency("UGX", "800", 0, "Uganda Shilling");
             }
         }
 
+        /// <summary>US Dollar</summary>
         public static Currency USD
         {
             get
             {
-                /// <summary>US Dollar</summary>
                 return new Currency("USD", "840", 2, "US Dollar");
             }
         }
 
+        /// <summary>US Dollar (Next day)</summary>
         public static Currency USN
         {
             get
             {
-                /// <summary>US Dollar (Next day)</summary>
                 return new Currency("USN", "997", 2, "US Dollar (Next day)");
             }
         }
 
+        /// <summary>Uruguay Peso en Unidades Indexadas (URUIURUI)</summary>
         public static Currency UYI
         {
             get
             {
-                /// <summary>Uruguay Peso en Unidades Indexadas (URUIURUI)</summary>
                 return new Currency("UYI", "940", 0, "Uruguay Peso en Unidades Indexadas (URUIURUI)");
             }
         }
 
+        /// <summary>Peso Uruguayo</summary>
         public static Currency UYU
         {
             get
             {
-                /// <summary>Peso Uruguayo</summary>
                 return new Currency("UYU", "858", 2, "Peso Uruguayo");
             }
         }
 
+        /// <summary>Uzbekistan Sum</summary>
         public static Currency UZS
         {
             get
             {
-                /// <summary>Uzbekistan Sum</summary>
                 return new Currency("UZS", "860", 2, "Uzbekistan Sum");
             }
         }
 
+        /// <summary>Bolívar</summary>
         public static Currency VEF
         {
             get
             {
-                /// <summary>Bolívar</summary>
                 return new Currency("VEF", "937", 2, "Bolívar");
             }
         }
 
+        /// <summary>Dong</summary>
         public static Currency VND
         {
             get
             {
-                /// <summary>Dong</summary>
                 return new Currency("VND", "704", 0, "Dong");
             }
         }
 
+        /// <summary>Vatu</summary>
         public static Currency VUV
         {
             get
             {
-                /// <summary>Vatu</summary>
                 return new Currency("VUV", "548", 0, "Vatu");
             }
         }
 
+        /// <summary>Tala</summary>
         public static Currency WST
         {
             get
             {
-                /// <summary>Tala</summary>
                 return new Currency("WST", "882", 2, "Tala");
             }
         }
 
+        /// <summary>CFA Franc BEAC</summary>
         public static Currency XAF
         {
             get
             {
-                /// <summary>CFA Franc BEAC</summary>
                 return new Currency("XAF", "950", 0, "CFA Franc BEAC");
             }
         }
 
+        /// <summary>Silver</summary>
         public static Currency XAG
         {
             get
             {
-                /// <summary>Silver</summary>
                 return new Currency("XAG", "961", 0, "Silver");
             }
         }
 
+        /// <summary>Gold</summary>
         public static Currency XAU
         {
             get
             {
-                /// <summary>Gold</summary>
                 return new Currency("XAU", "959", 0, "Gold");
             }
         }
 
+        /// <summary>Bond Markets Unit European Composite Unit (EURCO)</summary>
         public static Currency XBA
         {
             get
             {
-                /// <summary>Bond Markets Unit European Composite Unit (EURCO)</summary>
                 return new Currency("XBA", "955", 0, "Bond Markets Unit European Composite Unit (EURCO)");
             }
         }
 
+        /// <summary>Bond Markets Unit European Monetary Unit (E.M.U.-6)</summary>
         public static Currency XBB
         {
             get
             {
-                /// <summary>Bond Markets Unit European Monetary Unit (E.M.U.-6)</summary>
                 return new Currency("XBB", "956", 0, "Bond Markets Unit European Monetary Unit (E.M.U.-6)");
             }
         }
 
+        /// <summary>Bond Markets Unit European Unit of Account 9 (E.U.A.-9)</summary>
         public static Currency XBC
         {
             get
             {
-                /// <summary>Bond Markets Unit European Unit of Account 9 (E.U.A.-9)</summary>
                 return new Currency("XBC", "957", 0, "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)");
             }
         }
 
+        /// <summary>Bond Markets Unit European Unit of Account 17 (E.U.A.-17)</summary>
         public static Currency XBD
         {
             get
             {
-                /// <summary>Bond Markets Unit European Unit of Account 17 (E.U.A.-17)</summary>
                 return new Currency("XBD", "958", 0, "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)");
             }
         }
 
+        /// <summary>East Caribbean Dollar</summary>
         public static Currency XCD
         {
             get
             {
-                /// <summary>East Caribbean Dollar</summary>
                 return new Currency("XCD", "951", 2, "East Caribbean Dollar");
             }
         }
 
+        /// <summary>SDR (Special Drawing Right)</summary>
         public static Currency XDR
         {
             get
             {
-                /// <summary>SDR (Special Drawing Right)</summary>
                 return new Currency("XDR", "960", 0, "SDR (Special Drawing Right)");
             }
         }
 
+        /// <summary>CFA Franc BCEAO</summary>
         public static Currency XOF
         {
             get
             {
-                /// <summary>CFA Franc BCEAO</summary>
                 return new Currency("XOF", "952", 0, "CFA Franc BCEAO");
             }
         }
 
+        /// <summary>Palladium</summary>
         public static Currency XPD
         {
             get
             {
-                /// <summary>Palladium</summary>
                 return new Currency("XPD", "964", 0, "Palladium");
             }
         }
 
+        /// <summary>CFP Franc</summary>
         public static Currency XPF
         {
             get
             {
-                /// <summary>CFP Franc</summary>
                 return new Currency("XPF", "953", 0, "CFP Franc");
             }
         }
 
+        /// <summary>Platinum</summary>
         public static Currency XPT
         {
             get
             {
-                /// <summary>Platinum</summary>
                 return new Currency("XPT", "962", 0, "Platinum");
             }
         }
 
+        /// <summary>Sucre</summary>
         public static Currency XSU
         {
             get
             {
-                /// <summary>Sucre</summary>
                 return new Currency("XSU", "994", 0, "Sucre");
             }
         }
 
+        /// <summary>Codes specifically reserved for testing purposes</summary>
         public static Currency XTS
         {
             get
             {
-                /// <summary>Codes specifically reserved for testing purposes</summary>
                 return new Currency("XTS", "963", 0, "Codes specifically reserved for testing purposes");
             }
         }
 
+        /// <summary>ADB Unit of Account</summary>
         public static Currency XUA
         {
             get
             {
-                /// <summary>ADB Unit of Account</summary>
                 return new Currency("XUA", "965", 0, "ADB Unit of Account");
             }
         }
 
+        /// <summary>The codes assigned for transactions where no currency is involved</summary>
         public static Currency XXX
         {
             get
             {
-                /// <summary>The codes assigned for transactions where no currency is involved</summary>
                 return new Currency("XXX", "999", 0, "The codes assigned for transactions where no currency is involved");
             }
         }
 
+        /// <summary>Yemeni Rial</summary>
         public static Currency YER
         {
             get
             {
-                /// <summary>Yemeni Rial</summary>
                 return new Currency("YER", "886", 2, "Yemeni Rial");
             }
         }
 
+        /// <summary>Rand</summary>
         public static Currency ZAR
         {
             get
             {
-                /// <summary>Rand</summary>
                 return new Currency("ZAR", "710", 2, "Rand");
             }
         }
 
+        /// <summary>Zambian Kwacha</summary>
         public static Currency ZMW
         {
             get
             {
-                /// <summary>Zambian Kwacha</summary>
                 return new Currency("ZMW", "967", 2, "Zambian Kwacha");
             }
         }
 
+        /// <summary>Zimbabwe Dollar</summary>
         public static Currency ZWL
         {
             get
             {
-                /// <summary>Zimbabwe Dollar</summary>
                 return new Currency("ZWL", "932", 2, "Zimbabwe Dollar");
             }
         }
