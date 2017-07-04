@@ -2,190 +2,12 @@ namespace AndreMarcondesTeixeira
 {
     public partial class Currency
     {
-        private static Currency _AED;
-        private static Currency _AFN;
-        private static Currency _ALL;
-        private static Currency _AMD;
-        private static Currency _ANG;
-        private static Currency _AOA;
-        private static Currency _ARS;
-        private static Currency _AUD;
-        private static Currency _AWG;
-        private static Currency _AZN;
-        private static Currency _BAM;
-        private static Currency _BBD;
-        private static Currency _BDT;
-        private static Currency _BGN;
-        private static Currency _BHD;
-        private static Currency _BIF;
-        private static Currency _BMD;
-        private static Currency _BND;
-        private static Currency _BOB;
-        private static Currency _BOV;
-        private static Currency _BRL;
-        private static Currency _BSD;
-        private static Currency _BTN;
-        private static Currency _BWP;
-        private static Currency _BYN;
-        private static Currency _BZD;
-        private static Currency _CAD;
-        private static Currency _CDF;
-        private static Currency _CHE;
-        private static Currency _CHF;
-        private static Currency _CHW;
-        private static Currency _CLF;
-        private static Currency _CLP;
-        private static Currency _CNY;
-        private static Currency _COP;
-        private static Currency _COU;
-        private static Currency _CRC;
-        private static Currency _CUC;
-        private static Currency _CUP;
-        private static Currency _CVE;
-        private static Currency _CZK;
-        private static Currency _DJF;
-        private static Currency _DKK;
-        private static Currency _DOP;
-        private static Currency _DZD;
-        private static Currency _EGP;
-        private static Currency _ERN;
-        private static Currency _ETB;
-        private static Currency _EUR;
-        private static Currency _FJD;
-        private static Currency _FKP;
-        private static Currency _GBP;
-        private static Currency _GEL;
-        private static Currency _GHS;
-        private static Currency _GIP;
-        private static Currency _GMD;
-        private static Currency _GNF;
-        private static Currency _GTQ;
-        private static Currency _GYD;
-        private static Currency _HKD;
-        private static Currency _HNL;
-        private static Currency _HRK;
-        private static Currency _HTG;
-        private static Currency _HUF;
-        private static Currency _IDR;
-        private static Currency _ILS;
-        private static Currency _INR;
-        private static Currency _IQD;
-        private static Currency _IRR;
-        private static Currency _ISK;
-        private static Currency _JMD;
-        private static Currency _JOD;
-        private static Currency _JPY;
-        private static Currency _KES;
-        private static Currency _KGS;
-        private static Currency _KHR;
-        private static Currency _KMF;
-        private static Currency _KPW;
-        private static Currency _KRW;
-        private static Currency _KWD;
-        private static Currency _KYD;
-        private static Currency _KZT;
-        private static Currency _LAK;
-        private static Currency _LBP;
-        private static Currency _LKR;
-        private static Currency _LRD;
-        private static Currency _LSL;
-        private static Currency _LYD;
-        private static Currency _MAD;
-        private static Currency _MDL;
-        private static Currency _MGA;
-        private static Currency _MKD;
-        private static Currency _MMK;
-        private static Currency _MNT;
-        private static Currency _MOP;
-        private static Currency _MRO;
-        private static Currency _MUR;
-        private static Currency _MVR;
-        private static Currency _MWK;
-        private static Currency _MXN;
-        private static Currency _MXV;
-        private static Currency _MYR;
-        private static Currency _MZN;
-        private static Currency _NAD;
-        private static Currency _NGN;
-        private static Currency _NIO;
-        private static Currency _NOK;
-        private static Currency _NPR;
-        private static Currency _NZD;
-        private static Currency _OMR;
-        private static Currency _PAB;
-        private static Currency _PEN;
-        private static Currency _PGK;
-        private static Currency _PHP;
-        private static Currency _PKR;
-        private static Currency _PLN;
-        private static Currency _PYG;
-        private static Currency _QAR;
-        private static Currency _RON;
-        private static Currency _RSD;
-        private static Currency _RUB;
-        private static Currency _RWF;
-        private static Currency _SAR;
-        private static Currency _SBD;
-        private static Currency _SCR;
-        private static Currency _SDG;
-        private static Currency _SEK;
-        private static Currency _SGD;
-        private static Currency _SHP;
-        private static Currency _SLL;
-        private static Currency _SOS;
-        private static Currency _SRD;
-        private static Currency _SSP;
-        private static Currency _STD;
-        private static Currency _SVC;
-        private static Currency _SYP;
-        private static Currency _SZL;
-        private static Currency _THB;
-        private static Currency _TJS;
-        private static Currency _TMT;
-        private static Currency _TND;
-        private static Currency _TOP;
-        private static Currency _TRY;
-        private static Currency _TTD;
-        private static Currency _TWD;
-        private static Currency _TZS;
-        private static Currency _UAH;
-        private static Currency _UGX;
-        private static Currency _USD;
-        private static Currency _USN;
-        private static Currency _UYI;
-        private static Currency _UYU;
-        private static Currency _UZS;
-        private static Currency _VEF;
-        private static Currency _VND;
-        private static Currency _VUV;
-        private static Currency _WST;
-        private static Currency _XAF;
-        private static Currency _XAG;
-        private static Currency _XAU;
-        private static Currency _XBA;
-        private static Currency _XBB;
-        private static Currency _XBC;
-        private static Currency _XBD;
-        private static Currency _XCD;
-        private static Currency _XDR;
-        private static Currency _XOF;
-        private static Currency _XPD;
-        private static Currency _XPF;
-        private static Currency _XPT;
-        private static Currency _XSU;
-        private static Currency _XTS;
-        private static Currency _XUA;
-        private static Currency _XXX;
-        private static Currency _YER;
-        private static Currency _ZAR;
-        private static Currency _ZMW;
-        private static Currency _ZWL;
-
         public static Currency AED
         {
             get
             {
-                return _AED ?? (_AED = new Currency("AED", "784", 2, "UAE Dirham"));
+                /// <summary>UAE Dirham</summary>
+                return new Currency("AED", "784", 2, "UAE Dirham");
             }
         }
 
@@ -193,7 +15,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _AFN ?? (_AFN = new Currency("AFN", "971", 2, "Afghani"));
+                /// <summary>Afghani</summary>
+                return new Currency("AFN", "971", 2, "Afghani");
             }
         }
 
@@ -201,7 +24,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _ALL ?? (_ALL = new Currency("ALL", "008", 2, "Lek"));
+                /// <summary>Lek</summary>
+                return new Currency("ALL", "008", 2, "Lek");
             }
         }
 
@@ -209,7 +33,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _AMD ?? (_AMD = new Currency("AMD", "051", 2, "Armenian Dram"));
+                /// <summary>Armenian Dram</summary>
+                return new Currency("AMD", "051", 2, "Armenian Dram");
             }
         }
 
@@ -217,7 +42,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _ANG ?? (_ANG = new Currency("ANG", "532", 2, "Netherlands Antillean Guilder"));
+                /// <summary>Netherlands Antillean Guilder</summary>
+                return new Currency("ANG", "532", 2, "Netherlands Antillean Guilder");
             }
         }
 
@@ -225,7 +51,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _AOA ?? (_AOA = new Currency("AOA", "973", 2, "Kwanza"));
+                /// <summary>Kwanza</summary>
+                return new Currency("AOA", "973", 2, "Kwanza");
             }
         }
 
@@ -233,7 +60,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _ARS ?? (_ARS = new Currency("ARS", "032", 2, "Argentine Peso"));
+                /// <summary>Argentine Peso</summary>
+                return new Currency("ARS", "032", 2, "Argentine Peso");
             }
         }
 
@@ -241,7 +69,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _AUD ?? (_AUD = new Currency("AUD", "036", 2, "Australian Dollar"));
+                /// <summary>Australian Dollar</summary>
+                return new Currency("AUD", "036", 2, "Australian Dollar");
             }
         }
 
@@ -249,7 +78,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _AWG ?? (_AWG = new Currency("AWG", "533", 2, "Aruban Florin"));
+                /// <summary>Aruban Florin</summary>
+                return new Currency("AWG", "533", 2, "Aruban Florin");
             }
         }
 
@@ -257,7 +87,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _AZN ?? (_AZN = new Currency("AZN", "944", 2, "Azerbaijanian Manat"));
+                /// <summary>Azerbaijanian Manat</summary>
+                return new Currency("AZN", "944", 2, "Azerbaijanian Manat");
             }
         }
 
@@ -265,7 +96,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BAM ?? (_BAM = new Currency("BAM", "977", 2, "Convertible Mark"));
+                /// <summary>Convertible Mark</summary>
+                return new Currency("BAM", "977", 2, "Convertible Mark");
             }
         }
 
@@ -273,7 +105,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BBD ?? (_BBD = new Currency("BBD", "052", 2, "Barbados Dollar"));
+                /// <summary>Barbados Dollar</summary>
+                return new Currency("BBD", "052", 2, "Barbados Dollar");
             }
         }
 
@@ -281,7 +114,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BDT ?? (_BDT = new Currency("BDT", "050", 2, "Taka"));
+                /// <summary>Taka</summary>
+                return new Currency("BDT", "050", 2, "Taka");
             }
         }
 
@@ -289,7 +123,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BGN ?? (_BGN = new Currency("BGN", "975", 2, "Bulgarian Lev"));
+                /// <summary>Bulgarian Lev</summary>
+                return new Currency("BGN", "975", 2, "Bulgarian Lev");
             }
         }
 
@@ -297,7 +132,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BHD ?? (_BHD = new Currency("BHD", "048", 3, "Bahraini Dinar"));
+                /// <summary>Bahraini Dinar</summary>
+                return new Currency("BHD", "048", 3, "Bahraini Dinar");
             }
         }
 
@@ -305,7 +141,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BIF ?? (_BIF = new Currency("BIF", "108", 0, "Burundi Franc"));
+                /// <summary>Burundi Franc</summary>
+                return new Currency("BIF", "108", 0, "Burundi Franc");
             }
         }
 
@@ -313,7 +150,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BMD ?? (_BMD = new Currency("BMD", "060", 2, "Bermudian Dollar"));
+                /// <summary>Bermudian Dollar</summary>
+                return new Currency("BMD", "060", 2, "Bermudian Dollar");
             }
         }
 
@@ -321,7 +159,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BND ?? (_BND = new Currency("BND", "096", 2, "Brunei Dollar"));
+                /// <summary>Brunei Dollar</summary>
+                return new Currency("BND", "096", 2, "Brunei Dollar");
             }
         }
 
@@ -329,7 +168,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BOB ?? (_BOB = new Currency("BOB", "068", 2, "Boliviano"));
+                /// <summary>Boliviano</summary>
+                return new Currency("BOB", "068", 2, "Boliviano");
             }
         }
 
@@ -337,7 +177,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BOV ?? (_BOV = new Currency("BOV", "984", 2, "[object Object]"));
+                /// <summary>Mvdol</summary>
+                return new Currency("BOV", "984", 2, "Mvdol");
             }
         }
 
@@ -345,7 +186,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BRL ?? (_BRL = new Currency("BRL", "986", 2, "Brazilian Real"));
+                /// <summary>Brazilian Real</summary>
+                return new Currency("BRL", "986", 2, "Brazilian Real");
             }
         }
 
@@ -353,7 +195,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BSD ?? (_BSD = new Currency("BSD", "044", 2, "Bahamian Dollar"));
+                /// <summary>Bahamian Dollar</summary>
+                return new Currency("BSD", "044", 2, "Bahamian Dollar");
             }
         }
 
@@ -361,7 +204,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BTN ?? (_BTN = new Currency("BTN", "064", 2, "Ngultrum"));
+                /// <summary>Ngultrum</summary>
+                return new Currency("BTN", "064", 2, "Ngultrum");
             }
         }
 
@@ -369,7 +213,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BWP ?? (_BWP = new Currency("BWP", "072", 2, "Pula"));
+                /// <summary>Pula</summary>
+                return new Currency("BWP", "072", 2, "Pula");
             }
         }
 
@@ -377,7 +222,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BYN ?? (_BYN = new Currency("BYN", "933", 2, "Belarusian Ruble"));
+                /// <summary>Belarusian Ruble</summary>
+                return new Currency("BYN", "933", 2, "Belarusian Ruble");
             }
         }
 
@@ -385,7 +231,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _BZD ?? (_BZD = new Currency("BZD", "084", 2, "Belize Dollar"));
+                /// <summary>Belize Dollar</summary>
+                return new Currency("BZD", "084", 2, "Belize Dollar");
             }
         }
 
@@ -393,7 +240,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _CAD ?? (_CAD = new Currency("CAD", "124", 2, "Canadian Dollar"));
+                /// <summary>Canadian Dollar</summary>
+                return new Currency("CAD", "124", 2, "Canadian Dollar");
             }
         }
 
@@ -401,7 +249,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _CDF ?? (_CDF = new Currency("CDF", "976", 2, "Congolese Franc"));
+                /// <summary>Congolese Franc</summary>
+                return new Currency("CDF", "976", 2, "Congolese Franc");
             }
         }
 
@@ -409,7 +258,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _CHE ?? (_CHE = new Currency("CHE", "947", 2, "[object Object]"));
+                /// <summary>WIR Euro</summary>
+                return new Currency("CHE", "947", 2, "WIR Euro");
             }
         }
 
@@ -417,7 +267,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _CHF ?? (_CHF = new Currency("CHF", "756", 2, "Swiss Franc"));
+                /// <summary>Swiss Franc</summary>
+                return new Currency("CHF", "756", 2, "Swiss Franc");
             }
         }
 
@@ -425,7 +276,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _CHW ?? (_CHW = new Currency("CHW", "948", 2, "[object Object]"));
+                /// <summary>WIR Franc</summary>
+                return new Currency("CHW", "948", 2, "WIR Franc");
             }
         }
 
@@ -433,7 +285,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _CLF ?? (_CLF = new Currency("CLF", "990", 4, "[object Object]"));
+                /// <summary>Unidad de Fomento</summary>
+                return new Currency("CLF", "990", 4, "Unidad de Fomento");
             }
         }
 
@@ -441,7 +294,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _CLP ?? (_CLP = new Currency("CLP", "152", 0, "Chilean Peso"));
+                /// <summary>Chilean Peso</summary>
+                return new Currency("CLP", "152", 0, "Chilean Peso");
             }
         }
 
@@ -449,7 +303,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _CNY ?? (_CNY = new Currency("CNY", "156", 2, "Yuan Renminbi"));
+                /// <summary>Yuan Renminbi</summary>
+                return new Currency("CNY", "156", 2, "Yuan Renminbi");
             }
         }
 
@@ -457,7 +312,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _COP ?? (_COP = new Currency("COP", "170", 2, "Colombian Peso"));
+                /// <summary>Colombian Peso</summary>
+                return new Currency("COP", "170", 2, "Colombian Peso");
             }
         }
 
@@ -465,7 +321,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _COU ?? (_COU = new Currency("COU", "970", 2, "[object Object]"));
+                /// <summary>Unidad de Valor Real</summary>
+                return new Currency("COU", "970", 2, "Unidad de Valor Real");
             }
         }
 
@@ -473,7 +330,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _CRC ?? (_CRC = new Currency("CRC", "188", 2, "Costa Rican Colon"));
+                /// <summary>Costa Rican Colon</summary>
+                return new Currency("CRC", "188", 2, "Costa Rican Colon");
             }
         }
 
@@ -481,7 +339,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _CUC ?? (_CUC = new Currency("CUC", "931", 2, "Peso Convertible"));
+                /// <summary>Peso Convertible</summary>
+                return new Currency("CUC", "931", 2, "Peso Convertible");
             }
         }
 
@@ -489,7 +348,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _CUP ?? (_CUP = new Currency("CUP", "192", 2, "Cuban Peso"));
+                /// <summary>Cuban Peso</summary>
+                return new Currency("CUP", "192", 2, "Cuban Peso");
             }
         }
 
@@ -497,7 +357,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _CVE ?? (_CVE = new Currency("CVE", "132", 2, "Cabo Verde Escudo"));
+                /// <summary>Cabo Verde Escudo</summary>
+                return new Currency("CVE", "132", 2, "Cabo Verde Escudo");
             }
         }
 
@@ -505,7 +366,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _CZK ?? (_CZK = new Currency("CZK", "203", 2, "Czech Koruna"));
+                /// <summary>Czech Koruna</summary>
+                return new Currency("CZK", "203", 2, "Czech Koruna");
             }
         }
 
@@ -513,7 +375,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _DJF ?? (_DJF = new Currency("DJF", "262", 0, "Djibouti Franc"));
+                /// <summary>Djibouti Franc</summary>
+                return new Currency("DJF", "262", 0, "Djibouti Franc");
             }
         }
 
@@ -521,7 +384,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _DKK ?? (_DKK = new Currency("DKK", "208", 2, "Danish Krone"));
+                /// <summary>Danish Krone</summary>
+                return new Currency("DKK", "208", 2, "Danish Krone");
             }
         }
 
@@ -529,7 +393,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _DOP ?? (_DOP = new Currency("DOP", "214", 2, "Dominican Peso"));
+                /// <summary>Dominican Peso</summary>
+                return new Currency("DOP", "214", 2, "Dominican Peso");
             }
         }
 
@@ -537,7 +402,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _DZD ?? (_DZD = new Currency("DZD", "012", 2, "Algerian Dinar"));
+                /// <summary>Algerian Dinar</summary>
+                return new Currency("DZD", "012", 2, "Algerian Dinar");
             }
         }
 
@@ -545,7 +411,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _EGP ?? (_EGP = new Currency("EGP", "818", 2, "Egyptian Pound"));
+                /// <summary>Egyptian Pound</summary>
+                return new Currency("EGP", "818", 2, "Egyptian Pound");
             }
         }
 
@@ -553,7 +420,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _ERN ?? (_ERN = new Currency("ERN", "232", 2, "Nakfa"));
+                /// <summary>Nakfa</summary>
+                return new Currency("ERN", "232", 2, "Nakfa");
             }
         }
 
@@ -561,7 +429,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _ETB ?? (_ETB = new Currency("ETB", "230", 2, "Ethiopian Birr"));
+                /// <summary>Ethiopian Birr</summary>
+                return new Currency("ETB", "230", 2, "Ethiopian Birr");
             }
         }
 
@@ -569,7 +438,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _EUR ?? (_EUR = new Currency("EUR", "978", 2, "Euro"));
+                /// <summary>Euro</summary>
+                return new Currency("EUR", "978", 2, "Euro");
             }
         }
 
@@ -577,7 +447,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _FJD ?? (_FJD = new Currency("FJD", "242", 2, "Fiji Dollar"));
+                /// <summary>Fiji Dollar</summary>
+                return new Currency("FJD", "242", 2, "Fiji Dollar");
             }
         }
 
@@ -585,7 +456,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _FKP ?? (_FKP = new Currency("FKP", "238", 2, "Falkland Islands Pound"));
+                /// <summary>Falkland Islands Pound</summary>
+                return new Currency("FKP", "238", 2, "Falkland Islands Pound");
             }
         }
 
@@ -593,7 +465,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _GBP ?? (_GBP = new Currency("GBP", "826", 2, "Pound Sterling"));
+                /// <summary>Pound Sterling</summary>
+                return new Currency("GBP", "826", 2, "Pound Sterling");
             }
         }
 
@@ -601,7 +474,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _GEL ?? (_GEL = new Currency("GEL", "981", 2, "Lari"));
+                /// <summary>Lari</summary>
+                return new Currency("GEL", "981", 2, "Lari");
             }
         }
 
@@ -609,7 +483,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _GHS ?? (_GHS = new Currency("GHS", "936", 2, "Ghana Cedi"));
+                /// <summary>Ghana Cedi</summary>
+                return new Currency("GHS", "936", 2, "Ghana Cedi");
             }
         }
 
@@ -617,7 +492,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _GIP ?? (_GIP = new Currency("GIP", "292", 2, "Gibraltar Pound"));
+                /// <summary>Gibraltar Pound</summary>
+                return new Currency("GIP", "292", 2, "Gibraltar Pound");
             }
         }
 
@@ -625,7 +501,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _GMD ?? (_GMD = new Currency("GMD", "270", 2, "Dalasi"));
+                /// <summary>Dalasi</summary>
+                return new Currency("GMD", "270", 2, "Dalasi");
             }
         }
 
@@ -633,7 +510,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _GNF ?? (_GNF = new Currency("GNF", "324", 0, "Guinea Franc"));
+                /// <summary>Guinea Franc</summary>
+                return new Currency("GNF", "324", 0, "Guinea Franc");
             }
         }
 
@@ -641,7 +519,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _GTQ ?? (_GTQ = new Currency("GTQ", "320", 2, "Quetzal"));
+                /// <summary>Quetzal</summary>
+                return new Currency("GTQ", "320", 2, "Quetzal");
             }
         }
 
@@ -649,7 +528,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _GYD ?? (_GYD = new Currency("GYD", "328", 2, "Guyana Dollar"));
+                /// <summary>Guyana Dollar</summary>
+                return new Currency("GYD", "328", 2, "Guyana Dollar");
             }
         }
 
@@ -657,7 +537,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _HKD ?? (_HKD = new Currency("HKD", "344", 2, "Hong Kong Dollar"));
+                /// <summary>Hong Kong Dollar</summary>
+                return new Currency("HKD", "344", 2, "Hong Kong Dollar");
             }
         }
 
@@ -665,7 +546,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _HNL ?? (_HNL = new Currency("HNL", "340", 2, "Lempira"));
+                /// <summary>Lempira</summary>
+                return new Currency("HNL", "340", 2, "Lempira");
             }
         }
 
@@ -673,7 +555,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _HRK ?? (_HRK = new Currency("HRK", "191", 2, "Kuna"));
+                /// <summary>Kuna</summary>
+                return new Currency("HRK", "191", 2, "Kuna");
             }
         }
 
@@ -681,7 +564,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _HTG ?? (_HTG = new Currency("HTG", "332", 2, "Gourde"));
+                /// <summary>Gourde</summary>
+                return new Currency("HTG", "332", 2, "Gourde");
             }
         }
 
@@ -689,7 +573,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _HUF ?? (_HUF = new Currency("HUF", "348", 2, "Forint"));
+                /// <summary>Forint</summary>
+                return new Currency("HUF", "348", 2, "Forint");
             }
         }
 
@@ -697,7 +582,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _IDR ?? (_IDR = new Currency("IDR", "360", 2, "Rupiah"));
+                /// <summary>Rupiah</summary>
+                return new Currency("IDR", "360", 2, "Rupiah");
             }
         }
 
@@ -705,7 +591,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _ILS ?? (_ILS = new Currency("ILS", "376", 2, "New Israeli Sheqel"));
+                /// <summary>New Israeli Sheqel</summary>
+                return new Currency("ILS", "376", 2, "New Israeli Sheqel");
             }
         }
 
@@ -713,7 +600,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _INR ?? (_INR = new Currency("INR", "356", 2, "Indian Rupee"));
+                /// <summary>Indian Rupee</summary>
+                return new Currency("INR", "356", 2, "Indian Rupee");
             }
         }
 
@@ -721,7 +609,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _IQD ?? (_IQD = new Currency("IQD", "368", 3, "Iraqi Dinar"));
+                /// <summary>Iraqi Dinar</summary>
+                return new Currency("IQD", "368", 3, "Iraqi Dinar");
             }
         }
 
@@ -729,7 +618,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _IRR ?? (_IRR = new Currency("IRR", "364", 2, "Iranian Rial"));
+                /// <summary>Iranian Rial</summary>
+                return new Currency("IRR", "364", 2, "Iranian Rial");
             }
         }
 
@@ -737,7 +627,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _ISK ?? (_ISK = new Currency("ISK", "352", 0, "Iceland Krona"));
+                /// <summary>Iceland Krona</summary>
+                return new Currency("ISK", "352", 0, "Iceland Krona");
             }
         }
 
@@ -745,7 +636,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _JMD ?? (_JMD = new Currency("JMD", "388", 2, "Jamaican Dollar"));
+                /// <summary>Jamaican Dollar</summary>
+                return new Currency("JMD", "388", 2, "Jamaican Dollar");
             }
         }
 
@@ -753,7 +645,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _JOD ?? (_JOD = new Currency("JOD", "400", 3, "Jordanian Dinar"));
+                /// <summary>Jordanian Dinar</summary>
+                return new Currency("JOD", "400", 3, "Jordanian Dinar");
             }
         }
 
@@ -761,7 +654,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _JPY ?? (_JPY = new Currency("JPY", "392", 0, "Yen"));
+                /// <summary>Yen</summary>
+                return new Currency("JPY", "392", 0, "Yen");
             }
         }
 
@@ -769,7 +663,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _KES ?? (_KES = new Currency("KES", "404", 2, "Kenyan Shilling"));
+                /// <summary>Kenyan Shilling</summary>
+                return new Currency("KES", "404", 2, "Kenyan Shilling");
             }
         }
 
@@ -777,7 +672,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _KGS ?? (_KGS = new Currency("KGS", "417", 2, "Som"));
+                /// <summary>Som</summary>
+                return new Currency("KGS", "417", 2, "Som");
             }
         }
 
@@ -785,7 +681,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _KHR ?? (_KHR = new Currency("KHR", "116", 2, "Riel"));
+                /// <summary>Riel</summary>
+                return new Currency("KHR", "116", 2, "Riel");
             }
         }
 
@@ -793,7 +690,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _KMF ?? (_KMF = new Currency("KMF", "174", 0, "Comoro Franc"));
+                /// <summary>Comoro Franc</summary>
+                return new Currency("KMF", "174", 0, "Comoro Franc");
             }
         }
 
@@ -801,7 +699,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _KPW ?? (_KPW = new Currency("KPW", "408", 2, "North Korean Won"));
+                /// <summary>North Korean Won</summary>
+                return new Currency("KPW", "408", 2, "North Korean Won");
             }
         }
 
@@ -809,7 +708,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _KRW ?? (_KRW = new Currency("KRW", "410", 0, "Won"));
+                /// <summary>Won</summary>
+                return new Currency("KRW", "410", 0, "Won");
             }
         }
 
@@ -817,7 +717,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _KWD ?? (_KWD = new Currency("KWD", "414", 3, "Kuwaiti Dinar"));
+                /// <summary>Kuwaiti Dinar</summary>
+                return new Currency("KWD", "414", 3, "Kuwaiti Dinar");
             }
         }
 
@@ -825,7 +726,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _KYD ?? (_KYD = new Currency("KYD", "136", 2, "Cayman Islands Dollar"));
+                /// <summary>Cayman Islands Dollar</summary>
+                return new Currency("KYD", "136", 2, "Cayman Islands Dollar");
             }
         }
 
@@ -833,7 +735,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _KZT ?? (_KZT = new Currency("KZT", "398", 2, "Tenge"));
+                /// <summary>Tenge</summary>
+                return new Currency("KZT", "398", 2, "Tenge");
             }
         }
 
@@ -841,7 +744,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _LAK ?? (_LAK = new Currency("LAK", "418", 2, "Kip"));
+                /// <summary>Kip</summary>
+                return new Currency("LAK", "418", 2, "Kip");
             }
         }
 
@@ -849,7 +753,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _LBP ?? (_LBP = new Currency("LBP", "422", 2, "Lebanese Pound"));
+                /// <summary>Lebanese Pound</summary>
+                return new Currency("LBP", "422", 2, "Lebanese Pound");
             }
         }
 
@@ -857,7 +762,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _LKR ?? (_LKR = new Currency("LKR", "144", 2, "Sri Lanka Rupee"));
+                /// <summary>Sri Lanka Rupee</summary>
+                return new Currency("LKR", "144", 2, "Sri Lanka Rupee");
             }
         }
 
@@ -865,7 +771,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _LRD ?? (_LRD = new Currency("LRD", "430", 2, "Liberian Dollar"));
+                /// <summary>Liberian Dollar</summary>
+                return new Currency("LRD", "430", 2, "Liberian Dollar");
             }
         }
 
@@ -873,7 +780,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _LSL ?? (_LSL = new Currency("LSL", "426", 2, "Loti"));
+                /// <summary>Loti</summary>
+                return new Currency("LSL", "426", 2, "Loti");
             }
         }
 
@@ -881,7 +789,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _LYD ?? (_LYD = new Currency("LYD", "434", 3, "Libyan Dinar"));
+                /// <summary>Libyan Dinar</summary>
+                return new Currency("LYD", "434", 3, "Libyan Dinar");
             }
         }
 
@@ -889,7 +798,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MAD ?? (_MAD = new Currency("MAD", "504", 2, "Moroccan Dirham"));
+                /// <summary>Moroccan Dirham</summary>
+                return new Currency("MAD", "504", 2, "Moroccan Dirham");
             }
         }
 
@@ -897,7 +807,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MDL ?? (_MDL = new Currency("MDL", "498", 2, "Moldovan Leu"));
+                /// <summary>Moldovan Leu</summary>
+                return new Currency("MDL", "498", 2, "Moldovan Leu");
             }
         }
 
@@ -905,7 +816,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MGA ?? (_MGA = new Currency("MGA", "969", 2, "Malagasy Ariary"));
+                /// <summary>Malagasy Ariary</summary>
+                return new Currency("MGA", "969", 2, "Malagasy Ariary");
             }
         }
 
@@ -913,7 +825,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MKD ?? (_MKD = new Currency("MKD", "807", 2, "Denar"));
+                /// <summary>Denar</summary>
+                return new Currency("MKD", "807", 2, "Denar");
             }
         }
 
@@ -921,7 +834,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MMK ?? (_MMK = new Currency("MMK", "104", 2, "Kyat"));
+                /// <summary>Kyat</summary>
+                return new Currency("MMK", "104", 2, "Kyat");
             }
         }
 
@@ -929,7 +843,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MNT ?? (_MNT = new Currency("MNT", "496", 2, "Tugrik"));
+                /// <summary>Tugrik</summary>
+                return new Currency("MNT", "496", 2, "Tugrik");
             }
         }
 
@@ -937,7 +852,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MOP ?? (_MOP = new Currency("MOP", "446", 2, "Pataca"));
+                /// <summary>Pataca</summary>
+                return new Currency("MOP", "446", 2, "Pataca");
             }
         }
 
@@ -945,7 +861,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MRO ?? (_MRO = new Currency("MRO", "478", 2, "Ouguiya"));
+                /// <summary>Ouguiya</summary>
+                return new Currency("MRO", "478", 2, "Ouguiya");
             }
         }
 
@@ -953,7 +870,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MUR ?? (_MUR = new Currency("MUR", "480", 2, "Mauritius Rupee"));
+                /// <summary>Mauritius Rupee</summary>
+                return new Currency("MUR", "480", 2, "Mauritius Rupee");
             }
         }
 
@@ -961,7 +879,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MVR ?? (_MVR = new Currency("MVR", "462", 2, "Rufiyaa"));
+                /// <summary>Rufiyaa</summary>
+                return new Currency("MVR", "462", 2, "Rufiyaa");
             }
         }
 
@@ -969,7 +888,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MWK ?? (_MWK = new Currency("MWK", "454", 2, "Malawi Kwacha"));
+                /// <summary>Malawi Kwacha</summary>
+                return new Currency("MWK", "454", 2, "Malawi Kwacha");
             }
         }
 
@@ -977,7 +897,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MXN ?? (_MXN = new Currency("MXN", "484", 2, "Mexican Peso"));
+                /// <summary>Mexican Peso</summary>
+                return new Currency("MXN", "484", 2, "Mexican Peso");
             }
         }
 
@@ -985,7 +906,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MXV ?? (_MXV = new Currency("MXV", "979", 2, "[object Object]"));
+                /// <summary>Mexican Unidad de Inversion (UDI)</summary>
+                return new Currency("MXV", "979", 2, "Mexican Unidad de Inversion (UDI)");
             }
         }
 
@@ -993,7 +915,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MYR ?? (_MYR = new Currency("MYR", "458", 2, "Malaysian Ringgit"));
+                /// <summary>Malaysian Ringgit</summary>
+                return new Currency("MYR", "458", 2, "Malaysian Ringgit");
             }
         }
 
@@ -1001,7 +924,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _MZN ?? (_MZN = new Currency("MZN", "943", 2, "Mozambique Metical"));
+                /// <summary>Mozambique Metical</summary>
+                return new Currency("MZN", "943", 2, "Mozambique Metical");
             }
         }
 
@@ -1009,7 +933,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _NAD ?? (_NAD = new Currency("NAD", "516", 2, "Namibia Dollar"));
+                /// <summary>Namibia Dollar</summary>
+                return new Currency("NAD", "516", 2, "Namibia Dollar");
             }
         }
 
@@ -1017,7 +942,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _NGN ?? (_NGN = new Currency("NGN", "566", 2, "Naira"));
+                /// <summary>Naira</summary>
+                return new Currency("NGN", "566", 2, "Naira");
             }
         }
 
@@ -1025,7 +951,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _NIO ?? (_NIO = new Currency("NIO", "558", 2, "Cordoba Oro"));
+                /// <summary>Cordoba Oro</summary>
+                return new Currency("NIO", "558", 2, "Cordoba Oro");
             }
         }
 
@@ -1033,7 +960,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _NOK ?? (_NOK = new Currency("NOK", "578", 2, "Norwegian Krone"));
+                /// <summary>Norwegian Krone</summary>
+                return new Currency("NOK", "578", 2, "Norwegian Krone");
             }
         }
 
@@ -1041,7 +969,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _NPR ?? (_NPR = new Currency("NPR", "524", 2, "Nepalese Rupee"));
+                /// <summary>Nepalese Rupee</summary>
+                return new Currency("NPR", "524", 2, "Nepalese Rupee");
             }
         }
 
@@ -1049,7 +978,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _NZD ?? (_NZD = new Currency("NZD", "554", 2, "New Zealand Dollar"));
+                /// <summary>New Zealand Dollar</summary>
+                return new Currency("NZD", "554", 2, "New Zealand Dollar");
             }
         }
 
@@ -1057,7 +987,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _OMR ?? (_OMR = new Currency("OMR", "512", 3, "Rial Omani"));
+                /// <summary>Rial Omani</summary>
+                return new Currency("OMR", "512", 3, "Rial Omani");
             }
         }
 
@@ -1065,7 +996,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _PAB ?? (_PAB = new Currency("PAB", "590", 2, "Balboa"));
+                /// <summary>Balboa</summary>
+                return new Currency("PAB", "590", 2, "Balboa");
             }
         }
 
@@ -1073,7 +1005,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _PEN ?? (_PEN = new Currency("PEN", "604", 2, "Sol"));
+                /// <summary>Sol</summary>
+                return new Currency("PEN", "604", 2, "Sol");
             }
         }
 
@@ -1081,7 +1014,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _PGK ?? (_PGK = new Currency("PGK", "598", 2, "Kina"));
+                /// <summary>Kina</summary>
+                return new Currency("PGK", "598", 2, "Kina");
             }
         }
 
@@ -1089,7 +1023,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _PHP ?? (_PHP = new Currency("PHP", "608", 2, "Philippine Peso"));
+                /// <summary>Philippine Peso</summary>
+                return new Currency("PHP", "608", 2, "Philippine Peso");
             }
         }
 
@@ -1097,7 +1032,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _PKR ?? (_PKR = new Currency("PKR", "586", 2, "Pakistan Rupee"));
+                /// <summary>Pakistan Rupee</summary>
+                return new Currency("PKR", "586", 2, "Pakistan Rupee");
             }
         }
 
@@ -1105,7 +1041,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _PLN ?? (_PLN = new Currency("PLN", "985", 2, "Zloty"));
+                /// <summary>Zloty</summary>
+                return new Currency("PLN", "985", 2, "Zloty");
             }
         }
 
@@ -1113,7 +1050,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _PYG ?? (_PYG = new Currency("PYG", "600", 0, "Guarani"));
+                /// <summary>Guarani</summary>
+                return new Currency("PYG", "600", 0, "Guarani");
             }
         }
 
@@ -1121,7 +1059,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _QAR ?? (_QAR = new Currency("QAR", "634", 2, "Qatari Rial"));
+                /// <summary>Qatari Rial</summary>
+                return new Currency("QAR", "634", 2, "Qatari Rial");
             }
         }
 
@@ -1129,7 +1068,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _RON ?? (_RON = new Currency("RON", "946", 2, "Romanian Leu"));
+                /// <summary>Romanian Leu</summary>
+                return new Currency("RON", "946", 2, "Romanian Leu");
             }
         }
 
@@ -1137,7 +1077,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _RSD ?? (_RSD = new Currency("RSD", "941", 2, "Serbian Dinar"));
+                /// <summary>Serbian Dinar</summary>
+                return new Currency("RSD", "941", 2, "Serbian Dinar");
             }
         }
 
@@ -1145,7 +1086,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _RUB ?? (_RUB = new Currency("RUB", "643", 2, "Russian Ruble"));
+                /// <summary>Russian Ruble</summary>
+                return new Currency("RUB", "643", 2, "Russian Ruble");
             }
         }
 
@@ -1153,7 +1095,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _RWF ?? (_RWF = new Currency("RWF", "646", 0, "Rwanda Franc"));
+                /// <summary>Rwanda Franc</summary>
+                return new Currency("RWF", "646", 0, "Rwanda Franc");
             }
         }
 
@@ -1161,7 +1104,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SAR ?? (_SAR = new Currency("SAR", "682", 2, "Saudi Riyal"));
+                /// <summary>Saudi Riyal</summary>
+                return new Currency("SAR", "682", 2, "Saudi Riyal");
             }
         }
 
@@ -1169,7 +1113,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SBD ?? (_SBD = new Currency("SBD", "090", 2, "Solomon Islands Dollar"));
+                /// <summary>Solomon Islands Dollar</summary>
+                return new Currency("SBD", "090", 2, "Solomon Islands Dollar");
             }
         }
 
@@ -1177,7 +1122,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SCR ?? (_SCR = new Currency("SCR", "690", 2, "Seychelles Rupee"));
+                /// <summary>Seychelles Rupee</summary>
+                return new Currency("SCR", "690", 2, "Seychelles Rupee");
             }
         }
 
@@ -1185,7 +1131,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SDG ?? (_SDG = new Currency("SDG", "938", 2, "Sudanese Pound"));
+                /// <summary>Sudanese Pound</summary>
+                return new Currency("SDG", "938", 2, "Sudanese Pound");
             }
         }
 
@@ -1193,7 +1140,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SEK ?? (_SEK = new Currency("SEK", "752", 2, "Swedish Krona"));
+                /// <summary>Swedish Krona</summary>
+                return new Currency("SEK", "752", 2, "Swedish Krona");
             }
         }
 
@@ -1201,7 +1149,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SGD ?? (_SGD = new Currency("SGD", "702", 2, "Singapore Dollar"));
+                /// <summary>Singapore Dollar</summary>
+                return new Currency("SGD", "702", 2, "Singapore Dollar");
             }
         }
 
@@ -1209,7 +1158,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SHP ?? (_SHP = new Currency("SHP", "654", 2, "Saint Helena Pound"));
+                /// <summary>Saint Helena Pound</summary>
+                return new Currency("SHP", "654", 2, "Saint Helena Pound");
             }
         }
 
@@ -1217,7 +1167,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SLL ?? (_SLL = new Currency("SLL", "694", 2, "Leone"));
+                /// <summary>Leone</summary>
+                return new Currency("SLL", "694", 2, "Leone");
             }
         }
 
@@ -1225,7 +1176,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SOS ?? (_SOS = new Currency("SOS", "706", 2, "Somali Shilling"));
+                /// <summary>Somali Shilling</summary>
+                return new Currency("SOS", "706", 2, "Somali Shilling");
             }
         }
 
@@ -1233,7 +1185,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SRD ?? (_SRD = new Currency("SRD", "968", 2, "Surinam Dollar"));
+                /// <summary>Surinam Dollar</summary>
+                return new Currency("SRD", "968", 2, "Surinam Dollar");
             }
         }
 
@@ -1241,7 +1194,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SSP ?? (_SSP = new Currency("SSP", "728", 2, "South Sudanese Pound"));
+                /// <summary>South Sudanese Pound</summary>
+                return new Currency("SSP", "728", 2, "South Sudanese Pound");
             }
         }
 
@@ -1249,7 +1203,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _STD ?? (_STD = new Currency("STD", "678", 2, "Dobra"));
+                /// <summary>Dobra</summary>
+                return new Currency("STD", "678", 2, "Dobra");
             }
         }
 
@@ -1257,7 +1212,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SVC ?? (_SVC = new Currency("SVC", "222", 2, "El Salvador Colon"));
+                /// <summary>El Salvador Colon</summary>
+                return new Currency("SVC", "222", 2, "El Salvador Colon");
             }
         }
 
@@ -1265,7 +1221,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SYP ?? (_SYP = new Currency("SYP", "760", 2, "Syrian Pound"));
+                /// <summary>Syrian Pound</summary>
+                return new Currency("SYP", "760", 2, "Syrian Pound");
             }
         }
 
@@ -1273,7 +1230,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _SZL ?? (_SZL = new Currency("SZL", "748", 2, "Lilangeni"));
+                /// <summary>Lilangeni</summary>
+                return new Currency("SZL", "748", 2, "Lilangeni");
             }
         }
 
@@ -1281,7 +1239,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _THB ?? (_THB = new Currency("THB", "764", 2, "Baht"));
+                /// <summary>Baht</summary>
+                return new Currency("THB", "764", 2, "Baht");
             }
         }
 
@@ -1289,7 +1248,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _TJS ?? (_TJS = new Currency("TJS", "972", 2, "Somoni"));
+                /// <summary>Somoni</summary>
+                return new Currency("TJS", "972", 2, "Somoni");
             }
         }
 
@@ -1297,7 +1257,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _TMT ?? (_TMT = new Currency("TMT", "934", 2, "Turkmenistan New Manat"));
+                /// <summary>Turkmenistan New Manat</summary>
+                return new Currency("TMT", "934", 2, "Turkmenistan New Manat");
             }
         }
 
@@ -1305,7 +1266,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _TND ?? (_TND = new Currency("TND", "788", 3, "Tunisian Dinar"));
+                /// <summary>Tunisian Dinar</summary>
+                return new Currency("TND", "788", 3, "Tunisian Dinar");
             }
         }
 
@@ -1313,7 +1275,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _TOP ?? (_TOP = new Currency("TOP", "776", 2, "Pa’anga"));
+                /// <summary>Pa’anga</summary>
+                return new Currency("TOP", "776", 2, "Pa’anga");
             }
         }
 
@@ -1321,7 +1284,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _TRY ?? (_TRY = new Currency("TRY", "949", 2, "Turkish Lira"));
+                /// <summary>Turkish Lira</summary>
+                return new Currency("TRY", "949", 2, "Turkish Lira");
             }
         }
 
@@ -1329,7 +1293,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _TTD ?? (_TTD = new Currency("TTD", "780", 2, "Trinidad and Tobago Dollar"));
+                /// <summary>Trinidad and Tobago Dollar</summary>
+                return new Currency("TTD", "780", 2, "Trinidad and Tobago Dollar");
             }
         }
 
@@ -1337,7 +1302,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _TWD ?? (_TWD = new Currency("TWD", "901", 2, "New Taiwan Dollar"));
+                /// <summary>New Taiwan Dollar</summary>
+                return new Currency("TWD", "901", 2, "New Taiwan Dollar");
             }
         }
 
@@ -1345,7 +1311,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _TZS ?? (_TZS = new Currency("TZS", "834", 2, "Tanzanian Shilling"));
+                /// <summary>Tanzanian Shilling</summary>
+                return new Currency("TZS", "834", 2, "Tanzanian Shilling");
             }
         }
 
@@ -1353,7 +1320,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _UAH ?? (_UAH = new Currency("UAH", "980", 2, "Hryvnia"));
+                /// <summary>Hryvnia</summary>
+                return new Currency("UAH", "980", 2, "Hryvnia");
             }
         }
 
@@ -1361,7 +1329,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _UGX ?? (_UGX = new Currency("UGX", "800", 0, "Uganda Shilling"));
+                /// <summary>Uganda Shilling</summary>
+                return new Currency("UGX", "800", 0, "Uganda Shilling");
             }
         }
 
@@ -1369,7 +1338,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _USD ?? (_USD = new Currency("USD", "840", 2, "US Dollar"));
+                /// <summary>US Dollar</summary>
+                return new Currency("USD", "840", 2, "US Dollar");
             }
         }
 
@@ -1377,7 +1347,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _USN ?? (_USN = new Currency("USN", "997", 2, "[object Object]"));
+                /// <summary>US Dollar (Next day)</summary>
+                return new Currency("USN", "997", 2, "US Dollar (Next day)");
             }
         }
 
@@ -1385,7 +1356,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _UYI ?? (_UYI = new Currency("UYI", "940", 0, "[object Object]"));
+                /// <summary>Uruguay Peso en Unidades Indexadas (URUIURUI)</summary>
+                return new Currency("UYI", "940", 0, "Uruguay Peso en Unidades Indexadas (URUIURUI)");
             }
         }
 
@@ -1393,7 +1365,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _UYU ?? (_UYU = new Currency("UYU", "858", 2, "Peso Uruguayo"));
+                /// <summary>Peso Uruguayo</summary>
+                return new Currency("UYU", "858", 2, "Peso Uruguayo");
             }
         }
 
@@ -1401,7 +1374,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _UZS ?? (_UZS = new Currency("UZS", "860", 2, "Uzbekistan Sum"));
+                /// <summary>Uzbekistan Sum</summary>
+                return new Currency("UZS", "860", 2, "Uzbekistan Sum");
             }
         }
 
@@ -1409,7 +1383,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _VEF ?? (_VEF = new Currency("VEF", "937", 2, "Bolívar"));
+                /// <summary>Bolívar</summary>
+                return new Currency("VEF", "937", 2, "Bolívar");
             }
         }
 
@@ -1417,7 +1392,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _VND ?? (_VND = new Currency("VND", "704", 0, "Dong"));
+                /// <summary>Dong</summary>
+                return new Currency("VND", "704", 0, "Dong");
             }
         }
 
@@ -1425,7 +1401,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _VUV ?? (_VUV = new Currency("VUV", "548", 0, "Vatu"));
+                /// <summary>Vatu</summary>
+                return new Currency("VUV", "548", 0, "Vatu");
             }
         }
 
@@ -1433,7 +1410,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _WST ?? (_WST = new Currency("WST", "882", 2, "Tala"));
+                /// <summary>Tala</summary>
+                return new Currency("WST", "882", 2, "Tala");
             }
         }
 
@@ -1441,7 +1419,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XAF ?? (_XAF = new Currency("XAF", "950", 0, "CFA Franc BEAC"));
+                /// <summary>CFA Franc BEAC</summary>
+                return new Currency("XAF", "950", 0, "CFA Franc BEAC");
             }
         }
 
@@ -1449,7 +1428,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XAG ?? (_XAG = new Currency("XAG", "961", 0, "Silver"));
+                /// <summary>Silver</summary>
+                return new Currency("XAG", "961", 0, "Silver");
             }
         }
 
@@ -1457,7 +1437,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XAU ?? (_XAU = new Currency("XAU", "959", 0, "Gold"));
+                /// <summary>Gold</summary>
+                return new Currency("XAU", "959", 0, "Gold");
             }
         }
 
@@ -1465,7 +1446,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XBA ?? (_XBA = new Currency("XBA", "955", 0, "Bond Markets Unit European Composite Unit (EURCO)"));
+                /// <summary>Bond Markets Unit European Composite Unit (EURCO)</summary>
+                return new Currency("XBA", "955", 0, "Bond Markets Unit European Composite Unit (EURCO)");
             }
         }
 
@@ -1473,7 +1455,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XBB ?? (_XBB = new Currency("XBB", "956", 0, "Bond Markets Unit European Monetary Unit (E.M.U.-6)"));
+                /// <summary>Bond Markets Unit European Monetary Unit (E.M.U.-6)</summary>
+                return new Currency("XBB", "956", 0, "Bond Markets Unit European Monetary Unit (E.M.U.-6)");
             }
         }
 
@@ -1481,7 +1464,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XBC ?? (_XBC = new Currency("XBC", "957", 0, "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)"));
+                /// <summary>Bond Markets Unit European Unit of Account 9 (E.U.A.-9)</summary>
+                return new Currency("XBC", "957", 0, "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)");
             }
         }
 
@@ -1489,7 +1473,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XBD ?? (_XBD = new Currency("XBD", "958", 0, "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)"));
+                /// <summary>Bond Markets Unit European Unit of Account 17 (E.U.A.-17)</summary>
+                return new Currency("XBD", "958", 0, "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)");
             }
         }
 
@@ -1497,7 +1482,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XCD ?? (_XCD = new Currency("XCD", "951", 2, "East Caribbean Dollar"));
+                /// <summary>East Caribbean Dollar</summary>
+                return new Currency("XCD", "951", 2, "East Caribbean Dollar");
             }
         }
 
@@ -1505,7 +1491,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XDR ?? (_XDR = new Currency("XDR", "960", 0, "SDR (Special Drawing Right)"));
+                /// <summary>SDR (Special Drawing Right)</summary>
+                return new Currency("XDR", "960", 0, "SDR (Special Drawing Right)");
             }
         }
 
@@ -1513,7 +1500,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XOF ?? (_XOF = new Currency("XOF", "952", 0, "CFA Franc BCEAO"));
+                /// <summary>CFA Franc BCEAO</summary>
+                return new Currency("XOF", "952", 0, "CFA Franc BCEAO");
             }
         }
 
@@ -1521,7 +1509,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XPD ?? (_XPD = new Currency("XPD", "964", 0, "Palladium"));
+                /// <summary>Palladium</summary>
+                return new Currency("XPD", "964", 0, "Palladium");
             }
         }
 
@@ -1529,7 +1518,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XPF ?? (_XPF = new Currency("XPF", "953", 0, "CFP Franc"));
+                /// <summary>CFP Franc</summary>
+                return new Currency("XPF", "953", 0, "CFP Franc");
             }
         }
 
@@ -1537,7 +1527,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XPT ?? (_XPT = new Currency("XPT", "962", 0, "Platinum"));
+                /// <summary>Platinum</summary>
+                return new Currency("XPT", "962", 0, "Platinum");
             }
         }
 
@@ -1545,7 +1536,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XSU ?? (_XSU = new Currency("XSU", "994", 0, "Sucre"));
+                /// <summary>Sucre</summary>
+                return new Currency("XSU", "994", 0, "Sucre");
             }
         }
 
@@ -1553,7 +1545,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XTS ?? (_XTS = new Currency("XTS", "963", 0, "Codes specifically reserved for testing purposes"));
+                /// <summary>Codes specifically reserved for testing purposes</summary>
+                return new Currency("XTS", "963", 0, "Codes specifically reserved for testing purposes");
             }
         }
 
@@ -1561,7 +1554,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XUA ?? (_XUA = new Currency("XUA", "965", 0, "ADB Unit of Account"));
+                /// <summary>ADB Unit of Account</summary>
+                return new Currency("XUA", "965", 0, "ADB Unit of Account");
             }
         }
 
@@ -1569,7 +1563,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _XXX ?? (_XXX = new Currency("XXX", "999", 0, "The codes assigned for transactions where no currency is involved"));
+                /// <summary>The codes assigned for transactions where no currency is involved</summary>
+                return new Currency("XXX", "999", 0, "The codes assigned for transactions where no currency is involved");
             }
         }
 
@@ -1577,7 +1572,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _YER ?? (_YER = new Currency("YER", "886", 2, "Yemeni Rial"));
+                /// <summary>Yemeni Rial</summary>
+                return new Currency("YER", "886", 2, "Yemeni Rial");
             }
         }
 
@@ -1585,7 +1581,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _ZAR ?? (_ZAR = new Currency("ZAR", "710", 2, "Rand"));
+                /// <summary>Rand</summary>
+                return new Currency("ZAR", "710", 2, "Rand");
             }
         }
 
@@ -1593,7 +1590,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _ZMW ?? (_ZMW = new Currency("ZMW", "967", 2, "Zambian Kwacha"));
+                /// <summary>Zambian Kwacha</summary>
+                return new Currency("ZMW", "967", 2, "Zambian Kwacha");
             }
         }
 
@@ -1601,7 +1599,8 @@ namespace AndreMarcondesTeixeira
         {
             get
             {
-                return _ZWL ?? (_ZWL = new Currency("ZWL", "932", 2, "Zimbabwe Dollar"));
+                /// <summary>Zimbabwe Dollar</summary>
+                return new Currency("ZWL", "932", 2, "Zimbabwe Dollar");
             }
         }
     }
