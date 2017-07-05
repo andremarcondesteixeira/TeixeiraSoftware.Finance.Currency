@@ -2,7 +2,7 @@ using System;
 
 namespace AndreMarcondesTeixeira
 {
-    public partial class Currency
+    public partial struct Currency
     {
         /// <summary>
         /// The instances of <see cref="Currency" /> class are compared through their
@@ -28,7 +28,7 @@ namespace AndreMarcondesTeixeira
         /// </summary>
         public override bool Equals(object obj)
         {
-            return AreEquivalent(this, obj as Currency);
+            return AreEquivalent(this, (Currency) obj);
         }
 
         /// <summary>

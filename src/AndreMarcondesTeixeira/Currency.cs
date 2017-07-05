@@ -8,8 +8,8 @@ namespace AndreMarcondesTeixeira
     /// </summary>
     /// <remarks>
     ///     All currencies are represented, except for "ANTARCTICA", "PALESTINE, STATE OF"
-    ///     and "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS". ISO describes those as
-    ///     "no universal currency", and gives them no letter codes.
+    ///     and "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS", because ISO describes those
+    ///     as "no universal currency", and gives them no letter codes.
     ///     <para>
     ///         This class does not provide the list of countries that use each currency.
     ///     </para>
@@ -23,7 +23,7 @@ namespace AndreMarcondesTeixeira
     ///         </see>
     ///     </para>
     /// </remarks>
-    public partial class Currency
+    public partial struct Currency
     {
         /// <summary>The 3 letters ISO code of the currency</summary>
         public string Code { get; }
@@ -36,8 +36,6 @@ namespace AndreMarcondesTeixeira
 
         /// <summary>The numeric ISO code of the currency</summary>
         public string Number { get; }
-
-        
 
         /// <summary>
         ///     Initializes a new instance of the <see cref="Currency" /> class.

@@ -1,6 +1,6 @@
 namespace AndreMarcondesTeixeira
 {
-    public partial class Currency
+    public partial struct Currency
     {
         /// <summary>UAE Dirham</summary>
         public static Currency AED
