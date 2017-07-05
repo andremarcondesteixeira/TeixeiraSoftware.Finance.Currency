@@ -6,6 +6,23 @@ namespace AndreMarcondesTeixeira
     public class CurrencyTest
     {
         [Fact]
+        public void Currency_Is_A_Value_Type_And_All_Factory_Methods_Return_New_Instances()
+        {
+            Assert.False(Object.ReferenceEquals(Currency.XXX, Currency.XXX));
+            Assert.False(Object.ReferenceEquals(Currency.GetByLetterCode("XXX"), Currency.GetByLetterCode("XXX")));
+            Assert.False(Object.ReferenceEquals(Currency.GetByNumericCode("999"), Currency.GetByNumericCode("999")));
+        }
+
+        [Fact]
+        public void Currency_Instances_Can_Be_Created_By_Four_Ways()
+        {
+            Assert.IsType(typeof(Currency), Currency.XXX);
+            Assert.IsType(typeof(Currency), new Currency("ZZZ", "000", 0, "Test"));
+            Assert.IsType(typeof(Currency), Currency.GetByLetterCode("XXX"));
+            Assert.IsType(typeof(Currency), Currency.GetByNumericCode("999"));
+        }
+
+        [Fact]
         public void Currency_Instances_Are_Compared_Through_Their_Properties()
         {
             var customCurrency = new Currency("ZZ", "000", 2, "Test");
@@ -44,27 +61,6 @@ namespace AndreMarcondesTeixeira
 
             var exception5 = Assert.Throws<ArgumentException>(() => null != Currency.XTS);
             Assert.Equal(message, exception5.Message);
-        }
-
-        [Fact]
-        public void Currency_Instances_Have_Read_Only_Properties()
-        {
-
-        }
-
-        [Fact]
-        public void Currency_Instances_Can_Be_Created_By_Four_Ways()
-        {
-            Assert.IsType(typeof(Currency), Currency.XXX);
-            Assert.IsType(typeof(Currency), new Currency("ZZZ", "000", 0, "Test"));
-            Assert.IsType(typeof(Currency), Currency.GetByLetterCode("XXX"));
-            Assert.IsType(typeof(Currency), Currency.GetByNumericCode("999"));
-        }
-
-        [Fact]
-        public void All_Factory_Methods_Return_New_Instances()
-        {
-            
         }
     }
 }
