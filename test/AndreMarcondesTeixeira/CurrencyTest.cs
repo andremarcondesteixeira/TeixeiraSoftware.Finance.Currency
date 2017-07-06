@@ -9,8 +9,8 @@ namespace AndreMarcondesTeixeira
         public void Currency_Is_A_Value_Type_And_All_Factory_Methods_Return_New_Instances()
         {
             Assert.False(Object.ReferenceEquals(Currency.XXX, Currency.XXX));
-            Assert.False(Object.ReferenceEquals(Currency.GetByLetterCode("XXX"), Currency.GetByLetterCode("XXX")));
-            Assert.False(Object.ReferenceEquals(Currency.GetByNumericCode("999"), Currency.GetByNumericCode("999")));
+            //Assert.False(Object.ReferenceEquals(Currency.GetByLetterCode("XXX"), Currency.GetByLetterCode("XXX")));
+            //Assert.False(Object.ReferenceEquals(Currency.GetByNumericCode("999"), Currency.GetByNumericCode("999")));
         }
 
         [Fact]
@@ -18,8 +18,8 @@ namespace AndreMarcondesTeixeira
         {
             Assert.IsType(typeof(Currency), Currency.XXX);
             Assert.IsType(typeof(Currency), new Currency("ZZZ", "000", 0, "Test"));
-            Assert.IsType(typeof(Currency), Currency.GetByLetterCode("XXX"));
-            Assert.IsType(typeof(Currency), Currency.GetByNumericCode("999"));
+            //Assert.IsType(typeof(Currency), Currency.GetByLetterCode("XXX"));
+            //Assert.IsType(typeof(Currency), Currency.GetByNumericCode("999"));
         }
 
         [Fact]
@@ -40,27 +40,6 @@ namespace AndreMarcondesTeixeira
             Assert.False(customCurrency != equivalentCurrency);
             Assert.False(Currency.XXX == Currency.XTS);
             Assert.True(Currency.XTS != Currency.XXX);
-        }
-
-        [Fact]
-        public void Currency_Instances_Cannot_Compare_Against_Null()
-        {
-            var message = "Currency must not be null";
-
-            var exception1 = Assert.Throws<ArgumentException>(() => Currency.XTS == null);
-            Assert.Equal(message, exception1.Message);
-
-            var exception2 = Assert.Throws<ArgumentException>(() => Currency.XTS.Equals(null));
-            Assert.Equal(message, exception2.Message);
-
-            var exception3 = Assert.Throws<ArgumentException>(() => null == Currency.XTS);
-            Assert.Equal(message, exception3.Message);
-
-            var exception4 = Assert.Throws<ArgumentException>(() => Currency.XTS != null);
-            Assert.Equal(message, exception4.Message);
-
-            var exception5 = Assert.Throws<ArgumentException>(() => null != Currency.XTS);
-            Assert.Equal(message, exception5.Message);
         }
     }
 }
