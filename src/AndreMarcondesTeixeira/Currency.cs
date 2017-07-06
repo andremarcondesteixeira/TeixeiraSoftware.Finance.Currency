@@ -69,15 +69,5 @@ namespace AndreMarcondesTeixeira
             this.MinorUnits = minorUnits;
             this.Name = name;
         }
-
-        public static object GetByLetterCode(string v)
-        {
-            throw new NotImplementedException();
-        }
-
-        public static object GetByNumericCode(string v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
