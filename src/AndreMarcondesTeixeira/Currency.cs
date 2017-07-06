@@ -23,7 +23,7 @@ namespace AndreMarcondesTeixeira
     ///         </see>
     ///     </para>
     /// </remarks>
-    public partial struct Currency
+    public partial struct Currency : IEquatable<Currency>
     {
         /// <summary>The 3 letters ISO code of the currency</summary>
         public string Code { get; }

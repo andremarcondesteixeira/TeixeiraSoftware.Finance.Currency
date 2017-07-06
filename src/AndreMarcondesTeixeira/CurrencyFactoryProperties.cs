@@ -1,6 +1,8 @@
+using System;
+
 namespace AndreMarcondesTeixeira
 {
-    public partial struct Currency
+    public partial struct Currency : IEquatable<Currency>
     {
         /// <summary>UAE Dirham</summary>
         public static Currency AED
