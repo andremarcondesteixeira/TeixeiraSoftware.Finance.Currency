@@ -26,7 +26,7 @@ namespace AndreMarcondesTeixeira
     public partial struct Currency : IEquatable<Currency>
     {
         /// <summary>The 3 letters ISO code of the currency</summary>
-        public string Code { get; }
+        public string LetterCode { get; }
 
         /// <summary>The ISO minor units of the currency</summary>
         public byte MinorUnits { get; }
@@ -35,7 +35,7 @@ namespace AndreMarcondesTeixeira
         public string Name { get; }
 
         /// <summary>The numeric ISO code of the currency</summary>
-        public string Number { get; }
+        public string NumericCode { get; }
 
         /// <summary>
         ///     Initializes a new instance of the <see cref="Currency" /> class.
@@ -58,14 +58,14 @@ namespace AndreMarcondesTeixeira
         ///         var customCurrency = new Currency("ZZZ", "999", 0, "Custom Currency");
         ///     </code>
         /// </example>
-        /// <param name="code">The 3 letters ISO code of the Currency.</param>
-        /// <param name="number">The numeric ISO code of the Currency.</param>
+        /// <param name="letterCode">The 3 letters ISO code of the Currency.</param>
+        /// <param name="numericCode">The numeric ISO code of the Currency.</param>
         /// <param name="minorUnits">The ISO minor units of the Currency.</param>
         /// <param name="name">The ISO name of the Currency.</param>
-        public Currency(string code, string number, byte minorUnits, string name)
+        public Currency(string letterCode, string numericCode, byte minorUnits, string name)
         {
-            this.Code = code;
-            this.Number = number;
+            this.LetterCode = letterCode;
+            this.NumericCode = numericCode;
             this.MinorUnits = minorUnits;
             this.Name = name;
         }

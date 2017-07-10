@@ -55,8 +55,8 @@ namespace AndreMarcondesTeixeira
         private static bool AreEquivalent(Currency a, Currency b)
         {
             return
-                a.Number == b.Number
-                && a.Code == b.Code
+                a.NumericCode == b.NumericCode
+                && a.LetterCode == b.LetterCode
                 && a.MinorUnits == b.MinorUnits
                 && a.Name == b.Name;
         }
