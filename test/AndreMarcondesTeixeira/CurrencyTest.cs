@@ -14,30 +14,23 @@ namespace AndreMarcondesTeixeira
         }
 
         [Fact]
-        public void Currency_Instances_Can_Be_Created_By_Four_Ways()
+        public void Currency_Instances_Can_Be_Created_By_Three_Ways()
         {
             Assert.IsType(typeof(Currency), Currency.XXX);
-            Assert.IsType(typeof(Currency), new Currency("ZZZ", "000", 0, "Test"));
             Assert.IsType(typeof(Currency), Currency.GetByLetterCode("XXX"));
             Assert.IsType(typeof(Currency), Currency.GetByNumericCode("999"));
         }
 
         [Fact]
+        public void Currency_Getter_Methods_Throws_Exception_For_Nonexistent_Currencies()
+        {
+            Assert.Throws<ArgumentException>(() => Currency.GetByLetterCode("Nonexistent"));
+            Assert.Throws<ArgumentException>(() => Currency.GetByNumericCode("Nonexistent"));
+        }
+
+        [Fact]
         public void Currency_Instances_Are_Compared_Through_Their_Whole_Set_Of_Properties()
         {
-            var customCurrency = new Currency("ZZ", "000", 2, "Test");
-            var differentLetterCode = new Currency("ZZZ", "000", 2, "Test");
-            var differentNumberCode = new Currency("ZZ", "00", 2, "Test");
-            var differentMinorUnits = new Currency("ZZ", "000", 1, "Test");
-            var differentName = new Currency("ZZ", "000", 2, "Different Name");
-            var equivalentCurrency = new Currency("ZZ", "000", 2, "Test");
-
-            Assert.True(customCurrency != differentLetterCode);
-            Assert.True(customCurrency != differentNumberCode);
-            Assert.True(customCurrency != differentMinorUnits);
-            Assert.True(customCurrency != differentName);
-            Assert.True(customCurrency == equivalentCurrency);
-            Assert.False(customCurrency != equivalentCurrency);
             Assert.False(Currency.XXX == Currency.XTS);
             Assert.True(Currency.XTS != Currency.XXX);
         }
