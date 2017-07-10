@@ -23,7 +23,7 @@ namespace AndreMarcondesTeixeira
         }
 
         [Fact]
-        public void Currency_Instances_Are_Compared_Through_Their_Properties()
+        public void Currency_Instances_Are_Compared_Through_Their_Whole_Set_Of_Properties()
         {
             var customCurrency = new Currency("ZZ", "000", 2, "Test");
             var differentLetterCode = new Currency("ZZZ", "000", 2, "Test");
