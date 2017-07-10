@@ -41,8 +41,8 @@ namespace AndreMarcondesTeixeira
         ///     Initializes a new instance of the <see cref="Currency" /> class.
         /// </summary>
         /// <remarks>
-        ///     Instead of using the constructor, consider using the static, lazy loaded
-        ///     properties of the <see cref="Currency" /> class instead.
+        ///     Instead of using the constructor, use the static, lazy loaded properties of
+        ///     the <see cref="Currency" /> class instead.
         ///     <para>
         ///         For a list of the available currencies, use IntelliSense, or:
         ///         <see href="https://www.currency-iso.org/en/home.html">
@@ -62,7 +62,7 @@ namespace AndreMarcondesTeixeira
         /// <param name="numericCode">The numeric ISO code of the Currency.</param>
         /// <param name="minorUnits">The ISO minor units of the Currency.</param>
         /// <param name="name">The ISO name of the Currency.</param>
-        public Currency(string letterCode, string numericCode, byte minorUnits, string name)
+        private Currency(string letterCode, string numericCode, byte minorUnits, string name)
         {
             this.LetterCode = letterCode;
             this.NumericCode = numericCode;
