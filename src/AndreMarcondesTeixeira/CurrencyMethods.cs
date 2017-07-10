@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace AndreMarcondesTeixeira
 {
     public partial struct Currency : IEquatable<Currency>
     {
-        private static readonly IList<Currency> referenceCurrencies = new List<Currency>
+        private static IList<Currency> referenceCurrencies = new List<Currency>
         {
             Currency.AED,
             Currency.AFN,
@@ -187,12 +188,31 @@ namespace AndreMarcondesTeixeira
             Currency.ZWL
         };
 
-        public static object GetByLetterCode(string v)
+        public static Currency GetByLetterCode(string letterCode)
         {
-            throw new NotImplementedException();
+            var filteredCurrencies = Currency.referenceCurrencies.Where(currency => currency.Code == letterCode);
+
+            if (filteredCurrencies.Count() > 0)
+            {
+                return filteredCurrencies.First();
+            }
+
+            throw new ArgumentException($"There is no registered currency with the letter code {letterCode}.");
         }
 
-        public static object GetByNumericCode(string v)
+        public static Currency GetByNumericCode(string numericCode)
+        {
+            var filteredCurrencies = Currency.referenceCurrencies.Where(currency => currency.Number == numericCode);
+
+            if (filteredCurrencies.Count() > 0)
+            {
+                return filteredCurrencies.First();
+            }
+
+            throw new ArgumentException($"There is no registered currency with the numeric code {numericCode}.");
+        }
+
+        public static void RegisterCurrency(Currency currency)
         {
             throw new NotImplementedException();
         }
