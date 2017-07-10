@@ -9,8 +9,8 @@ namespace AndreMarcondesTeixeira
         public void Currency_Is_A_Value_Type_And_All_Factory_Methods_Return_New_Instances()
         {
             Assert.False(Object.ReferenceEquals(Currency.XXX, Currency.XXX));
-            //Assert.False(Object.ReferenceEquals(Currency.GetByLetterCode("XXX"), Currency.GetByLetterCode("XXX")));
-            //Assert.False(Object.ReferenceEquals(Currency.GetByNumericCode("999"), Currency.GetByNumericCode("999")));
+            Assert.False(Object.ReferenceEquals(Currency.GetByLetterCode("XXX"), Currency.GetByLetterCode("XXX")));
+            Assert.False(Object.ReferenceEquals(Currency.GetByNumericCode("999"), Currency.GetByNumericCode("999")));
         }
 
         [Fact]
@@ -18,8 +18,8 @@ namespace AndreMarcondesTeixeira
         {
             Assert.IsType(typeof(Currency), Currency.XXX);
             Assert.IsType(typeof(Currency), new Currency("ZZZ", "000", 0, "Test"));
-            //Assert.IsType(typeof(Currency), Currency.GetByLetterCode("XXX"));
-            //Assert.IsType(typeof(Currency), Currency.GetByNumericCode("999"));
+            Assert.IsType(typeof(Currency), Currency.GetByLetterCode("XXX"));
+            Assert.IsType(typeof(Currency), Currency.GetByNumericCode("999"));
         }
 
         [Fact]
