@@ -188,6 +188,11 @@ namespace AndreMarcondesTeixeira
             Currency.ZWL
         };
 
+        /// <summary>Gets a currency by its letter code.</summary>
+        /// <param name="letterCode">The letter code of the desired currency.</param>
+        /// <exception cref="System.ArgumentException">
+        ///     Thrown when no currency is found with the specified letter code.
+        /// </exception>
         public static Currency GetByLetterCode(string letterCode)
         {
             var filteredCurrencies = Currency.referenceCurrencies.Where(currency => currency.Code == letterCode);
@@ -200,6 +205,11 @@ namespace AndreMarcondesTeixeira
             throw new ArgumentException($"There is no registered currency with the letter code {letterCode}.");
         }
 
+        /// <summary>Gets a currency by its numeric code.</summary>
+        /// <param name="numericCode">The numeric code of the desired currency.</param>
+        /// <exception cref="System.ArgumentException">
+        ///     Thrown when no currency is found with the specified numeric code.
+        /// </exception>
         public static Currency GetByNumericCode(string numericCode)
         {
             var filteredCurrencies = Currency.referenceCurrencies.Where(currency => currency.Number == numericCode);
@@ -212,6 +222,18 @@ namespace AndreMarcondesTeixeira
             throw new ArgumentException($"There is no registered currency with the numeric code {numericCode}.");
         }
 
+        /// <summary>
+        ///     Register a currency so it can be found with the methods <see cref="GetByLetterCode(System.String)" />
+        ///     and <see cref="GetByNumericCode(System.String)" />
+        /// </summary>
+        /// <remarks>
+        ///     The factory properties such as <see cref="Currency.XXX" /> will not be available for currencies
+        ///     registered through this method.
+        /// </remarks>
+        /// <param name="currency">An instance of <see cref="Currency" />.</param>
+        /// <exception cref="System.ArgumentException">
+        ///     Thrown when a currency is already registered with the same set of properties.
+        /// </exception>
         public static void RegisterCurrency(Currency currency)
         {
             throw new NotImplementedException();
