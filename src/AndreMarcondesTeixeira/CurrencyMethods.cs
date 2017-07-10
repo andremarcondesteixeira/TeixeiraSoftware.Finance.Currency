@@ -221,22 +221,5 @@ namespace AndreMarcondesTeixeira
 
             throw new ArgumentException($"There is no registered currency with the numeric code {numericCode}.");
         }
-
-        /// <summary>
-        ///     Register a currency so it can be found with the methods <see cref="GetByLetterCode(System.String)" />
-        ///     and <see cref="GetByNumericCode(System.String)" />
-        /// </summary>
-        /// <remarks>
-        ///     The factory properties such as <see cref="Currency.XXX" /> will not be available for currencies
-        ///     registered through this method.
-        /// </remarks>
-        /// <param name="currency">An instance of <see cref="Currency" />.</param>
-        /// <exception cref="System.ArgumentException">
-        ///     Thrown when a currency is already registered with the same set of properties.
-        /// </exception>
-        public static void RegisterCurrency(Currency currency)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
