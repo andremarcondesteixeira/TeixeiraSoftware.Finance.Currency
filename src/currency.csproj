@@ -1,9 +1,32 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
     <AssemblyName>currency</AssemblyName>
-    <AssemblyVersion>3.0.0</AssemblyVersion>
+    <PackageVersion>3.0.0</PackageVersion>
     <AssemblyCompany>andremarcondesteixeira</AssemblyCompany>
     <AssemblyDescription>A simple, cross-platform currency class library.</AssemblyDescription>
+    <RootNamespace>AndreMarcondesTeixeira</RootNamespace>
+    <ApplicationIcon />
+    <Win32Resource />
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>andremarcondesteixeira</Authors>
+    <Company>André Marcondes Teixeira</Company>
+    <Description>A simple and cross platform currency class library that follows the ISO 4217 standard.
+Currency is a value type, i.e, a struct, with no public constructor, but simple, quick methods that return you the currency instance you want instead.</Description>
+    <Copyright>André Marcondes Teixeira</Copyright>
+    <RepositoryUrl>https://github.com/andremarcondesteixeira/currency</RepositoryUrl>
+    <PackageTags>currency money finance netstandard1.0</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <FileVersion>3.0.0.0</FileVersion>
+    <Version>3.0.0</Version>
+    <PackageProjectUrl>https://github.com/andremarcondesteixeira/currency</PackageProjectUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>False</Optimize>
+    <DocumentationFile>bin\Debug\netstandard1.0\currency.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.0\currency.xml</DocumentationFile>
   </PropertyGroup>
 </Project>
