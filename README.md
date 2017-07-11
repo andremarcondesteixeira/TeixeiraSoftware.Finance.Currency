@@ -12,19 +12,19 @@ using AndreMarcondesTeixeira;
 
 Then, you can get a currency instance by three ways:
 
-1. Calling a factory property, where XXX is the three letters ISO code of the currency:
+* Calling a factory property, where XXX is the three letters ISO code of the currency:
 
 ``` c#
 var currency = Currency.XXX;
 ```
 
-2. Using the method GetByLetterCode, where, again, XXX is the three letters ISO code of the currency:
+* Using the method GetByLetterCode, where, again, XXX is the three letters ISO code of the currency:
 
 ``` c#
 var currency = Currency.GetByLetterCode("XXX");
 ```
 
-3. Using the method GetByNumericCode, where 999 is the three numbers ISO code of the currency:
+* Using the method GetByNumericCode, where 999 is the three numbers ISO code of the currency:
 
 ``` c#
 var currency = Currency.GetByNumericCode("999"); //(Note that the numeric code is a string)
