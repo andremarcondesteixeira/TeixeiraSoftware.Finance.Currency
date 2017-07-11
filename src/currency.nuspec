@@ -6,12 +6,15 @@
     <title>$id$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/andremarcondesteixeira/currency/3.0.0/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/andremarcondesteixeira/currency/tree/3.0.0</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
+    <description>
+      A simple and cross platform currency class library that follows the ISO 4217 standard.
+      Currency is a value type, i.e, a struct, with no public constructor, but simple, quick methods that return you the currency instance you want instead.
+    </description>
     <releaseNotes>Now, Currency is value type (a struct), the constructor was made private, some bugs were fixed and two new factories were created.</releaseNotes>
-    <copyright>Copyright 2017, André Marcondes Teixeira</copyright>
+    <copyright>André Marcondes Teixeira</copyright>
     <tags>currency money finance netstandard1.0</tags>
   </metadata>
 </package>
