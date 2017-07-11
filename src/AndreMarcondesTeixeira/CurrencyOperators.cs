@@ -29,10 +29,10 @@ namespace AndreMarcondesTeixeira
         ///     The instances of <see cref="Currency" /> class are compared through their
         ///     whole set of properties.
         /// </remarks>
-        /// <param name="currency">An instance of <see cref="Currency"></param>
-        public override bool Equals(object obj)
+        /// <param name="currency">An instance of <see cref="Currency" /></param>
+        public override bool Equals(object currency)
         {
-            return AreEquivalent(this, (Currency) obj);
+            return AreEquivalent(this, (Currency) currency);
         }
 
         /// <summary>Compares the equality of two currencies.</summary>
@@ -40,7 +40,7 @@ namespace AndreMarcondesTeixeira
         ///     The instances of <see cref="Currency" /> class are compared through their
         ///     whole set of properties.
         /// </remarks>
-        /// <param name="currency">An instance of <see cref="Currency"></param>
+        /// <param name="currency">An instance of <see cref="Currency" /></param>
         public bool Equals(Currency currency)
         {
             return AreEquivalent(this, currency);
