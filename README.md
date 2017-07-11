@@ -6,7 +6,7 @@ Currency is a value type, i.e, a struct, with no public constructor, but simple,
 First, you need to import the class:
 
 ``` c#
-    using AndreMarcondesTeixeira;`
+using AndreMarcondesTeixeira;
 ```
 
 Then, you can get a currency instance by three ways:
