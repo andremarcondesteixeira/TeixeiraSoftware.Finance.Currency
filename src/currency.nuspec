@@ -6,8 +6,8 @@
     <title>$id$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://raw.githubusercontent.com/andremarcondesteixeira/currency/3.0.0/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/andremarcondesteixeira/currency/tree/3.0.0</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/andremarcondesteixeira/currency/master/LICENSE</licenseUrl>
+    <projectUrl>https://andremarcondesteixeira.github.io/currency/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       A simple and cross platform currency class library that follows the ISO 4217 standard.
