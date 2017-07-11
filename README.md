@@ -1,4 +1,6 @@
 # Currency
+[![Build status](https://ci.appveyor.com/api/projects/status/ff4jg5689m7ify1q?svg=true)](https://ci.appveyor.com/project/andremarcondesteixeira/currency)
+
 A simple and cross platform currency class library that follows the ISO 4217 standard.
 
 Currency is a value type, i.e, a struct, with no public constructor, but simple, quick methods that return you the currency instance you want instead.
