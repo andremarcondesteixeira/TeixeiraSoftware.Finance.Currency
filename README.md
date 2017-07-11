@@ -56,6 +56,4 @@ var areCurrenciesEquivalent = (Currency.XXX != Currency.XXX); // returns false;
 ```
 
 ### Contributing
-You can contribute by doing unit tests, documentation, making pull requests, sharing the project, or giving some financial help to the author:
-
-
+You can contribute by doing unit tests, documentation, making pull requests or sharing the project.
