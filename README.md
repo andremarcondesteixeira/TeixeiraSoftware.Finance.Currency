@@ -51,6 +51,6 @@ public struct Currency : IEquatable<Currency>
 
 You can compare currencies using the operators == and !=
 ``` c#
-var areCurrenciesEquivalent = Currency.XXX == Currency.XXX; // returns true;
-var areCurrenciesEquivalent = Currency.XXX != Currency.XXX; // returns false;
+var areCurrenciesEquivalent = (Currency.XXX == Currency.XXX); // returns true;
+var areCurrenciesEquivalent = (Currency.XXX != Currency.XXX); // returns false;
 ```
