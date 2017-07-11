@@ -1,7 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
-    <PackageVersion>2.0.1</PackageVersion>
     <AssemblyName>currency</AssemblyName>
+    <AssemblyVersion>3.0.0</AssemblyVersion>
+    <AssemblyCompany>andremarcondesteixeira</AssemblyCompany>
+    <AssemblyDescription>A simple, cross-platform currency class library.</AssemblyDescription>
   </PropertyGroup>
 </Project>

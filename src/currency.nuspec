@@ -3,16 +3,15 @@
   <metadata>
     <id>$id$</id>
     <version>$version$</version>
-    <title>$title$</title>
+    <title>$id$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
     <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
     <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2017</copyright>
-    <tags>Tag1 Tag2</tags>
+    <releaseNotes>Now, Currency is value type (a struct), the constructor was made private, some bugs were fixed and two new factories were created.</releaseNotes>
+    <copyright>Copyright 2017, André Marcondes Teixeira</copyright>
+    <tags>currency money finance netstandard1.0</tags>
   </metadata>
 </package>
