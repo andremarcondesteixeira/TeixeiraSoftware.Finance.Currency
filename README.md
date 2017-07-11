@@ -10,7 +10,7 @@ First, you need to import the class:
 using AndreMarcondesTeixeira;
 ```
 
-Then, you can get a currency instance by three ways:
+Then, you can get a currency instance by using one of these methods:
 
 * Calling a factory property, where XXX is the three letters ISO code of the currency:
 
