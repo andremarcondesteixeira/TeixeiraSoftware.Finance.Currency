@@ -42,13 +42,7 @@ namespace AndreMarcondesTeixeira
         /// </summary>
         /// <remarks>
         ///     Instead of using the constructor, use the static, lazy loaded properties of
-        ///     the <see cref="Currency" /> class instead.
-        ///     <para>
-        ///         For a list of the available currencies, use IntelliSense, or:
-        ///         <see href="https://www.currency-iso.org/en/home.html">
-        ///             https://www.currency-iso.org/en/home.html
-        ///         </see>
-        ///     </para>
+        ///     the <see cref="Currency" /> class.
         /// </remarks>
         /// <example>
         ///     This sample shows you how to get an instance of a currency, where "XXX" is
