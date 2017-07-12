@@ -7,7 +7,6 @@ Currency is a value type, i.e, a struct, with no public constructor, but simple,
 
 ### Usage
 First of all, import the namespace, for convenience:
-
 ``` c#
 using AndreMarcondesTeixeira;
 ```
@@ -15,25 +14,21 @@ using AndreMarcondesTeixeira;
 Then, you can get a currency instance by using one of these methods:
 
 * Calling a factory property, where XXX is the three letters ISO code of the currency:
-
 ``` c#
 var currency = Currency.XXX;
 ```
 
 * Using the method GetByLetterCode, where, again, XXX is the three letters ISO code of the currency:
-
 ``` c#
 var currency = Currency.GetByLetterCode("XXX");
 ```
 
 * Using the method GetByNumericCode, where 999 is the three numbers ISO code of the currency:
-
 ``` c#
 var currency = Currency.GetByNumericCode("999"); //(Note that the numeric code is a string)
 ```
 
 The Currency class have four read only properties:
-
 ``` c#
 public struct Currency : IEquatable<Currency>
 {
@@ -55,6 +50,19 @@ You can compare currencies using the operators == and !=
 ``` c#
 var areCurrenciesEquivalent = (Currency.XXX == Currency.XXX); // returns true;
 var areCurrenciesEquivalent = (Currency.XXX != Currency.XXX); // returns false;
+```
+
+You can get a list of all currencies:
+``` c#
+var allCurrencies = Currency.AllCurrencies;
+
+foreach (var currency in allCurrencies)
+{
+    var currencyISOLetterCode = currency.LetterCode;
+    var currencyISONumericCode = currency.NumericCode;
+    var currencyName = currency.Name;
+    var currencyMinorUnits = currency.MinorUnits;
+}
 ```
 
 ### Contributing
