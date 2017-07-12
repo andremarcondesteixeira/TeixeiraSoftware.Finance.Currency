@@ -2,8 +2,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
     <AssemblyName>currency</AssemblyName>
+    <Title>Currency</Title>
     <PackageVersion>3.1.1</PackageVersion>
-    <AssemblyCompany>andremarcondesteixeira</AssemblyCompany>
+    <AssemblyCompany>andremteixeira</AssemblyCompany>
     <AssemblyDescription>A simple cross-platform currency struct.</AssemblyDescription>
     <RootNamespace>AndreMarcondesTeixeira</RootNamespace>
     <ApplicationIcon />
@@ -14,20 +15,14 @@
     <Description>A simple cross platform currency struct that follows the ISO 4217 standard.</Description>
     <Copyright>André Marcondes Teixeira</Copyright>
     <RepositoryUrl>https://github.com/andremarcondesteixeira/currency</RepositoryUrl>
-    <PackageTags>currency money finance netstandard1.0</PackageTags>
+    <PackageTags>currency;money;finance;netstandard1.0</PackageTags>
     <NeutralLanguage>en</NeutralLanguage>
-    <PackageLanguage>en</PackageLanguage>
-    <AssemblyLanguage>en</AssemblyLanguage>
     <AssemblyVersion>3.1.1.0</AssemblyVersion>
     <FileVersion>3.1.1.0</FileVersion>
     <Version>3.1.1</Version>
     <PackageProjectUrl>https://andremarcondesteixeira.github.io/currency/</PackageProjectUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/andremarcondesteixeira/currency/master/LICENSE</PackageLicenseUrl>
-    <PackageReleaseNotes>
-      Now, Currency is value type (a struct), the constructor was made private, some bugs were
-      fixed, two new factories were created and a publicly visible readonly list of all the
-      currencies was made available.
-    </PackageReleaseNotes>
+    <PackageReleaseNotes>Now, Currency is value type (a struct), the constructor was made private, some bugs were fixed, two new factories were created and a publicly visible readonly list of all the currencies was made available.</PackageReleaseNotes>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <Optimize>False</Optimize>
