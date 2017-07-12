@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
     <AssemblyName>currency</AssemblyName>
-    <PackageVersion>3.0.6</PackageVersion>
+    <PackageVersion>3.1.0</PackageVersion>
     <AssemblyCompany>andremarcondesteixeira</AssemblyCompany>
     <AssemblyDescription>A simple, cross-platform currency class library.</AssemblyDescription>
     <RootNamespace>AndreMarcondesTeixeira</RootNamespace>
@@ -17,9 +17,9 @@ Currency is a value type, i.e, a struct, with no public constructor, but simple,
     <RepositoryUrl>https://github.com/andremarcondesteixeira/currency</RepositoryUrl>
     <PackageTags>currency money finance netstandard1.0</PackageTags>
     <NeutralLanguage>en</NeutralLanguage>
-    <AssemblyVersion>3.0.6.0</AssemblyVersion>
-    <FileVersion>3.0.6.0</FileVersion>
-    <Version>3.0.6</Version>
+    <AssemblyVersion>3.1.0.0</AssemblyVersion>
+    <FileVersion>3.1.0.0</FileVersion>
+    <Version>3.1.0</Version>
     <PackageProjectUrl>https://andremarcondesteixeira.github.io/currency/</PackageProjectUrl>
     <PackageLicenseUrl>https://raw.githubusercontent.com/andremarcondesteixeira/currency/master/LICENSE</PackageLicenseUrl>
     <PackageReleaseNotes>Now, Currency is value type (a struct), the constructor was made private, some bugs were fixed and two new factories were created.</PackageReleaseNotes>
