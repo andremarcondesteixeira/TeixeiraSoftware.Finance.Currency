@@ -40,16 +40,16 @@ The Currency class have four read only properties:
 ``` c#
 public struct Currency : IEquatable<Currency>
 {
-    /// <summary>The 3 letters ISO code of the currency</summary>
+    // The 3 letters ISO code of the currency
     public string LetterCode { get; }
 
-    /// <summary>The ISO minor units of the currency</summary>
+    // The ISO minor units of the currency
     public byte MinorUnits { get; }
 
-    /// <summary>The ISO name of the currency</summary>
+    // The ISO name of the currency
     public string Name { get; }
 
-    /// <summary>The numeric ISO code of the currency</summary>
+    // The numeric ISO code of the currency
     public string NumericCode { get; }
 }
 ```
