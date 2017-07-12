@@ -9,9 +9,10 @@ namespace AndreMarcondesTeixeira
     /// <remarks>
     ///     All currencies are represented, except for "ANTARCTICA", "PALESTINE, STATE OF"
     ///     and "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS", because ISO describes those
-    ///     as "no universal currency", and gives them no letter codes.
+    ///     as "no universal currency", and gives them no identification codes.
     ///     <para>
-    ///         This class does not provide the list of countries that use each currency.
+    ///         The <see cref="Currency" /> class does not provide the list of countries
+    ///         that use each currency.
     ///     </para>
     ///     <para>
     ///         For more information:
@@ -46,7 +47,8 @@ namespace AndreMarcondesTeixeira
         /// </remarks>
         /// <example>
         ///     This sample shows you how to get an instance of a currency, where "XXX" is
-        ///     the 3 letters ISO code of the currency:
+        ///     the 3 letters ISO code of the currency, and "999" is the 3 digits numeric
+        ///     ISO code of the currency:
         ///     <code>
         ///         var currency = Currency.XXX;
         ///         var currency = Currency.GetByLetterCode("XXX");
@@ -54,7 +56,7 @@ namespace AndreMarcondesTeixeira
         ///     </code>
         /// </example>
         /// <param name="letterCode">The 3 letters ISO code of the Currency.</param>
-        /// <param name="numericCode">The numeric ISO code of the Currency.</param>
+        /// <param name="numericCode">The 3 digits numeric ISO code of the Currency.</param>
         /// <param name="minorUnits">The ISO minor units of the Currency.</param>
         /// <param name="name">The ISO name of the Currency.</param>
         private Currency(string letterCode, string numericCode, byte minorUnits, string name)
