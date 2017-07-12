@@ -3,7 +3,7 @@
 
 A simple cross platform currency class library for C#.NET that follows the ISO 4217 standard.
 
-The implementation of this library is compatible with .Net Standard 1.0 (see https://docs.microsoft.com/en-us/dotnet/standard/net-standard for details).
+The implementation of this library is compatible with .Net Standard 1.0 (see [https://docs.microsoft.com/en-us/dotnet/standard/net-standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) for details).
 
 Currency is a value type, i.e, a struct, with no public constructor, but simple, quick methods that return you the currency instance you want instead.
 
