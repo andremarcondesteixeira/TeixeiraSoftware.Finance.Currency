@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Xunit;
 
 namespace AndreMarcondesTeixeira
@@ -33,6 +34,13 @@ namespace AndreMarcondesTeixeira
         {
             Assert.False(Currency.XXX == Currency.XTS);
             Assert.True(Currency.XTS != Currency.XXX);
+        }
+
+        [Fact]
+        public void There_Is_A_Publicly_Visible_Readonly_List_Of_All_Currencies()
+        {
+            Assert.IsType(typeof(List<Currency>), Currency.AllCurrencies);
+            Assert.Equal(178, Currency.AllCurrencies.Count);
         }
     }
 }
