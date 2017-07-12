@@ -12,7 +12,7 @@ namespace AndreMarcondesTeixeira
         /// </exception>
         public static Currency GetByLetterCode(string letterCode)
         {
-            var filteredCurrencies = Currency.referenceCurrencies.Where(currency => currency.LetterCode == letterCode);
+            var filteredCurrencies = Currency.AllCurrencies.Where(currency => currency.LetterCode == letterCode);
 
             if (filteredCurrencies.Count() > 0)
             {
@@ -29,7 +29,7 @@ namespace AndreMarcondesTeixeira
         /// </exception>
         public static Currency GetByNumericCode(string numericCode)
         {
-            var filteredCurrencies = Currency.referenceCurrencies.Where(currency => currency.NumericCode == numericCode);
+            var filteredCurrencies = Currency.AllCurrencies.Where(currency => currency.NumericCode == numericCode);
 
             if (filteredCurrencies.Count() > 0)
             {
