@@ -32,7 +32,8 @@ var currency = Currency.GetByLetterCode("XXX");
 
 * Using the method GetByNumericCode, where 999 is the three numbers ISO code of the currency:
 ``` c#
-var currency = Currency.GetByNumericCode("999"); //(Note that the numeric code is a string)
+// Note that the numeric code is a string
+var currency = Currency.GetByNumericCode("999");
 ```
 
 The Currency class have four read only properties:
@@ -55,8 +56,11 @@ public struct Currency : IEquatable<Currency>
 
 You can compare currencies using the operators == and !=
 ``` c#
-var areCurrenciesEquivalent = (Currency.XXX == Currency.XXX); // returns true;
-var areCurrenciesEquivalent = (Currency.XXX != Currency.XXX); // returns false;
+// returns true
+var areCurrenciesEquivalent = (Currency.XXX == Currency.XXX);
+
+// returns false
+var areCurrenciesEquivalent = (Currency.XXX != Currency.XXX);
 ```
 
 You can get a list of all currencies:
