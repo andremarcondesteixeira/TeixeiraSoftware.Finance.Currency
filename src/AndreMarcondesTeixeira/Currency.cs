@@ -49,7 +49,8 @@ namespace AndreMarcondesTeixeira
         ///     the 3 letters ISO code of the currency:
         ///     <code>
         ///         var currency = Currency.XXX;
-        ///         var customCurrency = new Currency("ZZZ", "999", 0, "Custom Currency");
+        ///         var currency = Currency.GetByLetterCode("XXX");
+        ///         var currency = Currency.GetByNumericCode("999");
         ///     </code>
         /// </example>
         /// <param name="letterCode">The 3 letters ISO code of the Currency.</param>
