@@ -5,6 +5,13 @@ A simple and cross platform currency class library that follows the ISO 4217 sta
 
 Currency is a value type, i.e, a struct, with no public constructor, but simple, quick methods that return you the currency instance you want instead.
 
+### Installation
+
+Install through NuGet Package Manager:
+```
+Install-Package currency
+```
+
 ### Usage
 First of all, import the namespace, for convenience:
 ``` c#
