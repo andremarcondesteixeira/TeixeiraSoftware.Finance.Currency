@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/andremarcondesteixeira/currency/blob/master/LICENSE)
 [![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Welcome-brightgreen.svg)](https://github.com/andremarcondesteixeira/currency/blob/master/CONTRIBUTING.md)
 
-A simple cross platform currency class library, written with C#.NET, that follows the ISO 4217 standard.
+A simple cross platform currency class library for .Net, that follows the ISO 4217 standard.
 
 The implementation of this library is compatible with .Net Standard 1.0 (see [https://docs.microsoft.com/en-us/dotnet/standard/net-standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) for details).
 
