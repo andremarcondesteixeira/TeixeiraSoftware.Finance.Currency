@@ -3,17 +3,13 @@ using System;
 namespace AndreMarcondesTeixeira
 {
     /// <summary>
-    ///     The <see cref="Currency" /> class follows ISO 4217:2015, providing an easy way
-    ///     to represent ISO currencies.
+    ///     The <see cref="Currency" /> class follows the ISO 4217:2015 specification,
+    ///     providing an easy way to represent ISO currencies.
     /// </summary>
     /// <remarks>
     ///     All currencies are represented, except for "ANTARCTICA", "PALESTINE, STATE OF"
     ///     and "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS", because ISO describes those
-    ///     as "no universal currency", and gives them no identification codes.
-    ///     <para>
-    ///         The <see cref="Currency" /> class does not provide the list of countries
-    ///         that use each currency.
-    ///     </para>
+    ///     currencies as "no universal currency", and gives them no identification codes.
     ///     <para>
     ///         For more information:
     ///         <see href="https://www.currency-iso.org/en/home.html">
@@ -42,8 +38,8 @@ namespace AndreMarcondesTeixeira
         ///     Initializes a new instance of the <see cref="Currency" /> class.
         /// </summary>
         /// <remarks>
-        ///     Instead of using the constructor, use the static, lazy loaded properties of
-        ///     the <see cref="Currency" /> class.
+        ///     Instead of using the constructor, consider using the static, lazy loaded
+        ///     properties of the <see cref="Currency" /> class.
         /// </remarks>
         /// <example>
         ///     This sample shows you how to get an instance of a currency, where "XXX" is
@@ -59,7 +55,7 @@ namespace AndreMarcondesTeixeira
         /// <param name="numericCode">The 3 digits numeric ISO code of the Currency.</param>
         /// <param name="minorUnits">The ISO minor units of the Currency.</param>
         /// <param name="name">The ISO name of the Currency.</param>
-        private Currency(string letterCode, string numericCode, byte minorUnits, string name)
+        public Currency(string letterCode, string numericCode, byte minorUnits, string name)
         {
             this.LetterCode = letterCode;
             this.NumericCode = numericCode;
