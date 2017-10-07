@@ -1,9 +1,13 @@
-# Currency
+# AndreMarcondesTeixeira.Currency
 [![Build status](https://ci.appveyor.com/api/projects/status/ff4jg5689m7ify1q?svg=true)](https://ci.appveyor.com/project/andremarcondesteixeira/currency)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/andremarcondesteixeira/currency/blob/master/LICENSE)
+[![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Welcome-brightgreen.svg)](https://github.com/andremarcondesteixeira/currency/blob/master/CONTRIBUTING.md)
 
-A simple and cross platform currency class library that follows the ISO 4217 standard.
+A simple cross platform currency class library for .Net, that follows the ISO 4217 standard.
 
-Currency is a value type, i.e, a struct, with no public constructor, but simple, quick methods that return you the currency instance you want instead.
+The implementation of this library is compatible with .Net Standard 1.0 (see [https://docs.microsoft.com/en-us/dotnet/standard/net-standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) for details).
+
+AndreMarcondesTeixeira.Currency is a value type, i.e, a struct, and has no public constructor, but simple, quick methods that return you the currency instance you want instead.
 
 ### Installation
 
@@ -32,31 +36,35 @@ var currency = Currency.GetByLetterCode("XXX");
 
 * Using the method GetByNumericCode, where 999 is the three numbers ISO code of the currency:
 ``` c#
-var currency = Currency.GetByNumericCode("999"); //(Note that the numeric code is a string)
+// Note that the numeric code is a string
+var currency = Currency.GetByNumericCode("999");
 ```
 
 The Currency class have four read only properties:
 ``` c#
 public struct Currency : IEquatable<Currency>
 {
-    /// <summary>The 3 letters ISO code of the currency</summary>
+    // The 3 letters ISO code of the currency
     public string LetterCode { get; }
 
-    /// <summary>The ISO minor units of the currency</summary>
+    // The ISO minor units of the currency
     public byte MinorUnits { get; }
 
-    /// <summary>The ISO name of the currency</summary>
+    // The ISO name of the currency
     public string Name { get; }
 
-    /// <summary>The numeric ISO code of the currency</summary>
+    // The numeric ISO code of the currency
     public string NumericCode { get; }
 }
 ```
 
 You can compare currencies using the operators == and !=
 ``` c#
-var areCurrenciesEquivalent = (Currency.XXX == Currency.XXX); // returns true;
-var areCurrenciesEquivalent = (Currency.XXX != Currency.XXX); // returns false;
+// returns true
+var areCurrenciesEquivalent = (Currency.XXX == Currency.XXX);
+
+// returns false
+var areCurrenciesEquivalent = (Currency.XXX != Currency.XXX);
 ```
 
 You can get a list of all currencies:
