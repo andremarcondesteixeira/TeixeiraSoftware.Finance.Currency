@@ -38,7 +38,7 @@ namespace AndreMarcondesTeixeira
         [Fact]
         public void Currency_Instances_Are_Compared_Through_Their_Whole_Set_Of_Properties()
         {
-            Assert.True(
+            Assert.Equal(
                 new Currency(
                     "XXX",
                     "999",
@@ -47,8 +47,8 @@ namespace AndreMarcondesTeixeira
                 ),
                 Currency.XXX
             );
-            Assert.False(Currency.XXX == Currency.XTS);
-            Assert.True(Currency.XTS != Currency.XXX);
+            Assert.Equal(Currency.XXX, Currency.XTS);
+            Assert.NotEqual(Currency.XTS, Currency.XXX);
         }
 
         [Fact]
