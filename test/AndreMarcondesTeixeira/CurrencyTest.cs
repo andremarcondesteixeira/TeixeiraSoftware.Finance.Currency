@@ -47,7 +47,20 @@ namespace AndreMarcondesTeixeira
                 ),
                 Currency.XXX
             );
-            Assert.Equal(Currency.XXX, Currency.XTS);
+            Assert.NotEqual(
+                new Currency(
+                    "XXX",
+                    "999",
+                    0, // Minor Unit are different
+                    "The codes assigned for transactions where no currency is involved"
+                ),
+                new Currency(
+                    "XXX",
+                    "999",
+                    1, // Minor Units are different
+                    "The codes assigned for transactions where no currency is involved"
+                )
+            );
             Assert.NotEqual(Currency.XTS, Currency.XXX);
         }
 
