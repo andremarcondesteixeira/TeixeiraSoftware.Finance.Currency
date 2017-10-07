@@ -39,13 +39,13 @@ namespace AndreMarcondesTeixeira
         public void Currency_Instances_Are_Compared_Through_Their_Whole_Set_Of_Properties()
         {
             Assert.True(
-                Currency.XXX,
                 new Currency(
                     "XXX",
                     "999",
                     0,
                     "The codes assigned for transactions where no currency is involved"
-                )
+                ),
+                Currency.XXX
             );
             Assert.False(Currency.XXX == Currency.XTS);
             Assert.True(Currency.XTS != Currency.XXX);
