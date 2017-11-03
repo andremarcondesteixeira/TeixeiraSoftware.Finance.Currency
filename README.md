@@ -84,4 +84,5 @@ foreach (var currency in allCurrencies)
 ```
 
 ### Contributing
-You can contribute by doing unit tests, documentation, making pull requests or sharing the project.
+I'm currently looking for help to improve the projects. You can see some topics that you can help with [here](https://github.com/andremarcondesteixeira/currency/issues).
+You can also contribute by doing unit tests, documentation, making pull requests or sharing the project. :D
