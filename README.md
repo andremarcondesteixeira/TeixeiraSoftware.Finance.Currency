@@ -1,3 +1,5 @@
+[![CURRENCY](https://github.com/andremarcondesteixeira/currency/raw/master/currency-logo.png)](#)
+
 # AndreMarcondesTeixeira.Currency
 [![Build status](https://ci.appveyor.com/api/projects/status/ff4jg5689m7ify1q?svg=true)](https://ci.appveyor.com/project/andremarcondesteixeira/currency)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/andremarcondesteixeira/currency/blob/master/LICENSE)
