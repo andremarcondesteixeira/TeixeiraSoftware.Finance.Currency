@@ -1,4 +1,4 @@
-[![CURRENCY](https://github.com/andremarcondesteixeira/currency/raw/master/currency-logo.png)](#)
+[![CURRENCY](https://github.com/andremarcondesteixeira/currency/raw/master/currency-logo.png)](https://andremarcondesteixeira.github.io/currency/)
 
 # AndreMarcondesTeixeira.Currency
 [![Build status](https://ci.appveyor.com/api/projects/status/ff4jg5689m7ify1q?svg=true)](https://ci.appveyor.com/project/andremarcondesteixeira/currency)
