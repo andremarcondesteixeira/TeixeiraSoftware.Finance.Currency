@@ -1,6 +1,6 @@
 [![CURRENCY](https://github.com/andremarcondesteixeira/currency/raw/master/currency-logo.png)](https://andremarcondesteixeira.github.io/currency/)
 
-# AndreMarcondesTeixeira.Currency [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20simple%20currency%20class%20library&url=https://andremarcondesteixeira.github.io/currency/&hashtags=currency,money,finance,software,dotnet,simplicity,cross-platform)
+# AndreMarcondesTeixeira.Currency [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20simple%20currency%20class%20library&url=https://andremarcondesteixeira.github.io/currency/&hashtags=currency,money,finance,software,dotnet,simplicity,crossplatform)
 [![Build status](https://ci.appveyor.com/api/projects/status/ff4jg5689m7ify1q?svg=true)](https://ci.appveyor.com/project/andremarcondesteixeira/currency)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/andremarcondesteixeira/currency/blob/master/LICENSE)
 [![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Welcome-brightgreen.svg)](https://github.com/andremarcondesteixeira/currency/blob/master/CONTRIBUTING.md)
