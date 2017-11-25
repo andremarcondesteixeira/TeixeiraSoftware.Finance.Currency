@@ -10,14 +10,14 @@ namespace AndreMarcondesTeixeira
         public void Currency_Is_A_Value_Type_And_All_Factory_Methods_Return_New_Instances()
         {
             Assert.False(Object.ReferenceEquals(Currency.XXX, Currency.XXX));
-            Assert.False(
-                Object.ReferenceEquals(Currency.GetByLetterCode("XXX"),
-                Currency.GetByLetterCode("XXX"))
-            );
-            Assert.False(
-                Object.ReferenceEquals(Currency.GetByNumericCode("999"),
-                Currency.GetByNumericCode("999"))
-            );
+            Assert.False(Object.ReferenceEquals(
+                Currency.GetByLetterCode("XXX"),
+                Currency.GetByLetterCode("XXX")
+            ));
+            Assert.False(Object.ReferenceEquals(
+                Currency.GetByNumericCode("999"),
+                Currency.GetByNumericCode("999")
+            ));
         }
 
         [Fact]
@@ -51,7 +51,7 @@ namespace AndreMarcondesTeixeira
                 new Currency(
                     "XXX",
                     "999",
-                    0, // Minor Unit are different
+                    0, // Minor Units are different
                     "The codes assigned for transactions where no currency is involved"
                 ),
                 new Currency(
