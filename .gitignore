@@ -2,5 +2,6 @@ obj/
 bin/
 .vscode/
 .vs/
+src/Properties/
 src/currency.csproj.user
 src/Properties/PublishProfiles/FolderProfile.pubxml.user
