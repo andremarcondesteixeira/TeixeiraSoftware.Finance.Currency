@@ -1,6 +1,6 @@
 using System;
 
-namespace AndreMarcondesTeixeira
+namespace TeixeiraSoftware.Finance
 {
     /// <summary>
     ///     The <see cref="Currency" /> class follows the ISO 4217:2015 specification,

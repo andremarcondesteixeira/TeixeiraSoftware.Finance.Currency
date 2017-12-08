@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace AndreMarcondesTeixeira
+namespace TeixeiraSoftware.Finance
 {
     public partial struct Currency : IEquatable<Currency>
     {

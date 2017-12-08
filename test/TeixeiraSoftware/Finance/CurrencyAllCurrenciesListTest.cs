@@ -1,6 +1,6 @@
-using Xunit;
+﻿using Xunit;
 
-namespace AndreMarcondesTeixeira
+namespace TeixeiraSoftware.Finance
 {
     public class CurrencyAllCurrenciesListTest
     {
