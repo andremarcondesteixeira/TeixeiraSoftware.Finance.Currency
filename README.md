@@ -1,28 +1,28 @@
-[![CURRENCY](https://github.com/andremarcondesteixeira/currency/raw/master/currency-logo.png)](https://andremarcondesteixeira.github.io/currency/)
+[![CURRENCY](https://github.com/TeixeiraSoftware/Currency/raw/master/currency-logo.png)](https://TeixeiraSoftware.github.io/Currency/)
 
-# AndreMarcondesTeixeira.Currency [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20simple%20currency%20class%20library&url=https://andremarcondesteixeira.github.io/currency/&hashtags=currency,money,finance,software,dotnet,simplicity,crossplatform)
-[![Build status](https://ci.appveyor.com/api/projects/status/ff4jg5689m7ify1q?svg=true)](https://ci.appveyor.com/project/andremarcondesteixeira/currency)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/andremarcondesteixeira/currency/blob/master/LICENSE)
-[![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Welcome-brightgreen.svg)](https://github.com/andremarcondesteixeira/currency/blob/master/CONTRIBUTING.md)
-[![NuGet](https://img.shields.io/nuget/dt/currency.svg)](https://www.nuget.org/packages/currency/)
+# TeixeiraSoftware.Finance.Currency [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20simple%20currency%20class%20library&url=https://TeixeiraSoftware.github.io/Currency/&hashtags=currency,money,finance,software,dotnet,simplicity,crossplatform)
+[![Build status](https://ci.appveyor.com/api/projects/status/ff4jg5689m7ify1q?svg=true)](https://ci.appveyor.com/project/TeixeiraSoftware/Currency)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/TeixeiraSoftware/Currency/blob/master/LICENSE)
+[![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Welcome-brightgreen.svg)](https://github.com/TeixeiraSoftware/Currency/blob/master/CONTRIBUTING.md)
+[![NuGet](https://img.shields.io/nuget/dt/currency.svg)](https://www.nuget.org/packages/TeixeiraSoftware.Finance.Currency/)
 
 A simple cross platform currency class library for .Net, that follows the ISO 4217 standard.
 
-The implementation of this library is compatible with .Net Standard 1.0 (see [https://docs.microsoft.com/en-us/dotnet/standard/net-standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) for details).
+The implementation of this library is compatible with .Net Standard 2.0 (see [https://docs.microsoft.com/en-us/dotnet/standard/net-standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) for details).
 
-AndreMarcondesTeixeira.Currency is a value type.
+TeixeiraSoftware.Finance.Currency is a value type.
 
 ### Installation
 
 Install through NuGet Package Manager:
 ```
-Install-Package currency
+Install-Package TeixeiraSoftware.Finance.Currency
 ```
 
 ### Usage
 First of all, import the namespace, for convenience:
 ``` c#
-using AndreMarcondesTeixeira;
+using TeixeiraSoftware.Finance;
 ```
 
 Then, you can get a currency instance by using one of these methods:
@@ -84,5 +84,5 @@ foreach (var currency in allCurrencies)
 ```
 
 ### Contributing
-I'm currently looking for help to improve the project. You can see some topics that you can help with in the [issues section of the project's GitHub page](https://github.com/andremarcondesteixeira/currency/issues).
-You can also contribute by doing unit tests, documentation, making pull requests or sharing the project. :D
+I'm currently looking for help to improve the project. You can see some topics that you can help with in the [issues section of the project's GitHub page](https://github.com/TeixeiraSoftware/Currency/issues).
+You can also contribute by doing unit tests, documentation, making pull requests or sharing the project.
