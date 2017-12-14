@@ -1,4 +1,4 @@
-[![CURRENCY](https://github.com/TeixeiraSoftware/Currency/raw/master/currency-logo.png)](https://TeixeiraSoftware.github.io/Currency/)
+[![CURRENCY](https://github.com/TeixeiraSoftware/assets/blob/master/logo_v1.png)](https://TeixeiraSoftware.github.io/Currency/)
 
 # TeixeiraSoftware.Finance.Currency [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20simple%20currency%20class%20library&url=https://TeixeiraSoftware.github.io/Currency/&hashtags=currency,money,finance,software,dotnet,simplicity,crossplatform)
 [![Build status](https://ci.appveyor.com/api/projects/status/ff4jg5689m7ify1q?svg=true)](https://ci.appveyor.com/project/TeixeiraSoftware/Currency)
