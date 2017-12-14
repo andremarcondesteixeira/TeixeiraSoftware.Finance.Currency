@@ -84,5 +84,5 @@ foreach (var currency in allCurrencies)
 ```
 
 ### Contributing
-I'm currently looking for help to improve the project. You can see some topics that you can help with in the [issues section of the project's GitHub page](https://github.com/TeixeiraSoftware/Currency/issues).
+I'm currently looking for help to improve the project. You can see some topics that you can help with in the [issues section of the project's GitHub page](https://github.com/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency/issues).
 You can also contribute by doing unit tests, documentation, making pull requests or sharing the project.
