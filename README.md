@@ -1,10 +1,10 @@
-[![CURRENCY](https://github.com/TeixeiraSoftware/assets/blob/master/logo_v1.png)](https://TeixeiraSoftware.github.io/Currency/)
+[![TeixeiraSoftware.Finance.Currency](https://github.com/TeixeiraSoftware/assets/blob/master/logo_v1.png)](https://TeixeiraSoftware.github.io/Currency/)
 
-# TeixeiraSoftware.Finance.Currency [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20simple%20currency%20class%20library&url=https://TeixeiraSoftware.github.io/Currency/&hashtags=currency,money,finance,software,dotnet,simplicity,crossplatform)
-[![Build status](https://ci.appveyor.com/api/projects/status/ff4jg5689m7ify1q?svg=true)](https://ci.appveyor.com/project/TeixeiraSoftware/Currency)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/TeixeiraSoftware/Currency/blob/master/LICENSE)
-[![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Welcome-brightgreen.svg)](https://github.com/TeixeiraSoftware/Currency/blob/master/CONTRIBUTING.md)
-[![NuGet](https://img.shields.io/nuget/dt/currency.svg)](https://www.nuget.org/packages/TeixeiraSoftware.Finance.Currency/)
+# TeixeiraSoftware.Finance.Currency [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20simple%20currency%20class%20library&url=https://TeixeiraSoftware.github.io/TeixeiraSoftware.Finance.Currency/&hashtags=currency,money,finance,software,dotnet,crossplatform)
+[![Build status](https://ci.appveyor.com/api/projects/status/ff4jg5689m7ify1q?svg=true)](https://ci.appveyor.com/project/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency/blob/master/LICENSE)
+[![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Welcome-brightgreen.svg)](https://github.com/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency/blob/master/CONTRIBUTING.md)
+[![NuGet](https://img.shields.io/nuget/dt/TeixeiraSoftware.Finance.Currency.svg)](https://www.nuget.org/packages/TeixeiraSoftware.Finance.Currency/)
 
 A simple cross platform currency class library for .Net, that follows the ISO 4217 standard.
 
