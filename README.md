@@ -12,19 +12,19 @@ The implementation of this library is compatible with .Net Standard 2.0 (see [ht
 
 TeixeiraSoftware.Finance.Currency is a value type.
 
-### Installation
+## Installation
 
 Install through NuGet Package Manager:
 ```
 Install-Package TeixeiraSoftware.Finance.Currency
 ```
 
-### Usage
+## Usage
 First of all, import the namespace, for convenience:
 ``` c#
 using TeixeiraSoftware.Finance;
 ```
-
+### Instantiation
 Then, you can get a currency instance by using one of these methods:
 
 * Calling a factory property, where XXX is the three letters ISO code of the currency:
@@ -42,7 +42,7 @@ var currency = Currency.GetByLetterCode("XXX");
 // Note that the numeric code is a string
 var currency = Currency.GetByNumericCode("999");
 ```
-
+### Properties
 The Currency class have four read only properties:
 ``` c#
 public struct Currency : IEquatable<Currency>
@@ -61,7 +61,8 @@ public struct Currency : IEquatable<Currency>
 }
 ```
 
-You can compare currencies using the operators == and !=
+### Comparing currencies
+The available comparison operators are `==` and `!=`. The `.Equals` method is available also.
 ``` c#
 // returns true
 var areCurrenciesEquivalent = (Currency.XXX == Currency.XXX);
@@ -70,7 +71,7 @@ var areCurrenciesEquivalent = (Currency.XXX == Currency.XXX);
 var areCurrenciesEquivalent = (Currency.XXX != Currency.XXX);
 ```
 
-You can get a list of all currencies:
+### Listing all the currencies
 ``` c#
 var allCurrencies = Currency.AllCurrencies;
 
@@ -83,6 +84,6 @@ foreach (var currency in allCurrencies)
 }
 ```
 
-### Contributing
+## Contributing
 I'm currently looking for help to improve the project. You can see some topics that you can help with in the [issues section of the project's GitHub page](https://github.com/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency/issues).
 You can also contribute by doing unit tests, documentation, making pull requests or sharing the project.
