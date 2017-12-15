@@ -1,6 +1,7 @@
 [![TeixeiraSoftware.Finance.Currency](https://github.com/TeixeiraSoftware/assets/raw/master/logo_small.png)](https://TeixeiraSoftware.github.io/TeixeiraSoftware.Finance.Currency/)
 
 # TeixeiraSoftware.Finance.Currency [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20simple%20currency%20class%20library&url=https://TeixeiraSoftware.github.io/TeixeiraSoftware.Finance.Currency/&hashtags=currency,money,finance,software,dotnet,crossplatform)
+
 [![Build status](https://ci.appveyor.com/api/projects/status/ff4jg5689m7ify1q?svg=true)](https://ci.appveyor.com/project/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency/blob/master/LICENSE)
 [![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Welcome-brightgreen.svg)](https://github.com/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency/blob/master/CONTRIBUTING.md)
@@ -13,7 +14,6 @@ The implementation of this library is compatible with .Net Standard 2.0 (see [ht
 TeixeiraSoftware.Finance.Currency is a value type.
 
 ## Installation
-
 Install through NuGet Package Manager:
 ```
 Install-Package TeixeiraSoftware.Finance.Currency
@@ -24,8 +24,9 @@ First of all, import the namespace, for convenience:
 ``` c#
 using TeixeiraSoftware.Finance;
 ```
+
 ### Instantiation
-Then, you can get a currency instance by using one of these methods:
+Then, you can get a currency instance by three different ways:
 
 * Calling a factory property, where XXX is the three letters ISO code of the currency:
 ``` c#
@@ -42,6 +43,7 @@ var currency = Currency.GetByLetterCode("XXX");
 // Note that the numeric code is a string
 var currency = Currency.GetByNumericCode("999");
 ```
+
 ### Properties
 The Currency class have four read only properties:
 ``` c#
@@ -72,6 +74,7 @@ var areCurrenciesEquivalent = (Currency.XXX != Currency.XXX);
 ```
 
 ### Listing all the currencies
+You can use the `Currency.AllCurrencies` property to get a list of all the currencies:
 ``` c#
 var allCurrencies = Currency.AllCurrencies;
 
