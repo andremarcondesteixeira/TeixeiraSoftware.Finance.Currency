@@ -3,23 +3,25 @@ using System.Linq;
 
 namespace TeixeiraSoftware.Finance
 {
-    public partial struct Currency : IEquatable<Currency>
+    public partial class Currency : ICurrency
     {
-        /// <summary>Gets a currency by its letter code.</summary>
-        /// <param name="letterCode">The letter code of the desired currency.</param>
+        /// <summary>Gets a currency by its alphabetic code.</summary>
+        /// <param name="alphabeticCode">The letter code of the desired currency.</param>
         /// <exception cref="System.ArgumentException">
         ///     Thrown when no currency is found with the specified letter code.
         /// </exception>
-        public static Currency GetByLetterCode(string letterCode)
+        public static ICurrency ByAlphabeticCode(string alphabeticCode)
         {
-            var filteredCurrencies = Currency.AllCurrencies.Where(currency => currency.LetterCode == letterCode);
+            var filteredCurrencies = Currency.AllCurrencies.Where(currency => currency.AlphabeticCode == alphabeticCode);
 
             if (filteredCurrencies.Count() > 0)
             {
-                return filteredCurrencies.First();
+                var currency = filteredCurrencies.First();
+
+                return new Currency(currency.AlphabeticCode, currency.NumericCode, currency.MinorUnits, currency.Name);
             }
 
-            throw new ArgumentException($"There is no registered currency with the letter code {letterCode}.");
+            throw new ArgumentException($"There is no registered currency with the alphabetic code {alphabeticCode}.");
         }
 
         /// <summary>Gets a currency by its numeric code.</summary>
@@ -27,16 +29,33 @@ namespace TeixeiraSoftware.Finance
         /// <exception cref="System.ArgumentException">
         ///     Thrown when no currency is found with the specified numeric code.
         /// </exception>
-        public static Currency GetByNumericCode(string numericCode)
+        public static ICurrency ByNumericCode(string numericCode)
         {
             var filteredCurrencies = Currency.AllCurrencies.Where(currency => currency.NumericCode == numericCode);
 
             if (filteredCurrencies.Count() > 0)
             {
-                return filteredCurrencies.First();
+                var currency = filteredCurrencies.First();
+
+                return new Currency(currency.AlphabeticCode, currency.NumericCode, currency.MinorUnits, currency.Name);
             }
 
             throw new ArgumentException($"There is no registered currency with the numeric code {numericCode}.");
+        }
+
+        /// <summary>
+        /// Compares two ICurrency instances based on their whole set of properties
+        /// </summary>
+        /// <param name="left">An ICurrency instance</param>
+        /// <param name="right">An ICurrency instance</param>
+        /// <returns>True of false</returns>
+        private static bool AreEquivalent(ICurrency left, ICurrency right)
+        {
+            return
+                left.NumericCode == right.NumericCode
+                && left.AlphabeticCode == right.AlphabeticCode
+                && left.MinorUnits == right.MinorUnits
+                && left.Name == right.Name;
         }
     }
 }

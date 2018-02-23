@@ -20,20 +20,8 @@ namespace TeixeiraSoftware.Finance
     ///         </see>
     ///     </para>
     /// </remarks>
-    public partial struct Currency : IEquatable<Currency>
+    public partial class Currency : ICurrency
     {
-        /// <summary>The 3 letters ISO code of the currency</summary>
-        public string LetterCode { get; }
-
-        /// <summary>The ISO minor units of the currency</summary>
-        public byte MinorUnits { get; }
-
-        /// <summary>The ISO name of the currency</summary>
-        public string Name { get; }
-
-        /// <summary>The numeric ISO code of the currency</summary>
-        public string NumericCode { get; }
-
         /// <summary>
         ///     Initializes a new instance of the <see cref="Currency" /> class.
         /// </summary>
@@ -51,16 +39,16 @@ namespace TeixeiraSoftware.Finance
         ///         var currency = Currency.GetByNumericCode("999");
         ///     </code>
         /// </example>
-        /// <param name="letterCode">The 3 letters ISO code of the Currency.</param>
+        /// <param name="alphabeticCode">The 3 letters ISO code of the Currency.</param>
         /// <param name="numericCode">The 3 digits numeric ISO code of the Currency.</param>
         /// <param name="minorUnits">The ISO minor units of the Currency.</param>
         /// <param name="name">The ISO name of the Currency.</param>
-        public Currency(string letterCode, string numericCode, byte minorUnits, string name)
-        {
-            this.LetterCode = letterCode;
-            this.NumericCode = numericCode;
-            this.MinorUnits = minorUnits;
-            this.Name = name;
-        }
+        public Currency(
+            string alphabeticCode,
+            string numericCode,
+            byte minorUnits,
+            string name
+        ) : base(alphabeticCode, numericCode, minorUnits, name)
+        { }
     }
 }

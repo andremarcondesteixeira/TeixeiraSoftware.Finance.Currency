@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace TeixeiraSoftware.Finance
 {
-    public partial struct Currency : IEquatable<Currency>
+    public partial class Currency : ICurrency
     {
         /// <summary>A list of all the currencies.</summary>
-        public static readonly IList<Currency> AllCurrencies = new List<Currency>
+        public static readonly IList<ICurrency> AllCurrencies = new List<ICurrency>
         {
             Currency.AED,
             Currency.AFN,

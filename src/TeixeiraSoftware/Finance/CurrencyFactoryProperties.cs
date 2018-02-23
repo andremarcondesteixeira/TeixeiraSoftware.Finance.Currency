@@ -2,7 +2,7 @@ using System;
 
 namespace TeixeiraSoftware.Finance
 {
-    public partial struct Currency : IEquatable<Currency>
+    public partial class Currency : ICurrency
     {
         /// <summary>UAE Dirham</summary>
         public static Currency AED
