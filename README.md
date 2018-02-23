@@ -11,7 +11,7 @@ A simple cross platform currency class library for .Net, that follows the ISO 42
 
 The implementation of this library is compatible with .Net Standard 2.0 (see [https://docs.microsoft.com/en-us/dotnet/standard/net-standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) for details).
 
-TeixeiraSoftware.Finance.Currency is a value type.
+This package depends on TeixeiraSoftware.Finance.Money
 
 ## Installation
 Install through NuGet Package Manager:
@@ -49,17 +49,17 @@ The Currency class have four read only properties:
 ``` c#
 public struct Currency
 {
-    // The 3 letters ISO code of the currency
-    public string AlphabeticCode { get; }
-
-    // The ISO minor units of the currency
-    public byte MinorUnits { get; }
-
     // The ISO name of the currency
     public string Name { get; }
 
+    // The 3 letters ISO code of the currency
+    public string AlphabeticCode { get; }
+
     // The numeric ISO code of the currency
     public string NumericCode { get; }
+
+    // The ISO minor units of the currency
+    public byte MinorUnits { get; }
 }
 ```
 
@@ -80,9 +80,9 @@ var allCurrencies = Currency.AllCurrencies;
 
 foreach (var currency in allCurrencies)
 {
+    var currencyName = currency.Name;
     var currencyISOAlphabeticCode = currency.AlphabeticCode;
     var currencyISONumericCode = currency.NumericCode;
-    var currencyName = currency.Name;
     var currencyMinorUnits = currency.MinorUnits;
 }
 ```
