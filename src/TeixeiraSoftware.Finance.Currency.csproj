@@ -33,6 +33,6 @@
     <DocumentationFile>bin\Release\netstandard2.0\TeixeiraSoftware.Finance.Currency.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="TeixeiraSoftware.Finance.Money" Version="4.0.1" />
+    <PackageReference Include="TeixeiraSoftware.Finance.Money" Version="5.0.0" />
   </ItemGroup>
 </Project>

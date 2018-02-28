@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Currency.csproj" />
+    <ProjectReference Include="..\src\TeixeiraSoftware.Finance.Currency.csproj" />
   </ItemGroup>
 
 </Project>

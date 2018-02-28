@@ -1,6 +1,6 @@
 ﻿namespace TeixeiraSoftware.Finance
 {
-    public partial class Currency : ICurrency
+    public partial struct Currency : ICurrency
     {
         /// <summary>Compares the equality of two currencies.</summary>
         /// <remarks>
@@ -10,7 +10,7 @@
         /// <param name="currency">An instance of <see cref="Currency" /></param>
         public override bool Equals(object currency)
         {
-            return AreEquivalent(this, (ICurrency)currency);
+            return AreEquivalent(this, (Currency)currency);
         }
 
         /// <summary>Compares the equality of two currencies.</summary>
@@ -19,7 +19,7 @@
         ///     whole set of properties.
         /// </remarks>
         /// <param name="currency">An instance of <see cref="ICurrency" /></param>
-        public override bool Equals(ICurrency currency)
+        public bool Equals(Currency currency)
         {
             return AreEquivalent(this, currency);
         }

@@ -3,16 +3,16 @@ using System.Linq;
 
 namespace TeixeiraSoftware.Finance
 {
-    public partial class Currency : ICurrency
+    public partial struct Currency : ICurrency
     {
         /// <summary>Gets a currency by its alphabetic code.</summary>
         /// <param name="alphabeticCode">The letter code of the desired currency.</param>
-        /// <exception cref="System.ArgumentException">
+        /// <exception cref="ArgumentException">
         ///     Thrown when no currency is found with the specified letter code.
         /// </exception>
         public static ICurrency ByAlphabeticCode(string alphabeticCode)
         {
-            var filteredCurrencies = Currency.AllCurrencies.Where(currency => currency.AlphabeticCode == alphabeticCode);
+            var filteredCurrencies = AllCurrencies.Where(currency => currency.Symbol == alphabeticCode);
 
             if (filteredCurrencies.Count() > 0)
             {
@@ -26,12 +26,12 @@ namespace TeixeiraSoftware.Finance
 
         /// <summary>Gets a currency by its numeric code.</summary>
         /// <param name="numericCode">The numeric code of the desired currency.</param>
-        /// <exception cref="System.ArgumentException">
+        /// <exception cref="ArgumentException">
         ///     Thrown when no currency is found with the specified numeric code.
         /// </exception>
         public static ICurrency ByNumericCode(string numericCode)
         {
-            var filteredCurrencies = Currency.AllCurrencies.Where(currency => currency.NumericCode == numericCode);
+            var filteredCurrencies = AllCurrencies.Where(currency => currency.NumericCode == numericCode);
 
             if (filteredCurrencies.Count() > 0)
             {
@@ -49,7 +49,7 @@ namespace TeixeiraSoftware.Finance
         /// <param name="left">An ICurrency instance</param>
         /// <param name="right">An ICurrency instance</param>
         /// <returns>True of false</returns>
-        private static bool AreEquivalent(ICurrency left, ICurrency right)
+        private static bool AreEquivalent(Currency left, Currency right)
         {
             return
                 left.NumericCode == right.NumericCode

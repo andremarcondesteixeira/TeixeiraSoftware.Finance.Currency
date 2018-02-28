@@ -20,8 +20,39 @@ namespace TeixeiraSoftware.Finance
     ///         </see>
     ///     </para>
     /// </remarks>
-    public partial class Currency : ICurrency
+    public partial struct Currency : ICurrency
     {
+        /// <summary>
+        /// The alphabetic ISO code of the currency.
+        /// This property is always the same as <see cref="AlphabeticCode"/>
+        /// </summary>
+        public string Symbol { get; }
+
+        /// <summary>
+        /// The name of the currency
+        /// </summary>
+        public string Name { get; }
+
+        /// <summary>
+        /// The alphabetic ISO code of the currency.
+        /// This property is always the same as <see cref="Symbol"/>
+        /// </summary>
+        public string AlphabeticCode {
+            get {
+                return Symbol;
+            }
+        }
+
+        /// <summary>
+        /// The ISO numeric code of the currency
+        /// </summary>
+        public string NumericCode { get; }
+
+        /// <summary>
+        /// The minor units of the currency
+        /// </summary>
+        public byte MinorUnits { get; }
+
         /// <summary>
         ///     Initializes a new instance of the <see cref="Currency" /> class.
         /// </summary>
@@ -48,7 +79,12 @@ namespace TeixeiraSoftware.Finance
             string numericCode,
             byte minorUnits,
             string name
-        ) : base(alphabeticCode, numericCode, minorUnits, name)
-        { }
+        )
+        {
+            Symbol = alphabeticCode;
+            NumericCode = numericCode;
+            MinorUnits = minorUnits;
+            Name = name;
+        }
     }
 }

@@ -2,7 +2,7 @@ using System;
 
 namespace TeixeiraSoftware.Finance
 {
-    public partial class Currency : ICurrency
+    public partial struct Currency : ICurrency
     {
         /// <summary>Compares the equality of two currencies.</summary>
         /// <remarks>
