@@ -1,6 +1,6 @@
 [![TeixeiraSoftware.Finance.Currency](https://github.com/TeixeiraSoftware/assets/raw/master/logo_small.png)](https://TeixeiraSoftware.github.io/TeixeiraSoftware.Finance.Currency/)
 
-# TeixeiraSoftware.Finance.Currency [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20simple%20currency%20class%20library&url=https://TeixeiraSoftware.github.io/TeixeiraSoftware.Finance.Currency/&hashtags=currency,money,finance,software,dotnet,crossplatform)
+# TeixeiraSoftware.Finance.Currency
 
 [![Build status](https://ci.appveyor.com/api/projects/status/3o49qv68nskk7cnj?svg=true)](https://ci.appveyor.com/project/TeixeiraSoftware/teixeirasoftware-finance-currency)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency/blob/master/LICENSE)
@@ -13,20 +13,8 @@ The implementation of this library is compatible with .Net Standard 2.0 (see [ht
 
 This package depends on `TeixeiraSoftware.Finance.Money`
 
-## Installation
-Install through NuGet Package Manager:
-```
-Install-Package TeixeiraSoftware.Finance.Currency
-```
-
 ## Usage
-First of all, import the namespace, for convenience:
-``` c#
-using TeixeiraSoftware.Finance;
-```
-
-### Instantiation
-Then, you can get a currency instance by three different ways:
+You can get a currency instance by three different ways:
 
 * Calling a factory property, where XXX is the three letters ISO code of the currency:
 ``` c#
@@ -45,26 +33,36 @@ var currency = Currency.ByNumericCode("999");
 ```
 
 ### Properties
-The Currency class have four read only properties:
+The Currency class have five read only properties:
 ``` c#
-public struct Currency
-{
-    // The ISO name of the currency
-    public string Name { get; }
+public partial struct Currency : ICurrency, IComparable, IComparable<ICurrency>
+    {
+        // The alphabetic ISO code of the currency
+        // This property is always the same as AlphabeticCode
+        public string Symbol { get; }
 
-    // The 3 letters ISO code of the currency
-    public string AlphabeticCode { get; }
+        // The name of the currency
+        public string Name { get; }
 
-    // The numeric ISO code of the currency
-    public string NumericCode { get; }
+        // The alphabetic ISO code of the currency
+        // This property is always the same as Symbol
+        public string AlphabeticCode {
+            get {
+                return Symbol;
+            }
+        }
 
-    // The ISO minor units of the currency
-    public byte MinorUnits { get; }
+        // The ISO numeric code of the currency
+        public string NumericCode { get; }
+
+        // The minor units of the currency
+        public byte MinorUnits { get; }
 }
 ```
 
 ### Comparing currencies
-The available comparison operators are `==` and `!=`. The `.Equals` method is available also.
+The available comparison operators are `==` and `!=`.
+The `.Equals` method is also available.
 ``` c#
 // returns true
 var areCurrenciesEquivalent = (Currency.XXX == Currency.XXX);
@@ -88,5 +86,5 @@ foreach (var currency in allCurrencies)
 ```
 
 ## Contributing
-I'm currently looking for help to improve the project. You can see some topics that you can help with in the [issues section of the project's GitHub page](https://github.com/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency/issues).
-You can also contribute by doing unit tests, documentation, making pull requests or sharing the project.
+You can see some topics that you can help with in the [issues section](https://github.com/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency/issues) of the project.
+You can also contribute by doing unit tests, writing documentation, making pull requests or sharing the project.
