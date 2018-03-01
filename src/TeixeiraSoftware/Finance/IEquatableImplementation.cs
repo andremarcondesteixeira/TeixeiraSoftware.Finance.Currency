@@ -1,33 +1,55 @@
-﻿namespace TeixeiraSoftware.Finance
+﻿using System;
+using System.Collections.Generic;
+
+namespace TeixeiraSoftware.Finance
 {
-    public partial struct Currency : ICurrency
+    public partial struct Currency : ICurrency, IComparable, IComparable<ICurrency>
     {
-        /// <summary>Compares the equality of two currencies.</summary>
+        /// <summary>Checks the equality between currencies</summary>
         /// <remarks>
-        ///     The instances of <see cref="Currency" /> class are compared through their
-        ///     whole set of properties.
+        ///     The instances of <see cref="ICurrency"/> are compared
+        ///     through the <see cref="Symbol"/> property
         /// </remarks>
-        /// <param name="currency">An instance of <see cref="Currency" /></param>
+        /// <param name="currency">An object to compare against</param>
+        /// <returns>True if currencies are the same, false otherwise</returns>
         public override bool Equals(object currency)
         {
-            return AreEquivalent(this, (Currency)currency);
+            return AreEquivalent(this, (ICurrency)currency);
         }
 
-        /// <summary>Compares the equality of two currencies.</summary>
+        /// <summary>Checks the equality between currencies</summary>
         /// <remarks>
-        ///     The instances of <see cref="ICurrency" /> class are compared through their
-        ///     whole set of properties.
+        ///     The instances of <see cref="ICurrency"/> are compared
+        ///     through the <see cref="Symbol"/> property
         /// </remarks>
-        /// <param name="currency">An instance of <see cref="ICurrency" /></param>
-        public bool Equals(Currency currency)
+        /// <param name="currency">An instance of <see cref="ICurrency"/></param>
+        /// <returns>True if currencies are the same, false otherwise</returns>
+        public bool Equals(ICurrency currency)
         {
             return AreEquivalent(this, currency);
         }
 
-        /// <remarks>The hash code is taken from the base class Object.</remarks>
+        /// <summary>Gets the hash code</summary>
+        /// <returns>The Hash code</returns>
         public override int GetHashCode()
         {
-            return base.GetHashCode();
+            var hashCode = 2085709600;
+
+            hashCode = hashCode * -1521134295 + base.GetHashCode();
+            hashCode = hashCode * -1521134295 + Hash(Symbol);
+            hashCode = hashCode * -1521134295 + Hash(Name);
+            hashCode = hashCode * -1521134295 + Hash(AlphabeticCode);
+            hashCode = hashCode * -1521134295 + Hash(NumericCode);
+            hashCode = hashCode * -1521134295 + MinorUnits.GetHashCode();
+
+            return hashCode;
+        }
+
+        /// <summary>Gets the hash code of a string</summary>
+        /// <returns>The Hash code of the string</returns>
+        private int Hash(string x)
+        {
+            return EqualityComparer<string>.Default.GetHashCode(x);
         }
     }
 }

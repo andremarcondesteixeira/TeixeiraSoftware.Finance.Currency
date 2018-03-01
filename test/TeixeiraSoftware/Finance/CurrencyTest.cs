@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using Xunit;
 
 namespace TeixeiraSoftware.Finance
@@ -9,12 +10,12 @@ namespace TeixeiraSoftware.Finance
         [Fact]
         public void All_Factory_Methods_Return_New_Currency_Instances()
         {
-            Assert.False(Object.ReferenceEquals(Currency.XXX, Currency.XXX));
-            Assert.False(Object.ReferenceEquals(
+            Assert.False(ReferenceEquals(Currency.XXX, Currency.XXX));
+            Assert.False(ReferenceEquals(
                 Currency.ByAlphabeticCode("XXX"),
                 Currency.ByAlphabeticCode("XXX")
             ));
-            Assert.False(Object.ReferenceEquals(
+            Assert.False(ReferenceEquals(
                 Currency.ByNumericCode("999"),
                 Currency.ByNumericCode("999")
             ));
@@ -36,7 +37,7 @@ namespace TeixeiraSoftware.Finance
         }
 
         [Fact]
-        public void Currency_Instances_Are_Compared_Through_Their_Whole_Set_Of_Properties()
+        public void Currency_Instances_Are_Compared_Through_The_Symbol()
         {
             Assert.Equal(
                 new Currency(
@@ -47,18 +48,18 @@ namespace TeixeiraSoftware.Finance
                 ),
                 Currency.XXX
             );
-            Assert.NotEqual(
+            Assert.Equal(
                 new Currency(
                     "XXX",
                     "999",
-                    0, // Minor Units are different
+                    0,
                     "The codes assigned for transactions where no currency is involved"
                 ),
                 new Currency(
                     "XXX",
-                    "999",
+                    "987", // A different number
                     1, // Minor Units are different
-                    "The codes assigned for transactions where no currency is involved"
+                    "A different name"
                 )
             );
             Assert.NotEqual(Currency.XTS, Currency.XXX);
@@ -67,8 +68,9 @@ namespace TeixeiraSoftware.Finance
         [Fact]
         public void There_Is_A_Publicly_Visible_Readonly_List_Of_All_Currencies()
         {
-            Assert.IsType(typeof(List<ICurrency>), Currency.AllCurrencies);
+            Assert.IsType<ReadOnlyCollection<Currency>>(Currency.AllCurrencies);
             Assert.Equal(178, Currency.AllCurrencies.Count);
+            Assert.True(Currency.AllCurrencies is IEnumerable<Currency>);
         }
     }
 }

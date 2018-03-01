@@ -3,7 +3,7 @@ using System;
 namespace TeixeiraSoftware.Finance
 {
     /// <summary>
-    ///     The <see cref="Currency" /> class follows the ISO 4217:2015 specification,
+    ///     The <see cref="Currency" /> class follows the ISO 4217 specification,
     ///     providing an easy way to represent ISO currencies.
     /// </summary>
     /// <remarks>
@@ -20,22 +20,20 @@ namespace TeixeiraSoftware.Finance
     ///         </see>
     ///     </para>
     /// </remarks>
-    public partial struct Currency : ICurrency
+    public partial struct Currency : ICurrency, IComparable, IComparable<ICurrency>
     {
         /// <summary>
-        /// The alphabetic ISO code of the currency.
-        /// This property is always the same as <see cref="AlphabeticCode"/>
+        ///     The alphabetic ISO code of the currency.
+        ///     This property is always the same as <see cref="AlphabeticCode"/>
         /// </summary>
         public string Symbol { get; }
 
-        /// <summary>
-        /// The name of the currency
-        /// </summary>
+        /// <summary>The name of the currency</summary>
         public string Name { get; }
 
         /// <summary>
-        /// The alphabetic ISO code of the currency.
-        /// This property is always the same as <see cref="Symbol"/>
+        ///     The alphabetic ISO code of the currency.
+        ///     This property is always the same as <see cref="Symbol"/>
         /// </summary>
         public string AlphabeticCode {
             get {
@@ -43,26 +41,20 @@ namespace TeixeiraSoftware.Finance
             }
         }
 
-        /// <summary>
-        /// The ISO numeric code of the currency
-        /// </summary>
+        /// <summary>The ISO numeric code of the currency</summary>
         public string NumericCode { get; }
 
-        /// <summary>
-        /// The minor units of the currency
-        /// </summary>
+        /// <summary>The minor units of the currency</summary>
         public byte MinorUnits { get; }
 
-        /// <summary>
-        ///     Initializes a new instance of the <see cref="Currency" /> class.
-        /// </summary>
+        /// <summary>Initializes a new instance of the <see cref="Currency"/> class</summary>
         /// <remarks>
         ///     Instead of using the constructor, consider using the static, lazy loaded
-        ///     properties of the <see cref="Currency" /> class.
+        ///     properties of the <see cref="Currency"/> class.
         /// </remarks>
         /// <example>
         ///     This sample shows you how to get an instance of a currency, where "XXX" is
-        ///     the 3 letters ISO code of the currency, and "999" is the 3 digits numeric
+        ///     the alphabetic ISO code of the currency, and "999" is the 3 digits numeric
         ///     ISO code of the currency:
         ///     <code>
         ///         var currency = Currency.XXX;
@@ -70,10 +62,10 @@ namespace TeixeiraSoftware.Finance
         ///         var currency = Currency.GetByNumericCode("999");
         ///     </code>
         /// </example>
-        /// <param name="alphabeticCode">The 3 letters ISO code of the Currency.</param>
-        /// <param name="numericCode">The 3 digits numeric ISO code of the Currency.</param>
-        /// <param name="minorUnits">The ISO minor units of the Currency.</param>
-        /// <param name="name">The ISO name of the Currency.</param>
+        /// <param name="alphabeticCode">The 3 alphabetic ISO code of the currency</param>
+        /// <param name="numericCode">The 3 digits numeric ISO code of the currency</param>
+        /// <param name="minorUnits">The ISO minor units of the currency</param>
+        /// <param name="name">The ISO name of the currency</param>
         public Currency(
             string alphabeticCode,
             string numericCode,

@@ -3,59 +3,73 @@ using System.Linq;
 
 namespace TeixeiraSoftware.Finance
 {
-    public partial struct Currency : ICurrency
+    public partial struct Currency : ICurrency, IComparable, IComparable<ICurrency>
     {
-        /// <summary>Gets a currency by its alphabetic code.</summary>
-        /// <param name="alphabeticCode">The letter code of the desired currency.</param>
+        /// <summary>Gets a currency by its ISO alphabetic code</summary>
+        /// <param name="alphabeticCode">The ISO alphabetic code of the desired currency</param>
         /// <exception cref="ArgumentException">
-        ///     Thrown when no currency is found with the specified letter code.
+        ///     Thrown when no currency is found with the specified ISO alphabetic code
         /// </exception>
-        public static ICurrency ByAlphabeticCode(string alphabeticCode)
+        /// <returns>A <see cref="Currency"/> instance</returns>
+        public static Currency ByAlphabeticCode(string alphabeticCode)
         {
-            var filteredCurrencies = AllCurrencies.Where(currency => currency.Symbol == alphabeticCode);
+            var filteredCurrencies = AllCurrencies.Where(
+                currency => currency.Symbol == alphabeticCode
+            );
 
             if (filteredCurrencies.Count() > 0)
             {
                 var currency = filteredCurrencies.First();
 
-                return new Currency(currency.AlphabeticCode, currency.NumericCode, currency.MinorUnits, currency.Name);
+                return new Currency(
+                    currency.AlphabeticCode,
+                    currency.NumericCode,
+                    currency.MinorUnits,
+                    currency.Name
+                );
             }
 
-            throw new ArgumentException($"There is no registered currency with the alphabetic code {alphabeticCode}.");
+            throw new ArgumentException(
+                $"There is no registered currency with the alphabetic code {alphabeticCode}"
+            );
         }
 
-        /// <summary>Gets a currency by its numeric code.</summary>
-        /// <param name="numericCode">The numeric code of the desired currency.</param>
+        /// <summary>Gets a currency by its ISO numeric code</summary>
+        /// <param name="numericCode">The ISO numeric code of the desired currency</param>
         /// <exception cref="ArgumentException">
-        ///     Thrown when no currency is found with the specified numeric code.
+        ///     Thrown when no currency is found with the specified ISO numeric code
         /// </exception>
-        public static ICurrency ByNumericCode(string numericCode)
+        /// <returns>A <see cref="Currency"/> instance</returns>
+        public static Currency ByNumericCode(string numericCode)
         {
-            var filteredCurrencies = AllCurrencies.Where(currency => currency.NumericCode == numericCode);
+            var filteredCurrencies = AllCurrencies.Where(
+                currency => currency.NumericCode == numericCode
+            );
 
             if (filteredCurrencies.Count() > 0)
             {
                 var currency = filteredCurrencies.First();
 
-                return new Currency(currency.AlphabeticCode, currency.NumericCode, currency.MinorUnits, currency.Name);
+                return new Currency(
+                    currency.AlphabeticCode,
+                    currency.NumericCode,
+                    currency.MinorUnits,
+                    currency.Name
+                );
             }
 
-            throw new ArgumentException($"There is no registered currency with the numeric code {numericCode}.");
+            throw new ArgumentException(
+                $"There is no registered currency with the numeric code {numericCode}"
+            );
         }
 
-        /// <summary>
-        /// Compares two ICurrency instances based on their whole set of properties
-        /// </summary>
-        /// <param name="left">An ICurrency instance</param>
-        /// <param name="right">An ICurrency instance</param>
+        /// <summary>Compares two <see cref="ICurrency"/> instances</summary>
+        /// <param name="left">An <see cref="ICurrency"/> instance</param>
+        /// <param name="right">An <see cref="ICurrency"/> instance</param>
         /// <returns>True of false</returns>
-        private static bool AreEquivalent(Currency left, Currency right)
+        private static bool AreEquivalent(ICurrency left, ICurrency right)
         {
-            return
-                left.NumericCode == right.NumericCode
-                && left.AlphabeticCode == right.AlphabeticCode
-                && left.MinorUnits == right.MinorUnits
-                && left.Name == right.Name;
+            return left.Symbol == right.Symbol;
         }
     }
 }
