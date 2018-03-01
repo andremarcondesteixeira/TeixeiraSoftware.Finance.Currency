@@ -70,7 +70,15 @@ namespace TeixeiraSoftware.Finance
         {
             Assert.True(Currency.XXX.Equals(Currency.XXX));
             Assert.True(Currency.XXX.Equals((Object)Currency.XXX));
-            Assert.Throws<ArgumentException>(() => Currency.XXX.Equals(new Object()));
+
+            var exception = Assert.Throws<ArgumentException>(
+                () => Currency.XXX.Equals(new Object())
+            );
+
+            Assert.Equal(
+                "System.Object is not an instance of TeixeiraSoftware.Finance.Currency",
+                exception.Message
+            );
         }
 
         [Fact]

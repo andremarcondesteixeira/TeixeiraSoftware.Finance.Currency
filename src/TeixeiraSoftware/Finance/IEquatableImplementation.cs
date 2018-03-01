@@ -19,7 +19,9 @@ namespace TeixeiraSoftware.Finance
                 return AreEquivalent(this, (ICurrency)currency);
             }
 
-            throw new ArgumentException($"{currency.ToString()} is not an instance of Currency");
+            throw new ArgumentException(
+                $"{currency.ToString()} is not an instance of TeixeiraSoftware.Finance.Currency"
+            );
         }
 
         /// <summary>Checks the equality between currencies</summary>
