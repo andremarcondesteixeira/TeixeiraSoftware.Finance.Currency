@@ -66,6 +66,14 @@ namespace TeixeiraSoftware.Finance
         }
 
         [Fact]
+        public void You_Cannot_Compare_Currency_Against_Non_Currencies()
+        {
+            Assert.True(Currency.XXX.Equals(Currency.XXX));
+            Assert.True(Currency.XXX.Equals((Object)Currency.XXX));
+            Assert.Throws<ArgumentException>(() => Currency.XXX.Equals(new Object()));
+        }
+
+        [Fact]
         public void There_Is_A_Publicly_Visible_Readonly_List_Of_All_Currencies()
         {
             Assert.IsType<ReadOnlyCollection<Currency>>(Currency.AllCurrencies);

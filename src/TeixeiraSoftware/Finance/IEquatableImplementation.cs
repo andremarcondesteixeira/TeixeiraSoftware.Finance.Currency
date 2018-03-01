@@ -14,7 +14,12 @@ namespace TeixeiraSoftware.Finance
         /// <returns>True if currencies are the same, false otherwise</returns>
         public override bool Equals(object currency)
         {
-            return AreEquivalent(this, (ICurrency)currency);
+            if (currency is ICurrency)
+            {
+                return AreEquivalent(this, (ICurrency)currency);
+            }
+
+            throw new ArgumentException($"{currency.ToString()} is not an instance of Currency");
         }
 
         /// <summary>Checks the equality between currencies</summary>
