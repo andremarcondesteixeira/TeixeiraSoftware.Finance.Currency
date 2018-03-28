@@ -3,7 +3,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>TeixeiraSoftware.Finance.Currency</AssemblyName>
     <Title>TeixeiraSoftware.Finance.Currency</Title>
-    <PackageVersion>4.0.1</PackageVersion>
+    <PackageVersion>4.0.2</PackageVersion>
     <AssemblyCompany>Teixeira Software</AssemblyCompany>
     <AssemblyDescription>A simple cross platform currency class that follows the ISO 4217 standard.</AssemblyDescription>
     <RootNamespace>TeixeiraSoftware</RootNamespace>
@@ -14,15 +14,15 @@
     <Company>Teixeira Software</Company>
     <Description>A simple cross platform currency class that follows the ISO 4217 standard.</Description>
     <Copyright>Teixeira Software</Copyright>
-    <RepositoryUrl>https://github.com/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency</RepositoryUrl>
+    <RepositoryUrl>https://github.com/andremarcondesteixeira/TeixeiraSoftware.Finance.Currency</RepositoryUrl>
     <PackageTags>currency;money;finance;netstandard</PackageTags>
     <NeutralLanguage>en</NeutralLanguage>
-    <AssemblyVersion>4.0.1.0</AssemblyVersion>
-    <FileVersion>4.0.1.0</FileVersion>
-    <Version>4.0.1</Version>
-    <PackageProjectUrl>https://teixeirasoftware.github.io/TeixeiraSoftware.Finance.Currency/</PackageProjectUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency/master/LICENSE</PackageLicenseUrl>
-    <PackageIconUrl>https://github.com/TeixeiraSoftware/assets/raw/master/logo_small.png</PackageIconUrl>
+    <AssemblyVersion>4.0.2.0</AssemblyVersion>
+    <FileVersion>4.0.2.0</FileVersion>
+    <Version>4.0.2</Version>
+    <PackageProjectUrl>https://andremarcondesteixeira.github.io/TeixeiraSoftware.Finance.Currency/</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/andremarcondesteixeira/TeixeiraSoftware.Finance.Currency/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://github.com/andremarcondesteixeira/assets/raw/master/logo_small.png</PackageIconUrl>
     <PackageReleaseNotes>First release.</PackageReleaseNotes>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
