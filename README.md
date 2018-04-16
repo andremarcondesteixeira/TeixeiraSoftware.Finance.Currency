@@ -11,7 +11,7 @@ A simple cross platform currency class library for .Net, that follows the ISO 42
 
 The implementation of this library is compatible with .Net Standard 2.0 (see [https://docs.microsoft.com/en-us/dotnet/standard/net-standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) for details).
 
-This package depends on `TeixeiraSoftware.Finance.Money`
+This package depends on `TeixeiraSoftware.Finance.Money`. `Currency` is a value type (a struct).
 
 ## Usage
 You can get a currency instance by three different ways:
@@ -33,7 +33,7 @@ var currency = Currency.ByNumericCode("999");
 ```
 
 ### Properties
-The Currency class have five read only properties:
+The Currency struct have five read only properties:
 ``` c#
 public partial struct Currency : ICurrency, IComparable, IComparable<ICurrency>
     {
