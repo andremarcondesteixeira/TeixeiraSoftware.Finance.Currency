@@ -36,27 +36,27 @@ var currency = Currency.ByNumericCode("999");
 The Currency struct have five read only properties:
 ``` c#
 public partial struct Currency : ICurrency, IComparable, IComparable<ICurrency>
-    {
-        // The alphabetic ISO code of the currency
-        // This property is always the same as AlphabeticCode
-        public string Symbol { get; }
+{
+    // The alphabetic ISO code of the currency
+    // This property is always the same as AlphabeticCode
+    public string Symbol { get; }
 
-        // The name of the currency
-        public string Name { get; }
+    // The name of the currency
+    public string Name { get; }
 
-        // The alphabetic ISO code of the currency
-        // This property is always the same as Symbol
-        public string AlphabeticCode {
-            get {
-                return Symbol;
-            }
+    // The alphabetic ISO code of the currency
+    // This property is always the same as Symbol
+    public string AlphabeticCode {
+        get {
+            return Symbol;
         }
+    }
 
-        // The ISO numeric code of the currency
-        public string NumericCode { get; }
+    // The ISO numeric code of the currency
+    public string NumericCode { get; }
 
-        // The minor units of the currency
-        public byte MinorUnits { get; }
+    // The minor units of the currency
+    public byte MinorUnits { get; }
 }
 ```
 
