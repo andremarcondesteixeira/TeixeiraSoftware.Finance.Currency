@@ -8,7 +8,7 @@ namespace TeixeiraSoftware.Finance
     public class CurrencyTest
     {
         [Fact]
-        public void All_Factory_Methods_Return_New_Currency_Instances()
+        public void Factory_Methods_Return_New_Currency_Instances()
         {
             Assert.False(ReferenceEquals(Currency.XXX, Currency.XXX));
             Assert.False(ReferenceEquals(Currency.ByAlphabeticCode("XXX"), Currency.ByAlphabeticCode("XXX")));
@@ -31,7 +31,7 @@ namespace TeixeiraSoftware.Finance
         }
 
         [Fact]
-        public void Currency_Instances_Are_Compared_Through_The_Symbol()
+        public void Currency_Instances_Are_Compared_Through_Their_Symbol_Properties()
         {
             var xxx = new Currency("XXX", "999", 0, "The codes assigned for transactions where no currency is involved");
 
@@ -41,7 +41,7 @@ namespace TeixeiraSoftware.Finance
         }
 
         [Fact]
-        public void You_Cannot_Compare_Currency_Against_Non_Currencies()
+        public void Cannot_Compare_Currency_Against_Non_Currencies()
         {
             Assert.Equal(Currency.XXX, Currency.XXX);
             Assert.Equal(Currency.XXX, (Object)Currency.XXX);
@@ -53,7 +53,7 @@ namespace TeixeiraSoftware.Finance
         }
 
         [Fact]
-        public void There_Is_A_Publicly_Visible_Readonly_List_Of_All_Currencies()
+        public void There_Is_A_Publicly_Visible_Readonly_List_Of_All_The_ISO_Currencies()
         {
             Assert.IsType<ReadOnlyCollection<Currency>>(Currency.AllCurrencies);
             Assert.Equal(178, Currency.AllCurrencies.Count);
