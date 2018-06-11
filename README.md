@@ -6,6 +6,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency/blob/master/LICENSE)
 [![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Welcome-brightgreen.svg)](https://github.com/TeixeiraSoftware/TeixeiraSoftware.Finance.Currency/blob/master/CONTRIBUTING.md)
 [![NuGet](https://img.shields.io/nuget/dt/TeixeiraSoftware.Finance.Currency.svg)](https://www.nuget.org/packages/TeixeiraSoftware.Finance.Currency/)
+[![BCH compliance](https://bettercodehub.com/edge/badge/andremarcondesteixeira/TeixeiraSoftware.Finance.Currency?branch=master)](https://bettercodehub.com/)
 
 A simple cross platform currency class library for .Net, that follows the ISO 4217 standard.
 
