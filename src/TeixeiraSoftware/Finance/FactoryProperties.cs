@@ -9,7 +9,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("AED", "784", 2, "UAE Dirham");
+                return new Currency("AED", "784", 2, "د.إ", "UAE Dirham");
             }
         }
 
@@ -18,7 +18,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("AFN", "971", 2, "Afghani");
+                return new Currency("AFN", "971", 2, "	Af", "Afghani");
             }
         }
 
@@ -27,7 +27,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("ALL", "008", 2, "Lek");
+                return new Currency("ALL", "008", 2, "L", "Lek");
             }
         }
 
@@ -36,7 +36,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("AMD", "051", 2, "Armenian Dram");
+                return new Currency("AMD", "051", 2, "Դ", "Armenian Dram");
             }
         }
 
@@ -45,7 +45,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("ANG", "532", 2, "Netherlands Antillean Guilder");
+                return new Currency("ANG", "532", 2, "ƒ", "Netherlands Antillean Guilder");
             }
         }
 
@@ -54,7 +54,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("AOA", "973", 2, "Kwanza");
+                return new Currency("AOA", "973", 2, "Kz", "Kwanza");
             }
         }
 
@@ -63,7 +63,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("ARS", "032", 2, "Argentine Peso");
+                return new Currency("ARS", "032", 2, "$", "Argentine Peso");
             }
         }
 
@@ -72,7 +72,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("AUD", "036", 2, "Australian Dollar");
+                return new Currency("AUD", "036", 2, "$", "Australian Dollar");
             }
         }
 
@@ -81,7 +81,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("AWG", "533", 2, "Aruban Florin");
+                return new Currency("AWG", "533", 2, "ƒ", "Aruban Florin");
             }
         }
 
@@ -90,7 +90,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("AZN", "944", 2, "Azerbaijanian Manat");
+                return new Currency("AZN", "944", 2, "ман", "Azerbaijanian Manat");
             }
         }
 
@@ -99,7 +99,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BAM", "977", 2, "Convertible Mark");
+                return new Currency("BAM", "977", 2, "KM", "Convertible Mark");
             }
         }
 
@@ -108,7 +108,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BBD", "052", 2, "Barbados Dollar");
+                return new Currency("BBD", "052", 2, "$", "Barbados Dollar");
             }
         }
 
@@ -117,7 +117,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BDT", "050", 2, "Taka");
+                return new Currency("BDT", "050", 2, "৳	", "Taka");
             }
         }
 
@@ -126,7 +126,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BGN", "975", 2, "Bulgarian Lev");
+                return new Currency("BGN", "975", 2, "лв", "Bulgarian Lev");
             }
         }
 
@@ -135,7 +135,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BHD", "048", 3, "Bahraini Dinar");
+                return new Currency("BHD", "048", 3, "ب.د	", "Bahraini Dinar");
             }
         }
 
@@ -144,7 +144,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BIF", "108", 0, "Burundi Franc");
+                return new Currency("BIF", "108", 0, "₣", "Burundi Franc");
             }
         }
 
@@ -153,7 +153,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BMD", "060", 2, "Bermudian Dollar");
+                return new Currency("BMD", "060", 2, "$", "Bermudian Dollar");
             }
         }
 
@@ -162,7 +162,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BND", "096", 2, "Brunei Dollar");
+                return new Currency("BND", "096", 2, "$", "Brunei Dollar");
             }
         }
 
@@ -171,7 +171,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BOB", "068", 2, "Boliviano");
+                return new Currency("BOB", "068", 2, "Bs.", "Boliviano");
             }
         }
 
@@ -180,7 +180,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BOV", "984", 2, "Mvdol");
+                return new Currency("BOV", "984", 2, null, "Mvdol");
             }
         }
 
@@ -189,7 +189,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BRL", "986", 2, "Brazilian Real");
+                return new Currency("BRL", "986", 2, "R$", "Brazilian Real");
             }
         }
 
@@ -198,7 +198,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BSD", "044", 2, "Bahamian Dollar");
+                return new Currency("BSD", "044", 2, "$", "Bahamian Dollar");
             }
         }
 
@@ -207,7 +207,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BTN", "064", 2, "Ngultrum");
+                return new Currency("BTN", "064", 2, "", "Ngultrum");
             }
         }
 
@@ -216,7 +216,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BWP", "072", 2, "Pula");
+                return new Currency("BWP", "072", 2, "P", "Pula");
             }
         }
 
@@ -225,7 +225,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BYN", "933", 2, "Belarusian Ruble");
+                return new Currency("BYN", "933", 2, "Br", "Belarusian Ruble");
             }
         }
 
@@ -234,7 +234,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("BZD", "084", 2, "Belize Dollar");
+                return new Currency("BZD", "084", 2, "$", "Belize Dollar");
             }
         }
 
@@ -243,7 +243,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("CAD", "124", 2, "Canadian Dollar");
+                return new Currency("CAD", "124", 2, "$", "Canadian Dollar");
             }
         }
 
@@ -252,7 +252,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("CDF", "976", 2, "Congolese Franc");
+                return new Currency("CDF", "976", 2, "₣", "Congolese Franc");
             }
         }
 
@@ -261,7 +261,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("CHE", "947", 2, "WIR Euro");
+                return new Currency("CHE", "947", 2, "", "WIR Euro");
             }
         }
 
@@ -270,7 +270,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("CHF", "756", 2, "Swiss Franc");
+                return new Currency("CHF", "756", 2, "₣", "Swiss Franc");
             }
         }
 
@@ -279,7 +279,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("CHW", "948", 2, "WIR Franc");
+                return new Currency("CHW", "948", 2, null, "WIR Franc");
             }
         }
 
@@ -288,7 +288,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("CLF", "990", 4, "Unidad de Fomento");
+                return new Currency("CLF", "990", 4, "UF", "Unidad de Fomento");
             }
         }
 
@@ -297,7 +297,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("CLP", "152", 0, "Chilean Peso");
+                return new Currency("CLP", "152", 0, "$", "Chilean Peso");
             }
         }
 
@@ -306,7 +306,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("CNY", "156", 2, "Yuan Renminbi");
+                return new Currency("CNY", "156", 2, "¥", "Yuan Renminbi");
             }
         }
 
@@ -315,7 +315,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("COP", "170", 2, "Colombian Peso");
+                return new Currency("COP", "170", 2, "$", "Colombian Peso");
             }
         }
 
@@ -324,7 +324,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("COU", "970", 2, "Unidad de Valor Real");
+                return new Currency("COU", "970", 2, null, "Unidad de Valor Real");
             }
         }
 
@@ -333,7 +333,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("CRC", "188", 2, "Costa Rican Colon");
+                return new Currency("CRC", "188", 2, "₡", "Costa Rican Colon");
             }
         }
 
@@ -342,7 +342,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("CUC", "931", 2, "Peso Convertible");
+                return new Currency("CUC", "931", 2, null, "Peso Convertible");
             }
         }
 
@@ -351,7 +351,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("CUP", "192", 2, "Cuban Peso");
+                return new Currency("CUP", "192", 2, "$", "Cuban Peso");
             }
         }
 
@@ -360,7 +360,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("CVE", "132", 2, "Cabo Verde Escudo");
+                return new Currency("CVE", "132", 2, "$", "Cabo Verde Escudo");
             }
         }
 
@@ -369,7 +369,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("CZK", "203", 2, "Czech Koruna");
+                return new Currency("CZK", "203", 2, "Kč", "Czech Koruna");
             }
         }
 
@@ -378,7 +378,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("DJF", "262", 0, "Djibouti Franc");
+                return new Currency("DJF", "262", 0, "₣", "Djibouti Franc");
             }
         }
 
@@ -387,7 +387,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("DKK", "208", 2, "Danish Krone");
+                return new Currency("DKK", "208", 2, "kr", "Danish Krone");
             }
         }
 
@@ -396,7 +396,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("DOP", "214", 2, "Dominican Peso");
+                return new Currency("DOP", "214", 2, "$", "Dominican Peso");
             }
         }
 
@@ -405,7 +405,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("DZD", "012", 2, "Algerian Dinar");
+                return new Currency("DZD", "012", 2, "د.ج	", "Algerian Dinar");
             }
         }
 
@@ -414,7 +414,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("EGP", "818", 2, "Egyptian Pound");
+                return new Currency("EGP", "818", 2, "£", "Egyptian Pound");
             }
         }
 
@@ -423,7 +423,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("ERN", "232", 2, "Nakfa");
+                return new Currency("ERN", "232", 2, "Nfk", "Nakfa");
             }
         }
 
@@ -432,7 +432,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("ETB", "230", 2, "Ethiopian Birr");
+                return new Currency("ETB", "230", 2, "", "Ethiopian Birr");
             }
         }
 
@@ -441,7 +441,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("EUR", "978", 2, "Euro");
+                return new Currency("EUR", "978", 2, "€", "Euro");
             }
         }
 
@@ -450,7 +450,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("FJD", "242", 2, "Fiji Dollar");
+                return new Currency("FJD", "242", 2, "$", "Fiji Dollar");
             }
         }
 
@@ -459,7 +459,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("FKP", "238", 2, "Falkland Islands Pound");
+                return new Currency("FKP", "238", 2, "£", "Falkland Islands Pound");
             }
         }
 
@@ -468,7 +468,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("GBP", "826", 2, "Pound Sterling");
+                return new Currency("GBP", "826", 2, "£", "Pound Sterling");
             }
         }
 
@@ -477,7 +477,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("GEL", "981", 2, "Lari");
+                return new Currency("GEL", "981", 2, "ლ", "Lari");
             }
         }
 
@@ -486,7 +486,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("GHS", "936", 2, "Ghana Cedi");
+                return new Currency("GHS", "936", 2, "₵", "Ghana Cedi");
             }
         }
 
@@ -495,7 +495,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("GIP", "292", 2, "Gibraltar Pound");
+                return new Currency("GIP", "292", 2, "£", "Gibraltar Pound");
             }
         }
 
@@ -504,7 +504,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("GMD", "270", 2, "Dalasi");
+                return new Currency("GMD", "270", 2, "D", "Dalasi");
             }
         }
 
@@ -513,7 +513,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("GNF", "324", 0, "Guinea Franc");
+                return new Currency("GNF", "324", 0, "₣", "Guinea Franc");
             }
         }
 
@@ -522,7 +522,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("GTQ", "320", 2, "Quetzal");
+                return new Currency("GTQ", "320", 2, "Q", "Quetzal");
             }
         }
 
@@ -531,7 +531,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("GYD", "328", 2, "Guyana Dollar");
+                return new Currency("GYD", "328", 2, "$", "Guyana Dollar");
             }
         }
 
@@ -540,7 +540,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("HKD", "344", 2, "Hong Kong Dollar");
+                return new Currency("HKD", "344", 2, "$", "Hong Kong Dollar");
             }
         }
 
@@ -549,7 +549,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("HNL", "340", 2, "Lempira");
+                return new Currency("HNL", "340", 2, "L", "Lempira");
             }
         }
 
@@ -558,7 +558,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("HRK", "191", 2, "Kuna");
+                return new Currency("HRK", "191", 2, "Kn", "Kuna");
             }
         }
 
@@ -567,7 +567,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("HTG", "332", 2, "Gourde");
+                return new Currency("HTG", "332", 2, "G", "Gourde");
             }
         }
 
@@ -576,7 +576,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("HUF", "348", 2, "Forint");
+                return new Currency("HUF", "348", 2, "Ft", "Forint");
             }
         }
 
@@ -585,7 +585,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("IDR", "360", 2, "Rupiah");
+                return new Currency("IDR", "360", 2, "Rp", "Rupiah");
             }
         }
 
@@ -594,7 +594,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("ILS", "376", 2, "New Israeli Sheqel");
+                return new Currency("ILS", "376", 2, "₪", "New Israeli Sheqel");
             }
         }
 
@@ -603,7 +603,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("INR", "356", 2, "Indian Rupee");
+                return new Currency("INR", "356", 2, "₹", "Indian Rupee");
             }
         }
 
@@ -612,7 +612,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("IQD", "368", 3, "Iraqi Dinar");
+                return new Currency("IQD", "368", 3, "ع.د", "Iraqi Dinar");
             }
         }
 
@@ -621,7 +621,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("IRR", "364", 2, "Iranian Rial");
+                return new Currency("IRR", "364", 2, "	﷼", "Iranian Rial");
             }
         }
 
@@ -630,7 +630,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("ISK", "352", 0, "Iceland Krona");
+                return new Currency("ISK", "352", 0, "Kr", "Iceland Krona");
             }
         }
 
@@ -639,7 +639,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("JMD", "388", 2, "Jamaican Dollar");
+                return new Currency("JMD", "388", 2, "$", "Jamaican Dollar");
             }
         }
 
@@ -648,7 +648,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("JOD", "400", 3, "Jordanian Dinar");
+                return new Currency("JOD", "400", 3, "	د.ا", "Jordanian Dinar");
             }
         }
 
@@ -657,7 +657,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("JPY", "392", 0, "Yen");
+                return new Currency("JPY", "392", 0, "¥", "Yen");
             }
         }
 
@@ -666,7 +666,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("KES", "404", 2, "Kenyan Shilling");
+                return new Currency("KES", "404", 2, "Sh", "Kenyan Shilling");
             }
         }
 
@@ -675,7 +675,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("KGS", "417", 2, "Som");
+                return new Currency("KGS", "417", 2, "", "Som");
             }
         }
 
@@ -684,7 +684,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("KHR", "116", 2, "Riel");
+                return new Currency("KHR", "116", 2, "៛", "Riel");
             }
         }
 
@@ -693,7 +693,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("KMF", "174", 0, "Comoro Franc");
+                return new Currency("KMF", "174", 0, null, "Comoro Franc");
             }
         }
 
@@ -702,7 +702,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("KPW", "408", 2, "North Korean Won");
+                return new Currency("KPW", "408", 2, "₩	", "North Korean Won");
             }
         }
 
@@ -711,7 +711,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("KRW", "410", 0, "Won");
+                return new Currency("KRW", "410", 0, "₩	", "Won");
             }
         }
 
@@ -720,7 +720,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("KWD", "414", 3, "Kuwaiti Dinar");
+                return new Currency("KWD", "414", 3, "	د.ك", "Kuwaiti Dinar");
             }
         }
 
@@ -729,7 +729,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("KYD", "136", 2, "Cayman Islands Dollar");
+                return new Currency("KYD", "136", 2, "$", "Cayman Islands Dollar");
             }
         }
 
@@ -738,7 +738,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("KZT", "398", 2, "Tenge");
+                return new Currency("KZT", "398", 2, "〒", "Tenge");
             }
         }
 
@@ -747,7 +747,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("LAK", "418", 2, "Kip");
+                return new Currency("LAK", "418", 2, "₭", "Kip");
             }
         }
 
@@ -756,7 +756,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("LBP", "422", 2, "Lebanese Pound");
+                return new Currency("LBP", "422", 2, "	ل.ل", "Lebanese Pound");
             }
         }
 
@@ -765,7 +765,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("LKR", "144", 2, "Sri Lanka Rupee");
+                return new Currency("LKR", "144", 2, "Rs", "Sri Lanka Rupee");
             }
         }
 
@@ -774,7 +774,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("LRD", "430", 2, "Liberian Dollar");
+                return new Currency("LRD", "430", 2, "$", "Liberian Dollar");
             }
         }
 
@@ -783,7 +783,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("LSL", "426", 2, "Loti");
+                return new Currency("LSL", "426", 2, "L", "Loti");
             }
         }
 
@@ -792,7 +792,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("LYD", "434", 3, "Libyan Dinar");
+                return new Currency("LYD", "434", 3, "	ل.د", "Libyan Dinar");
             }
         }
 
@@ -801,7 +801,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MAD", "504", 2, "Moroccan Dirham");
+                return new Currency("MAD", "504", 2, "د.م.", "Moroccan Dirham");
             }
         }
 
@@ -810,7 +810,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MDL", "498", 2, "Moldovan Leu");
+                return new Currency("MDL", "498", 2, "L", "Moldovan Leu");
             }
         }
 
@@ -819,7 +819,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MGA", "969", 2, "Malagasy Ariary");
+                return new Currency("MGA", "969", 2, "", "Malagasy Ariary");
             }
         }
 
@@ -828,7 +828,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MKD", "807", 2, "Denar");
+                return new Currency("MKD", "807", 2, "ден", "Denar");
             }
         }
 
@@ -837,7 +837,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MMK", "104", 2, "Kyat");
+                return new Currency("MMK", "104", 2, "MMK", "Kyat");
             }
         }
 
@@ -846,7 +846,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MNT", "496", 2, "Tugrik");
+                return new Currency("MNT", "496", 2, "₮	", "Tugrik");
             }
         }
 
@@ -855,7 +855,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MOP", "446", 2, "Pataca");
+                return new Currency("MOP", "446", 2, "P", "Pataca");
             }
         }
 
@@ -864,7 +864,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MRO", "478", 2, "Ouguiya");
+                return new Currency("MRO", "478", 2, "UM", "Ouguiya");
             }
         }
 
@@ -873,7 +873,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MUR", "480", 2, "Mauritius Rupee");
+                return new Currency("MUR", "480", 2, "Rs", "Mauritius Rupee");
             }
         }
 
@@ -882,7 +882,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MVR", "462", 2, "Rufiyaa");
+                return new Currency("MVR", "462", 2, "ރ.	", "Rufiyaa");
             }
         }
 
@@ -891,7 +891,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MWK", "454", 2, "Malawi Kwacha");
+                return new Currency("MWK", "454", 2, "MK", "Malawi Kwacha");
             }
         }
 
@@ -900,7 +900,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MXN", "484", 2, "Mexican Peso");
+                return new Currency("MXN", "484", 2, "$", "Mexican Peso");
             }
         }
 
@@ -909,7 +909,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MXV", "979", 2, "Mexican Unidad de Inversion (UDI)");
+                return new Currency("MXV", "979", 2, null, "Mexican Unidad de Inversion (UDI)");
             }
         }
 
@@ -918,7 +918,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MYR", "458", 2, "Malaysian Ringgit");
+                return new Currency("MYR", "458", 2, "RM", "Malaysian Ringgit");
             }
         }
 
@@ -927,7 +927,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("MZN", "943", 2, "Mozambique Metical");
+                return new Currency("MZN", "943", 2, "MTn	", "Mozambique Metical");
             }
         }
 
@@ -936,7 +936,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("NAD", "516", 2, "Namibia Dollar");
+                return new Currency("NAD", "516", 2, "$", "Namibia Dollar");
             }
         }
 
@@ -945,7 +945,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("NGN", "566", 2, "Naira");
+                return new Currency("NGN", "566", 2, "₦", "Naira");
             }
         }
 
@@ -954,7 +954,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("NIO", "558", 2, "Cordoba Oro");
+                return new Currency("NIO", "558", 2, "C$", "Cordoba Oro");
             }
         }
 
@@ -963,7 +963,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("NOK", "578", 2, "Norwegian Krone");
+                return new Currency("NOK", "578", 2, "kr", "Norwegian Krone");
             }
         }
 
@@ -972,7 +972,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("NPR", "524", 2, "Nepalese Rupee");
+                return new Currency("NPR", "524", 2, "₨", "Nepalese Rupee");
             }
         }
 
@@ -981,7 +981,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("NZD", "554", 2, "New Zealand Dollar");
+                return new Currency("NZD", "554", 2, "$", "New Zealand Dollar");
             }
         }
 
@@ -990,7 +990,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("OMR", "512", 3, "Rial Omani");
+                return new Currency("OMR", "512", 3, "ر.ع.	", "Rial Omani");
             }
         }
 
@@ -999,7 +999,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("PAB", "590", 2, "Balboa");
+                return new Currency("PAB", "590", 2, "B/.", "Balboa");
             }
         }
 
@@ -1008,7 +1008,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("PEN", "604", 2, "Sol");
+                return new Currency("PEN", "604", 2, "S/.", "Sol");
             }
         }
 
@@ -1017,7 +1017,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("PGK", "598", 2, "Kina");
+                return new Currency("PGK", "598", 2, "K", "Kina");
             }
         }
 
@@ -1026,7 +1026,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("PHP", "608", 2, "Philippine Peso");
+                return new Currency("PHP", "608", 2, "₱", "Philippine Peso");
             }
         }
 
@@ -1035,7 +1035,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("PKR", "586", 2, "Pakistan Rupee");
+                return new Currency("PKR", "586", 2, "₨", "Pakistan Rupee");
             }
         }
 
@@ -1044,7 +1044,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("PLN", "985", 2, "Zloty");
+                return new Currency("PLN", "985", 2, "zł", "Zloty");
             }
         }
 
@@ -1053,7 +1053,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("PYG", "600", 0, "Guarani");
+                return new Currency("PYG", "600", 0, "₲	", "Guarani");
             }
         }
 
@@ -1062,7 +1062,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("QAR", "634", 2, "Qatari Rial");
+                return new Currency("QAR", "634", 2, "ر.ق	", "Qatari Rial");
             }
         }
 
@@ -1071,7 +1071,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("RON", "946", 2, "Romanian Leu");
+                return new Currency("RON", "946", 2, "L", "Romanian Leu");
             }
         }
 
@@ -1080,7 +1080,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("RSD", "941", 2, "Serbian Dinar");
+                return new Currency("RSD", "941", 2, "din", "Serbian Dinar");
             }
         }
 
@@ -1089,7 +1089,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("RUB", "643", 2, "Russian Ruble");
+                return new Currency("RUB", "643", 2, "р.", "Russian Ruble");
             }
         }
 
@@ -1098,7 +1098,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("RWF", "646", 0, "Rwanda Franc");
+                return new Currency("RWF", "646", 0, "₣", "Rwanda Franc");
             }
         }
 
@@ -1107,7 +1107,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SAR", "682", 2, "Saudi Riyal");
+                return new Currency("SAR", "682", 2, "ر.س	", "Saudi Riyal");
             }
         }
 
@@ -1116,7 +1116,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SBD", "090", 2, "Solomon Islands Dollar");
+                return new Currency("SBD", "090", 2, "$", "Solomon Islands Dollar");
             }
         }
 
@@ -1125,7 +1125,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SCR", "690", 2, "Seychelles Rupee");
+                return new Currency("SCR", "690", 2, "₨", "Seychelles Rupee");
             }
         }
 
@@ -1134,7 +1134,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SDG", "938", 2, "Sudanese Pound");
+                return new Currency("SDG", "938", 2, "£", "Sudanese Pound");
             }
         }
 
@@ -1143,7 +1143,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SEK", "752", 2, "Swedish Krona");
+                return new Currency("SEK", "752", 2, "kr", "Swedish Krona");
             }
         }
 
@@ -1152,7 +1152,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SGD", "702", 2, "Singapore Dollar");
+                return new Currency("SGD", "702", 2, "$", "Singapore Dollar");
             }
         }
 
@@ -1161,7 +1161,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SHP", "654", 2, "Saint Helena Pound");
+                return new Currency("SHP", "654", 2, "£", "Saint Helena Pound");
             }
         }
 
@@ -1170,7 +1170,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SLL", "694", 2, "Leone");
+                return new Currency("SLL", "694", 2, "Le", "Leone");
             }
         }
 
@@ -1179,7 +1179,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SOS", "706", 2, "Somali Shilling");
+                return new Currency("SOS", "706", 2, "Sh", "Somali Shilling");
             }
         }
 
@@ -1188,7 +1188,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SRD", "968", 2, "Surinam Dollar");
+                return new Currency("SRD", "968", 2, "$", "Surinam Dollar");
             }
         }
 
@@ -1197,7 +1197,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SSP", "728", 2, "South Sudanese Pound");
+                return new Currency("SSP", "728", 2, null, "South Sudanese Pound");
             }
         }
 
@@ -1206,7 +1206,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("STD", "678", 2, "Dobra");
+                return new Currency("STD", "678", 2, "Db", "Dobra");
             }
         }
 
@@ -1215,7 +1215,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SVC", "222", 2, "El Salvador Colon");
+                return new Currency("SVC", "222", 2, "$", "El Salvador Colon");
             }
         }
 
@@ -1224,7 +1224,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SYP", "760", 2, "Syrian Pound");
+                return new Currency("SYP", "760", 2, "ل.س	", "Syrian Pound");
             }
         }
 
@@ -1233,7 +1233,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("SZL", "748", 2, "Lilangeni");
+                return new Currency("SZL", "748", 2, "L", "Lilangeni");
             }
         }
 
@@ -1242,7 +1242,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("THB", "764", 2, "Baht");
+                return new Currency("THB", "764", 2, "฿	", "Baht");
             }
         }
 
@@ -1251,7 +1251,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("TJS", "972", 2, "Somoni");
+                return new Currency("TJS", "972", 2, "SM", "Somoni");
             }
         }
 
@@ -1260,7 +1260,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("TMT", "934", 2, "Turkmenistan New Manat");
+                return new Currency("TMT", "934", 2, "m", "Turkmenistan New Manat");
             }
         }
 
@@ -1269,7 +1269,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("TND", "788", 3, "Tunisian Dinar");
+                return new Currency("TND", "788", 3, "د.ت	", "Tunisian Dinar");
             }
         }
 
@@ -1278,7 +1278,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("TOP", "776", 2, "Pa’anga");
+                return new Currency("TOP", "776", 2, "T$", "Pa’anga");
             }
         }
 
@@ -1287,7 +1287,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("TRY", "949", 2, "Turkish Lira");
+                return new Currency("TRY", "949", 2, "₤	", "Turkish Lira");
             }
         }
 
@@ -1296,7 +1296,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("TTD", "780", 2, "Trinidad and Tobago Dollar");
+                return new Currency("TTD", "780", 2, "$", "Trinidad and Tobago Dollar");
             }
         }
 
@@ -1305,7 +1305,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("TWD", "901", 2, "New Taiwan Dollar");
+                return new Currency("TWD", "901", 2, "$", "New Taiwan Dollar");
             }
         }
 
@@ -1314,7 +1314,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("TZS", "834", 2, "Tanzanian Shilling");
+                return new Currency("TZS", "834", 2, "Sh", "Tanzanian Shilling");
             }
         }
 
@@ -1323,7 +1323,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("UAH", "980", 2, "Hryvnia");
+                return new Currency("UAH", "980", 2, "₴	", "Hryvnia");
             }
         }
 
@@ -1332,7 +1332,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("UGX", "800", 0, "Uganda Shilling");
+                return new Currency("UGX", "800", 0, "Sh", "Uganda Shilling");
             }
         }
 
@@ -1341,7 +1341,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("USD", "840", 2, "US Dollar");
+                return new Currency("USD", "840", 2, "$", "US Dollar");
             }
         }
 
@@ -1350,7 +1350,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("USN", "997", 2, "US Dollar (Next day)");
+                return new Currency("USN", "997", 2, "$", "US Dollar (Next day)");
             }
         }
 
@@ -1359,7 +1359,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("UYI", "940", 0, "Uruguay Peso en Unidades Indexadas (URUIURUI)");
+                return new Currency("UYI", "940", 0, null, "Uruguay Peso en Unidades Indexadas (URUIURUI)");
             }
         }
 
@@ -1368,7 +1368,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("UYU", "858", 2, "Peso Uruguayo");
+                return new Currency("UYU", "858", 2, "$", "Peso Uruguayo");
             }
         }
 
@@ -1377,7 +1377,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("UZS", "860", 2, "Uzbekistan Sum");
+                return new Currency("UZS", "860", 2, "", "Uzbekistan Sum");
             }
         }
 
@@ -1386,7 +1386,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("VEF", "937", 2, "Bolívar");
+                return new Currency("VEF", "937", 2, "Bs F", "Bolívar");
             }
         }
 
@@ -1395,7 +1395,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("VND", "704", 0, "Dong");
+                return new Currency("VND", "704", 0, "₫	", "Dong");
             }
         }
 
@@ -1404,7 +1404,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("VUV", "548", 0, "Vatu");
+                return new Currency("VUV", "548", 0, "Vt", "Vatu");
             }
         }
 
@@ -1413,7 +1413,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("WST", "882", 2, "Tala");
+                return new Currency("WST", "882", 2, "WST", "Tala");
             }
         }
 
@@ -1422,7 +1422,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XAF", "950", 0, "CFA Franc BEAC");
+                return new Currency("XAF", "950", 0, "₣", "CFA Franc BEAC");
             }
         }
 
@@ -1431,7 +1431,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XAG", "961", 0, "Silver");
+                return new Currency("XAG", "961", 0, null, "Silver");
             }
         }
 
@@ -1440,7 +1440,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XAU", "959", 0, "Gold");
+                return new Currency("XAU", "959", 0, null, "Gold");
             }
         }
 
@@ -1449,7 +1449,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XBA", "955", 0, "Bond Markets Unit European Composite Unit (EURCO)");
+                return new Currency("XBA", "955", 0, null, "Bond Markets Unit European Composite Unit (EURCO)");
             }
         }
 
@@ -1458,7 +1458,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XBB", "956", 0, "Bond Markets Unit European Monetary Unit (E.M.U.-6)");
+                return new Currency("XBB", "956", 0, null, "Bond Markets Unit European Monetary Unit (E.M.U.-6)");
             }
         }
 
@@ -1467,7 +1467,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XBC", "957", 0, "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)");
+                return new Currency("XBC", "957", 0, null, "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)");
             }
         }
 
@@ -1476,7 +1476,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XBD", "958", 0, "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)");
+                return new Currency("XBD", "958", 0, null, "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)");
             }
         }
 
@@ -1485,7 +1485,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XCD", "951", 2, "East Caribbean Dollar");
+                return new Currency("XCD", "951", 2, "$", "East Caribbean Dollar");
             }
         }
 
@@ -1494,7 +1494,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XDR", "960", 0, "SDR (Special Drawing Right)");
+                return new Currency("XDR", "960", 0, null, "SDR (Special Drawing Right)");
             }
         }
 
@@ -1503,7 +1503,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XOF", "952", 0, "CFA Franc BCEAO");
+                return new Currency("XOF", "952", 0, null, "CFA Franc BCEAO");
             }
         }
 
@@ -1512,7 +1512,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XPD", "964", 0, "Palladium");
+                return new Currency("XPD", "964", 0, null, "Palladium");
             }
         }
 
@@ -1521,7 +1521,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XPF", "953", 0, "CFP Franc");
+                return new Currency("XPF", "953", 0, "₣", "CFP Franc");
             }
         }
 
@@ -1530,7 +1530,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XPT", "962", 0, "Platinum");
+                return new Currency("XPT", "962", 0, null, "Platinum");
             }
         }
 
@@ -1539,7 +1539,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XSU", "994", 0, "Sucre");
+                return new Currency("XSU", "994", 0, null, "Sucre");
             }
         }
 
@@ -1548,7 +1548,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XTS", "963", 0, "Codes specifically reserved for testing purposes");
+                return new Currency("XTS", "963", 0, null, "Codes specifically reserved for testing purposes");
             }
         }
 
@@ -1557,7 +1557,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XUA", "965", 0, "ADB Unit of Account");
+                return new Currency("XUA", "965", 0, null, "ADB Unit of Account");
             }
         }
 
@@ -1566,7 +1566,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("XXX", "999", 0, "The codes assigned for transactions where no currency is involved");
+                return new Currency("XXX", "999", 0, "", "The codes assigned for transactions where no currency is involved");
             }
         }
 
@@ -1575,7 +1575,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("YER", "886", 2, "Yemeni Rial");
+                return new Currency("YER", "886", 2, "﷼	", "Yemeni Rial");
             }
         }
 
@@ -1584,7 +1584,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("ZAR", "710", 2, "Rand");
+                return new Currency("ZAR", "710", 2, "R", "Rand");
             }
         }
 
@@ -1593,7 +1593,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("ZMW", "967", 2, "Zambian Kwacha");
+                return new Currency("ZMW", "967", 2, "ZK", "Zambian Kwacha");
             }
         }
 
@@ -1602,7 +1602,7 @@ namespace TeixeiraSoftware.Finance
         {
             get
             {
-                return new Currency("ZWL", "932", 2, "Zimbabwe Dollar");
+                return new Currency("ZWL", "932", 2, "$", "Zimbabwe Dollar");
             }
         }
     }
