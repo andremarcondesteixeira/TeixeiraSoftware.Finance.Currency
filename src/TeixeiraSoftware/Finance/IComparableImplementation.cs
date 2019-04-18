@@ -13,7 +13,13 @@ namespace TeixeiraSoftware.Finance
         /// </returns>
         public int CompareTo(object other)
         {
-            throw new NotImplementedException();
+            if (other is ICurrency) {
+                return this.Symbol.CompareTo(((ICurrency) other).Symbol);
+            }
+
+            throw new ArgumentException(
+                $"{other.ToString()} is not an instance of TeixeiraSoftware.Finance.ICurrency"
+            );
         }
 
         /// <summary>Compares two currencies for sorting purposes</summary>
@@ -25,7 +31,7 @@ namespace TeixeiraSoftware.Finance
         /// </returns>
         public int CompareTo(ICurrency other)
         {
-            throw new NotImplementedException();
+            return this.Symbol.CompareTo(other.Symbol);
         }
     }
 }

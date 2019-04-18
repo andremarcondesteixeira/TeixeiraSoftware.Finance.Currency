@@ -3,7 +3,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>TeixeiraSoftware.Finance.Currency</AssemblyName>
     <Title>TeixeiraSoftware.Finance.Currency</Title>
-    <PackageVersion>4.0.3</PackageVersion>
+    <PackageVersion>4.1.0</PackageVersion>
     <AssemblyCompany>Teixeira Software</AssemblyCompany>
     <AssemblyDescription>A simple cross platform currency class that follows the ISO 4217 standard.</AssemblyDescription>
     <RootNamespace>TeixeiraSoftware</RootNamespace>
@@ -17,13 +17,13 @@
     <RepositoryUrl>https://github.com/andremarcondesteixeira/TeixeiraSoftware.Finance.Currency</RepositoryUrl>
     <PackageTags>currency;money;finance;netstandard</PackageTags>
     <NeutralLanguage>en</NeutralLanguage>
-    <AssemblyVersion>4.0.3.0</AssemblyVersion>
-    <FileVersion>4.0.3.0</FileVersion>
-    <Version>4.0.3</Version>
+    <AssemblyVersion>4.1.0.0</AssemblyVersion>
+    <FileVersion>4.1.0.0</FileVersion>
+    <Version>4.1.0</Version>
     <PackageProjectUrl>https://andremarcondesteixeira.github.io/TeixeiraSoftware.Finance.Currency/</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIconUrl>https://github.com/andremarcondesteixeira/assets/raw/master/logo_small.png</PackageIconUrl>
-    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added currency signs and sorting</PackageReleaseNotes>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <Optimize>True</Optimize>

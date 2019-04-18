@@ -11,6 +11,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("784", Currency.AED.NumericCode);
             Assert.Equal("UAE Dirham", Currency.AED.Name);
             Assert.Equal(2, Currency.AED.MinorUnits);
+            Assert.Equal("د.إ", Currency.AED.Sign);
         }
 
         [Fact]
@@ -20,6 +21,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("971", Currency.AFN.NumericCode);
             Assert.Equal("Afghani", Currency.AFN.Name);
             Assert.Equal(2, Currency.AFN.MinorUnits);
+            Assert.Equal("Af", Currency.AFN.Sign);
         }
 
         [Fact]
@@ -29,6 +31,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("008", Currency.ALL.NumericCode);
             Assert.Equal("Lek", Currency.ALL.Name);
             Assert.Equal(2, Currency.ALL.MinorUnits);
+            Assert.Equal("L", Currency.ALL.Sign);
         }
 
         [Fact]
@@ -38,6 +41,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("051", Currency.AMD.NumericCode);
             Assert.Equal("Armenian Dram", Currency.AMD.Name);
             Assert.Equal(2, Currency.AMD.MinorUnits);
+            Assert.Equal("Դ", Currency.AMD.Sign);
         }
 
         [Fact]
@@ -47,6 +51,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("532", Currency.ANG.NumericCode);
             Assert.Equal("Netherlands Antillean Guilder", Currency.ANG.Name);
             Assert.Equal(2, Currency.ANG.MinorUnits);
+            Assert.Equal("ƒ", Currency.ANG.Sign);
         }
 
         [Fact]
@@ -56,6 +61,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("973", Currency.AOA.NumericCode);
             Assert.Equal("Kwanza", Currency.AOA.Name);
             Assert.Equal(2, Currency.AOA.MinorUnits);
+            Assert.Equal("Kz", Currency.AOA.Sign);
         }
 
         [Fact]
@@ -65,6 +71,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("032", Currency.ARS.NumericCode);
             Assert.Equal("Argentine Peso", Currency.ARS.Name);
             Assert.Equal(2, Currency.ARS.MinorUnits);
+            Assert.Equal("$", Currency.ARS.Sign);
         }
 
         [Fact]
@@ -74,6 +81,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("036", Currency.AUD.NumericCode);
             Assert.Equal("Australian Dollar", Currency.AUD.Name);
             Assert.Equal(2, Currency.AUD.MinorUnits);
+            Assert.Equal("$", Currency.AUD.Sign);
         }
 
         [Fact]
@@ -83,6 +91,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("533", Currency.AWG.NumericCode);
             Assert.Equal("Aruban Florin", Currency.AWG.Name);
             Assert.Equal(2, Currency.AWG.MinorUnits);
+            Assert.Equal("ƒ", Currency.AWG.Sign);
         }
 
         [Fact]
@@ -92,6 +101,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("944", Currency.AZN.NumericCode);
             Assert.Equal("Azerbaijanian Manat", Currency.AZN.Name);
             Assert.Equal(2, Currency.AZN.MinorUnits);
+            Assert.Equal("ман", Currency.AZN.Sign);
         }
 
         [Fact]
@@ -101,6 +111,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("977", Currency.BAM.NumericCode);
             Assert.Equal("Convertible Mark", Currency.BAM.Name);
             Assert.Equal(2, Currency.BAM.MinorUnits);
+            Assert.Equal("KM", Currency.BAM.Sign);
         }
 
         [Fact]
@@ -110,6 +121,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("052", Currency.BBD.NumericCode);
             Assert.Equal("Barbados Dollar", Currency.BBD.Name);
             Assert.Equal(2, Currency.BBD.MinorUnits);
+            Assert.Equal("$", Currency.BBD.Sign);
         }
 
         [Fact]
@@ -119,6 +131,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("050", Currency.BDT.NumericCode);
             Assert.Equal("Taka", Currency.BDT.Name);
             Assert.Equal(2, Currency.BDT.MinorUnits);
+            Assert.Equal("৳", Currency.BDT.Sign);
         }
 
         [Fact]
@@ -128,6 +141,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("975", Currency.BGN.NumericCode);
             Assert.Equal("Bulgarian Lev", Currency.BGN.Name);
             Assert.Equal(2, Currency.BGN.MinorUnits);
+            Assert.Equal("лв", Currency.BGN.Sign);
         }
 
         [Fact]
@@ -137,6 +151,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("048", Currency.BHD.NumericCode);
             Assert.Equal("Bahraini Dinar", Currency.BHD.Name);
             Assert.Equal(3, Currency.BHD.MinorUnits);
+            Assert.Equal("ب.د", Currency.BHD.Sign);
         }
 
         [Fact]
@@ -146,6 +161,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("108", Currency.BIF.NumericCode);
             Assert.Equal("Burundi Franc", Currency.BIF.Name);
             Assert.Equal(0, Currency.BIF.MinorUnits);
+            Assert.Equal("₣", Currency.BIF.Sign);
         }
 
         [Fact]
@@ -155,6 +171,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("060", Currency.BMD.NumericCode);
             Assert.Equal("Bermudian Dollar", Currency.BMD.Name);
             Assert.Equal(2, Currency.BMD.MinorUnits);
+            Assert.Equal("$", Currency.BMD.Sign);
         }
 
         [Fact]
@@ -164,6 +181,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("096", Currency.BND.NumericCode);
             Assert.Equal("Brunei Dollar", Currency.BND.Name);
             Assert.Equal(2, Currency.BND.MinorUnits);
+            Assert.Equal("$", Currency.BND.Sign);
         }
 
         [Fact]
@@ -173,6 +191,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("068", Currency.BOB.NumericCode);
             Assert.Equal("Boliviano", Currency.BOB.Name);
             Assert.Equal(2, Currency.BOB.MinorUnits);
+            Assert.Equal("Bs.", Currency.BOB.Sign);
         }
 
         [Fact]
@@ -182,6 +201,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("984", Currency.BOV.NumericCode);
             Assert.Equal("Mvdol", Currency.BOV.Name);
             Assert.Equal(2, Currency.BOV.MinorUnits);
+            Assert.Equal(null, Currency.BOV.Sign);
         }
 
         [Fact]
@@ -191,6 +211,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("986", Currency.BRL.NumericCode);
             Assert.Equal("Brazilian Real", Currency.BRL.Name);
             Assert.Equal(2, Currency.BRL.MinorUnits);
+            Assert.Equal("R$", Currency.BRL.Sign);
         }
 
         [Fact]
@@ -200,6 +221,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("044", Currency.BSD.NumericCode);
             Assert.Equal("Bahamian Dollar", Currency.BSD.Name);
             Assert.Equal(2, Currency.BSD.MinorUnits);
+            Assert.Equal("$", Currency.BSD.Sign);
         }
 
         [Fact]
@@ -209,6 +231,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("064", Currency.BTN.NumericCode);
             Assert.Equal("Ngultrum", Currency.BTN.Name);
             Assert.Equal(2, Currency.BTN.MinorUnits);
+            Assert.Equal("", Currency.BTN.Sign);
         }
 
         [Fact]
@@ -218,6 +241,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("072", Currency.BWP.NumericCode);
             Assert.Equal("Pula", Currency.BWP.Name);
             Assert.Equal(2, Currency.BWP.MinorUnits);
+            Assert.Equal("P", Currency.BWP.Sign);
         }
 
         [Fact]
@@ -227,6 +251,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("933", Currency.BYN.NumericCode);
             Assert.Equal("Belarusian Ruble", Currency.BYN.Name);
             Assert.Equal(2, Currency.BYN.MinorUnits);
+            Assert.Equal("Br", Currency.BYN.Sign);
         }
 
         [Fact]
@@ -236,6 +261,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("084", Currency.BZD.NumericCode);
             Assert.Equal("Belize Dollar", Currency.BZD.Name);
             Assert.Equal(2, Currency.BZD.MinorUnits);
+            Assert.Equal("$", Currency.BZD.Sign);
         }
 
         [Fact]
@@ -245,6 +271,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("124", Currency.CAD.NumericCode);
             Assert.Equal("Canadian Dollar", Currency.CAD.Name);
             Assert.Equal(2, Currency.CAD.MinorUnits);
+            Assert.Equal("$", Currency.CAD.Sign);
         }
 
         [Fact]
@@ -254,6 +281,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("976", Currency.CDF.NumericCode);
             Assert.Equal("Congolese Franc", Currency.CDF.Name);
             Assert.Equal(2, Currency.CDF.MinorUnits);
+            Assert.Equal("₣", Currency.CDF.Sign);
         }
 
         [Fact]
@@ -263,6 +291,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("947", Currency.CHE.NumericCode);
             Assert.Equal("WIR Euro", Currency.CHE.Name);
             Assert.Equal(2, Currency.CHE.MinorUnits);
+            Assert.Equal("", Currency.CHE.Sign);
         }
 
         [Fact]
@@ -272,6 +301,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("756", Currency.CHF.NumericCode);
             Assert.Equal("Swiss Franc", Currency.CHF.Name);
             Assert.Equal(2, Currency.CHF.MinorUnits);
+            Assert.Equal("₣", Currency.CHF.Sign);
         }
 
         [Fact]
@@ -281,6 +311,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("948", Currency.CHW.NumericCode);
             Assert.Equal("WIR Franc", Currency.CHW.Name);
             Assert.Equal(2, Currency.CHW.MinorUnits);
+            Assert.Equal(null, Currency.CHW.Sign);
         }
 
         [Fact]
@@ -290,6 +321,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("990", Currency.CLF.NumericCode);
             Assert.Equal("Unidad de Fomento", Currency.CLF.Name);
             Assert.Equal(4, Currency.CLF.MinorUnits);
+            Assert.Equal("UF", Currency.CLF.Sign);
         }
 
         [Fact]
@@ -299,6 +331,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("152", Currency.CLP.NumericCode);
             Assert.Equal("Chilean Peso", Currency.CLP.Name);
             Assert.Equal(0, Currency.CLP.MinorUnits);
+            Assert.Equal("$", Currency.CLP.Sign);
         }
 
         [Fact]
@@ -308,6 +341,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("156", Currency.CNY.NumericCode);
             Assert.Equal("Yuan Renminbi", Currency.CNY.Name);
             Assert.Equal(2, Currency.CNY.MinorUnits);
+            Assert.Equal("¥", Currency.CNY.Sign);
         }
 
         [Fact]
@@ -317,6 +351,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("170", Currency.COP.NumericCode);
             Assert.Equal("Colombian Peso", Currency.COP.Name);
             Assert.Equal(2, Currency.COP.MinorUnits);
+            Assert.Equal("$", Currency.COP.Sign);
         }
 
         [Fact]
@@ -326,6 +361,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("970", Currency.COU.NumericCode);
             Assert.Equal("Unidad de Valor Real", Currency.COU.Name);
             Assert.Equal(2, Currency.COU.MinorUnits);
+            Assert.Equal(null, Currency.COU.Sign);
         }
 
         [Fact]
@@ -335,6 +371,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("188", Currency.CRC.NumericCode);
             Assert.Equal("Costa Rican Colon", Currency.CRC.Name);
             Assert.Equal(2, Currency.CRC.MinorUnits);
+            Assert.Equal("₡", Currency.CRC.Sign);
         }
 
         [Fact]
@@ -344,6 +381,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("931", Currency.CUC.NumericCode);
             Assert.Equal("Peso Convertible", Currency.CUC.Name);
             Assert.Equal(2, Currency.CUC.MinorUnits);
+            Assert.Equal(null, Currency.CUC.Sign);
         }
 
         [Fact]
@@ -353,6 +391,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("192", Currency.CUP.NumericCode);
             Assert.Equal("Cuban Peso", Currency.CUP.Name);
             Assert.Equal(2, Currency.CUP.MinorUnits);
+            Assert.Equal("$", Currency.CUP.Sign);
         }
 
         [Fact]
@@ -362,6 +401,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("132", Currency.CVE.NumericCode);
             Assert.Equal("Cabo Verde Escudo", Currency.CVE.Name);
             Assert.Equal(2, Currency.CVE.MinorUnits);
+            Assert.Equal("$", Currency.CVE.Sign);
         }
 
         [Fact]
@@ -371,6 +411,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("203", Currency.CZK.NumericCode);
             Assert.Equal("Czech Koruna", Currency.CZK.Name);
             Assert.Equal(2, Currency.CZK.MinorUnits);
+            Assert.Equal("Kč", Currency.CZK.Sign);
         }
 
         [Fact]
@@ -380,6 +421,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("262", Currency.DJF.NumericCode);
             Assert.Equal("Djibouti Franc", Currency.DJF.Name);
             Assert.Equal(0, Currency.DJF.MinorUnits);
+            Assert.Equal("₣", Currency.DJF.Sign);
         }
 
         [Fact]
@@ -389,6 +431,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("208", Currency.DKK.NumericCode);
             Assert.Equal("Danish Krone", Currency.DKK.Name);
             Assert.Equal(2, Currency.DKK.MinorUnits);
+            Assert.Equal("kr", Currency.DKK.Sign);
         }
 
         [Fact]
@@ -398,6 +441,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("214", Currency.DOP.NumericCode);
             Assert.Equal("Dominican Peso", Currency.DOP.Name);
             Assert.Equal(2, Currency.DOP.MinorUnits);
+            Assert.Equal("$", Currency.DOP.Sign);
         }
 
         [Fact]
@@ -407,6 +451,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("012", Currency.DZD.NumericCode);
             Assert.Equal("Algerian Dinar", Currency.DZD.Name);
             Assert.Equal(2, Currency.DZD.MinorUnits);
+            Assert.Equal("د.ج", Currency.DZD.Sign);
         }
 
         [Fact]
@@ -416,6 +461,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("818", Currency.EGP.NumericCode);
             Assert.Equal("Egyptian Pound", Currency.EGP.Name);
             Assert.Equal(2, Currency.EGP.MinorUnits);
+            Assert.Equal("£", Currency.EGP.Sign);
         }
 
         [Fact]
@@ -425,6 +471,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("232", Currency.ERN.NumericCode);
             Assert.Equal("Nakfa", Currency.ERN.Name);
             Assert.Equal(2, Currency.ERN.MinorUnits);
+            Assert.Equal("Nfk", Currency.ERN.Sign);
         }
 
         [Fact]
@@ -434,6 +481,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("230", Currency.ETB.NumericCode);
             Assert.Equal("Ethiopian Birr", Currency.ETB.Name);
             Assert.Equal(2, Currency.ETB.MinorUnits);
+            Assert.Equal("", Currency.ETB.Sign);
         }
 
         [Fact]
@@ -443,6 +491,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("978", Currency.EUR.NumericCode);
             Assert.Equal("Euro", Currency.EUR.Name);
             Assert.Equal(2, Currency.EUR.MinorUnits);
+            Assert.Equal("€", Currency.EUR.Sign);
         }
 
         [Fact]
@@ -452,6 +501,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("242", Currency.FJD.NumericCode);
             Assert.Equal("Fiji Dollar", Currency.FJD.Name);
             Assert.Equal(2, Currency.FJD.MinorUnits);
+            Assert.Equal("$", Currency.FJD.Sign);
         }
 
         [Fact]
@@ -461,6 +511,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("238", Currency.FKP.NumericCode);
             Assert.Equal("Falkland Islands Pound", Currency.FKP.Name);
             Assert.Equal(2, Currency.FKP.MinorUnits);
+            Assert.Equal("£", Currency.FKP.Sign);
         }
 
         [Fact]
@@ -470,6 +521,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("826", Currency.GBP.NumericCode);
             Assert.Equal("Pound Sterling", Currency.GBP.Name);
             Assert.Equal(2, Currency.GBP.MinorUnits);
+            Assert.Equal("£", Currency.GBP.Sign);
         }
 
         [Fact]
@@ -479,6 +531,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("981", Currency.GEL.NumericCode);
             Assert.Equal("Lari", Currency.GEL.Name);
             Assert.Equal(2, Currency.GEL.MinorUnits);
+            Assert.Equal("ლ", Currency.GEL.Sign);
         }
 
         [Fact]
@@ -488,6 +541,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("936", Currency.GHS.NumericCode);
             Assert.Equal("Ghana Cedi", Currency.GHS.Name);
             Assert.Equal(2, Currency.GHS.MinorUnits);
+            Assert.Equal("₵", Currency.GHS.Sign);
         }
 
         [Fact]
@@ -497,6 +551,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("292", Currency.GIP.NumericCode);
             Assert.Equal("Gibraltar Pound", Currency.GIP.Name);
             Assert.Equal(2, Currency.GIP.MinorUnits);
+            Assert.Equal("£", Currency.GIP.Sign);
         }
 
         [Fact]
@@ -506,6 +561,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("270", Currency.GMD.NumericCode);
             Assert.Equal("Dalasi", Currency.GMD.Name);
             Assert.Equal(2, Currency.GMD.MinorUnits);
+            Assert.Equal("D", Currency.GMD.Sign);
         }
 
         [Fact]
@@ -515,6 +571,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("324", Currency.GNF.NumericCode);
             Assert.Equal("Guinea Franc", Currency.GNF.Name);
             Assert.Equal(0, Currency.GNF.MinorUnits);
+            Assert.Equal("₣", Currency.GNF.Sign);
         }
 
         [Fact]
@@ -524,6 +581,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("320", Currency.GTQ.NumericCode);
             Assert.Equal("Quetzal", Currency.GTQ.Name);
             Assert.Equal(2, Currency.GTQ.MinorUnits);
+            Assert.Equal("Q", Currency.GTQ.Sign);
         }
 
         [Fact]
@@ -533,6 +591,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("328", Currency.GYD.NumericCode);
             Assert.Equal("Guyana Dollar", Currency.GYD.Name);
             Assert.Equal(2, Currency.GYD.MinorUnits);
+            Assert.Equal("$", Currency.GYD.Sign);
         }
 
         [Fact]
@@ -542,6 +601,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("344", Currency.HKD.NumericCode);
             Assert.Equal("Hong Kong Dollar", Currency.HKD.Name);
             Assert.Equal(2, Currency.HKD.MinorUnits);
+            Assert.Equal("$", Currency.HKD.Sign);
         }
 
         [Fact]
@@ -551,6 +611,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("340", Currency.HNL.NumericCode);
             Assert.Equal("Lempira", Currency.HNL.Name);
             Assert.Equal(2, Currency.HNL.MinorUnits);
+            Assert.Equal("L", Currency.HNL.Sign);
         }
 
         [Fact]
@@ -560,6 +621,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("191", Currency.HRK.NumericCode);
             Assert.Equal("Kuna", Currency.HRK.Name);
             Assert.Equal(2, Currency.HRK.MinorUnits);
+            Assert.Equal("Kn", Currency.HRK.Sign);
         }
 
         [Fact]
@@ -569,6 +631,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("332", Currency.HTG.NumericCode);
             Assert.Equal("Gourde", Currency.HTG.Name);
             Assert.Equal(2, Currency.HTG.MinorUnits);
+            Assert.Equal("G", Currency.HTG.Sign);
         }
 
         [Fact]
@@ -578,6 +641,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("348", Currency.HUF.NumericCode);
             Assert.Equal("Forint", Currency.HUF.Name);
             Assert.Equal(2, Currency.HUF.MinorUnits);
+            Assert.Equal("Ft", Currency.HUF.Sign);
         }
 
         [Fact]
@@ -587,6 +651,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("360", Currency.IDR.NumericCode);
             Assert.Equal("Rupiah", Currency.IDR.Name);
             Assert.Equal(2, Currency.IDR.MinorUnits);
+            Assert.Equal("Rp", Currency.IDR.Sign);
         }
 
         [Fact]
@@ -596,6 +661,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("376", Currency.ILS.NumericCode);
             Assert.Equal("New Israeli Sheqel", Currency.ILS.Name);
             Assert.Equal(2, Currency.ILS.MinorUnits);
+            Assert.Equal("₪", Currency.ILS.Sign);
         }
 
         [Fact]
@@ -605,6 +671,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("356", Currency.INR.NumericCode);
             Assert.Equal("Indian Rupee", Currency.INR.Name);
             Assert.Equal(2, Currency.INR.MinorUnits);
+            Assert.Equal("₹", Currency.INR.Sign);
         }
 
         [Fact]
@@ -614,6 +681,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("368", Currency.IQD.NumericCode);
             Assert.Equal("Iraqi Dinar", Currency.IQD.Name);
             Assert.Equal(3, Currency.IQD.MinorUnits);
+            Assert.Equal("ع.د", Currency.IQD.Sign);
         }
 
         [Fact]
@@ -623,6 +691,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("364", Currency.IRR.NumericCode);
             Assert.Equal("Iranian Rial", Currency.IRR.Name);
             Assert.Equal(2, Currency.IRR.MinorUnits);
+            Assert.Equal("﷼", Currency.IRR.Sign);
         }
 
         [Fact]
@@ -632,6 +701,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("352", Currency.ISK.NumericCode);
             Assert.Equal("Iceland Krona", Currency.ISK.Name);
             Assert.Equal(0, Currency.ISK.MinorUnits);
+            Assert.Equal("Kr", Currency.ISK.Sign);
         }
 
         [Fact]
@@ -641,6 +711,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("388", Currency.JMD.NumericCode);
             Assert.Equal("Jamaican Dollar", Currency.JMD.Name);
             Assert.Equal(2, Currency.JMD.MinorUnits);
+            Assert.Equal("$", Currency.JMD.Sign);
         }
 
         [Fact]
@@ -650,6 +721,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("400", Currency.JOD.NumericCode);
             Assert.Equal("Jordanian Dinar", Currency.JOD.Name);
             Assert.Equal(3, Currency.JOD.MinorUnits);
+            Assert.Equal("د.ا", Currency.JOD.Sign);
         }
 
         [Fact]
@@ -659,6 +731,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("392", Currency.JPY.NumericCode);
             Assert.Equal("Yen", Currency.JPY.Name);
             Assert.Equal(0, Currency.JPY.MinorUnits);
+            Assert.Equal("¥", Currency.JPY.Sign);
         }
 
         [Fact]
@@ -668,6 +741,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("404", Currency.KES.NumericCode);
             Assert.Equal("Kenyan Shilling", Currency.KES.Name);
             Assert.Equal(2, Currency.KES.MinorUnits);
+            Assert.Equal("Sh", Currency.KES.Sign);
         }
 
         [Fact]
@@ -677,6 +751,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("417", Currency.KGS.NumericCode);
             Assert.Equal("Som", Currency.KGS.Name);
             Assert.Equal(2, Currency.KGS.MinorUnits);
+            Assert.Equal("", Currency.KGS.Sign);
         }
 
         [Fact]
@@ -686,6 +761,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("116", Currency.KHR.NumericCode);
             Assert.Equal("Riel", Currency.KHR.Name);
             Assert.Equal(2, Currency.KHR.MinorUnits);
+            Assert.Equal("៛", Currency.KHR.Sign);
         }
 
         [Fact]
@@ -695,6 +771,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("174", Currency.KMF.NumericCode);
             Assert.Equal("Comoro Franc", Currency.KMF.Name);
             Assert.Equal(0, Currency.KMF.MinorUnits);
+            Assert.Equal(null, Currency.KMF.Sign);
         }
 
         [Fact]
@@ -704,6 +781,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("408", Currency.KPW.NumericCode);
             Assert.Equal("North Korean Won", Currency.KPW.Name);
             Assert.Equal(2, Currency.KPW.MinorUnits);
+            Assert.Equal("₩", Currency.KPW.Sign);
         }
 
         [Fact]
@@ -713,6 +791,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("410", Currency.KRW.NumericCode);
             Assert.Equal("Won", Currency.KRW.Name);
             Assert.Equal(0, Currency.KRW.MinorUnits);
+            Assert.Equal("₩", Currency.KRW.Sign);
         }
 
         [Fact]
@@ -722,6 +801,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("414", Currency.KWD.NumericCode);
             Assert.Equal("Kuwaiti Dinar", Currency.KWD.Name);
             Assert.Equal(3, Currency.KWD.MinorUnits);
+            Assert.Equal("د.ك", Currency.KWD.Sign);
         }
 
         [Fact]
@@ -731,6 +811,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("136", Currency.KYD.NumericCode);
             Assert.Equal("Cayman Islands Dollar", Currency.KYD.Name);
             Assert.Equal(2, Currency.KYD.MinorUnits);
+            Assert.Equal("$", Currency.KYD.Sign);
         }
 
         [Fact]
@@ -740,6 +821,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("398", Currency.KZT.NumericCode);
             Assert.Equal("Tenge", Currency.KZT.Name);
             Assert.Equal(2, Currency.KZT.MinorUnits);
+            Assert.Equal("〒", Currency.KZT.Sign);
         }
 
         [Fact]
@@ -749,6 +831,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("418", Currency.LAK.NumericCode);
             Assert.Equal("Kip", Currency.LAK.Name);
             Assert.Equal(2, Currency.LAK.MinorUnits);
+            Assert.Equal("₭", Currency.LAK.Sign);
         }
 
         [Fact]
@@ -758,6 +841,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("422", Currency.LBP.NumericCode);
             Assert.Equal("Lebanese Pound", Currency.LBP.Name);
             Assert.Equal(2, Currency.LBP.MinorUnits);
+            Assert.Equal("ل.ل", Currency.LBP.Sign);
         }
 
         [Fact]
@@ -767,6 +851,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("144", Currency.LKR.NumericCode);
             Assert.Equal("Sri Lanka Rupee", Currency.LKR.Name);
             Assert.Equal(2, Currency.LKR.MinorUnits);
+            Assert.Equal("Rs", Currency.LKR.Sign);
         }
 
         [Fact]
@@ -776,6 +861,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("430", Currency.LRD.NumericCode);
             Assert.Equal("Liberian Dollar", Currency.LRD.Name);
             Assert.Equal(2, Currency.LRD.MinorUnits);
+            Assert.Equal("$", Currency.LRD.Sign);
         }
 
         [Fact]
@@ -785,6 +871,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("426", Currency.LSL.NumericCode);
             Assert.Equal("Loti", Currency.LSL.Name);
             Assert.Equal(2, Currency.LSL.MinorUnits);
+            Assert.Equal("L", Currency.LSL.Sign);
         }
 
         [Fact]
@@ -794,6 +881,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("434", Currency.LYD.NumericCode);
             Assert.Equal("Libyan Dinar", Currency.LYD.Name);
             Assert.Equal(3, Currency.LYD.MinorUnits);
+            Assert.Equal("ل.د", Currency.LYD.Sign);
         }
 
         [Fact]
@@ -803,6 +891,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("504", Currency.MAD.NumericCode);
             Assert.Equal("Moroccan Dirham", Currency.MAD.Name);
             Assert.Equal(2, Currency.MAD.MinorUnits);
+            Assert.Equal("د.م.", Currency.MAD.Sign);
         }
 
         [Fact]
@@ -812,6 +901,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("498", Currency.MDL.NumericCode);
             Assert.Equal("Moldovan Leu", Currency.MDL.Name);
             Assert.Equal(2, Currency.MDL.MinorUnits);
+            Assert.Equal("L", Currency.MDL.Sign);
         }
 
         [Fact]
@@ -821,6 +911,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("969", Currency.MGA.NumericCode);
             Assert.Equal("Malagasy Ariary", Currency.MGA.Name);
             Assert.Equal(2, Currency.MGA.MinorUnits);
+            Assert.Equal("", Currency.MGA.Sign);
         }
 
         [Fact]
@@ -830,6 +921,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("807", Currency.MKD.NumericCode);
             Assert.Equal("Denar", Currency.MKD.Name);
             Assert.Equal(2, Currency.MKD.MinorUnits);
+            Assert.Equal("ден", Currency.MKD.Sign);
         }
 
         [Fact]
@@ -839,6 +931,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("104", Currency.MMK.NumericCode);
             Assert.Equal("Kyat", Currency.MMK.Name);
             Assert.Equal(2, Currency.MMK.MinorUnits);
+            Assert.Equal("MMK", Currency.MMK.Sign);
         }
 
         [Fact]
@@ -848,6 +941,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("496", Currency.MNT.NumericCode);
             Assert.Equal("Tugrik", Currency.MNT.Name);
             Assert.Equal(2, Currency.MNT.MinorUnits);
+            Assert.Equal("₮", Currency.MNT.Sign);
         }
 
         [Fact]
@@ -857,6 +951,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("446", Currency.MOP.NumericCode);
             Assert.Equal("Pataca", Currency.MOP.Name);
             Assert.Equal(2, Currency.MOP.MinorUnits);
+            Assert.Equal("P", Currency.MOP.Sign);
         }
 
         [Fact]
@@ -866,6 +961,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("478", Currency.MRO.NumericCode);
             Assert.Equal("Ouguiya", Currency.MRO.Name);
             Assert.Equal(2, Currency.MRO.MinorUnits);
+            Assert.Equal("UM", Currency.MRO.Sign);
         }
 
         [Fact]
@@ -875,6 +971,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("480", Currency.MUR.NumericCode);
             Assert.Equal("Mauritius Rupee", Currency.MUR.Name);
             Assert.Equal(2, Currency.MUR.MinorUnits);
+            Assert.Equal("Rs", Currency.MUR.Sign);
         }
 
         [Fact]
@@ -884,6 +981,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("462", Currency.MVR.NumericCode);
             Assert.Equal("Rufiyaa", Currency.MVR.Name);
             Assert.Equal(2, Currency.MVR.MinorUnits);
+            Assert.Equal("ރ.", Currency.MVR.Sign);
         }
 
         [Fact]
@@ -893,6 +991,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("454", Currency.MWK.NumericCode);
             Assert.Equal("Malawi Kwacha", Currency.MWK.Name);
             Assert.Equal(2, Currency.MWK.MinorUnits);
+            Assert.Equal("MK", Currency.MWK.Sign);
         }
 
         [Fact]
@@ -902,6 +1001,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("484", Currency.MXN.NumericCode);
             Assert.Equal("Mexican Peso", Currency.MXN.Name);
             Assert.Equal(2, Currency.MXN.MinorUnits);
+            Assert.Equal("$", Currency.MXN.Sign);
         }
 
         [Fact]
@@ -911,6 +1011,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("979", Currency.MXV.NumericCode);
             Assert.Equal("Mexican Unidad de Inversion (UDI)", Currency.MXV.Name);
             Assert.Equal(2, Currency.MXV.MinorUnits);
+            Assert.Equal(null, Currency.MXV.Sign);
         }
 
         [Fact]
@@ -920,6 +1021,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("458", Currency.MYR.NumericCode);
             Assert.Equal("Malaysian Ringgit", Currency.MYR.Name);
             Assert.Equal(2, Currency.MYR.MinorUnits);
+            Assert.Equal("RM", Currency.MYR.Sign);
         }
 
         [Fact]
@@ -929,6 +1031,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("943", Currency.MZN.NumericCode);
             Assert.Equal("Mozambique Metical", Currency.MZN.Name);
             Assert.Equal(2, Currency.MZN.MinorUnits);
+            Assert.Equal("MTn", Currency.MZN.Sign);
         }
 
         [Fact]
@@ -938,6 +1041,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("516", Currency.NAD.NumericCode);
             Assert.Equal("Namibia Dollar", Currency.NAD.Name);
             Assert.Equal(2, Currency.NAD.MinorUnits);
+            Assert.Equal("$", Currency.NAD.Sign);
         }
 
         [Fact]
@@ -947,6 +1051,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("566", Currency.NGN.NumericCode);
             Assert.Equal("Naira", Currency.NGN.Name);
             Assert.Equal(2, Currency.NGN.MinorUnits);
+            Assert.Equal("₦", Currency.NGN.Sign);
         }
 
         [Fact]
@@ -956,6 +1061,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("558", Currency.NIO.NumericCode);
             Assert.Equal("Cordoba Oro", Currency.NIO.Name);
             Assert.Equal(2, Currency.NIO.MinorUnits);
+            Assert.Equal("C$", Currency.NIO.Sign);
         }
 
         [Fact]
@@ -965,6 +1071,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("578", Currency.NOK.NumericCode);
             Assert.Equal("Norwegian Krone", Currency.NOK.Name);
             Assert.Equal(2, Currency.NOK.MinorUnits);
+            Assert.Equal("kr", Currency.NOK.Sign);
         }
 
         [Fact]
@@ -974,6 +1081,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("524", Currency.NPR.NumericCode);
             Assert.Equal("Nepalese Rupee", Currency.NPR.Name);
             Assert.Equal(2, Currency.NPR.MinorUnits);
+            Assert.Equal("₨", Currency.NPR.Sign);
         }
 
         [Fact]
@@ -983,6 +1091,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("554", Currency.NZD.NumericCode);
             Assert.Equal("New Zealand Dollar", Currency.NZD.Name);
             Assert.Equal(2, Currency.NZD.MinorUnits);
+            Assert.Equal("$", Currency.NZD.Sign);
         }
 
         [Fact]
@@ -992,6 +1101,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("512", Currency.OMR.NumericCode);
             Assert.Equal("Rial Omani", Currency.OMR.Name);
             Assert.Equal(3, Currency.OMR.MinorUnits);
+            Assert.Equal("ر.ع.", Currency.OMR.Sign);
         }
 
         [Fact]
@@ -1001,6 +1111,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("590", Currency.PAB.NumericCode);
             Assert.Equal("Balboa", Currency.PAB.Name);
             Assert.Equal(2, Currency.PAB.MinorUnits);
+            Assert.Equal("B/.", Currency.PAB.Sign);
         }
 
         [Fact]
@@ -1010,6 +1121,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("604", Currency.PEN.NumericCode);
             Assert.Equal("Sol", Currency.PEN.Name);
             Assert.Equal(2, Currency.PEN.MinorUnits);
+            Assert.Equal("S/.", Currency.PEN.Sign);
         }
 
         [Fact]
@@ -1019,6 +1131,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("598", Currency.PGK.NumericCode);
             Assert.Equal("Kina", Currency.PGK.Name);
             Assert.Equal(2, Currency.PGK.MinorUnits);
+            Assert.Equal("K", Currency.PGK.Sign);
         }
 
         [Fact]
@@ -1028,6 +1141,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("608", Currency.PHP.NumericCode);
             Assert.Equal("Philippine Peso", Currency.PHP.Name);
             Assert.Equal(2, Currency.PHP.MinorUnits);
+            Assert.Equal("₱", Currency.PHP.Sign);
         }
 
         [Fact]
@@ -1037,6 +1151,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("586", Currency.PKR.NumericCode);
             Assert.Equal("Pakistan Rupee", Currency.PKR.Name);
             Assert.Equal(2, Currency.PKR.MinorUnits);
+            Assert.Equal("₨", Currency.PKR.Sign);
         }
 
         [Fact]
@@ -1046,6 +1161,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("985", Currency.PLN.NumericCode);
             Assert.Equal("Zloty", Currency.PLN.Name);
             Assert.Equal(2, Currency.PLN.MinorUnits);
+            Assert.Equal("zł", Currency.PLN.Sign);
         }
 
         [Fact]
@@ -1055,6 +1171,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("600", Currency.PYG.NumericCode);
             Assert.Equal("Guarani", Currency.PYG.Name);
             Assert.Equal(0, Currency.PYG.MinorUnits);
+            Assert.Equal("₲", Currency.PYG.Sign);
         }
 
         [Fact]
@@ -1064,6 +1181,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("634", Currency.QAR.NumericCode);
             Assert.Equal("Qatari Rial", Currency.QAR.Name);
             Assert.Equal(2, Currency.QAR.MinorUnits);
+            Assert.Equal("ر.ق", Currency.QAR.Sign);
         }
 
         [Fact]
@@ -1073,6 +1191,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("946", Currency.RON.NumericCode);
             Assert.Equal("Romanian Leu", Currency.RON.Name);
             Assert.Equal(2, Currency.RON.MinorUnits);
+            Assert.Equal("L", Currency.RON.Sign);
         }
 
         [Fact]
@@ -1082,6 +1201,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("941", Currency.RSD.NumericCode);
             Assert.Equal("Serbian Dinar", Currency.RSD.Name);
             Assert.Equal(2, Currency.RSD.MinorUnits);
+            Assert.Equal("din", Currency.RSD.Sign);
         }
 
         [Fact]
@@ -1091,6 +1211,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("643", Currency.RUB.NumericCode);
             Assert.Equal("Russian Ruble", Currency.RUB.Name);
             Assert.Equal(2, Currency.RUB.MinorUnits);
+            Assert.Equal("р.", Currency.RUB.Sign);
         }
 
         [Fact]
@@ -1100,6 +1221,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("646", Currency.RWF.NumericCode);
             Assert.Equal("Rwanda Franc", Currency.RWF.Name);
             Assert.Equal(0, Currency.RWF.MinorUnits);
+            Assert.Equal("₣", Currency.RWF.Sign);
         }
 
         [Fact]
@@ -1109,6 +1231,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("682", Currency.SAR.NumericCode);
             Assert.Equal("Saudi Riyal", Currency.SAR.Name);
             Assert.Equal(2, Currency.SAR.MinorUnits);
+            Assert.Equal("ر.س", Currency.SAR.Sign);
         }
 
         [Fact]
@@ -1118,6 +1241,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("090", Currency.SBD.NumericCode);
             Assert.Equal("Solomon Islands Dollar", Currency.SBD.Name);
             Assert.Equal(2, Currency.SBD.MinorUnits);
+            Assert.Equal("$", Currency.SBD.Sign);
         }
 
         [Fact]
@@ -1127,6 +1251,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("690", Currency.SCR.NumericCode);
             Assert.Equal("Seychelles Rupee", Currency.SCR.Name);
             Assert.Equal(2, Currency.SCR.MinorUnits);
+            Assert.Equal("₨", Currency.SCR.Sign);
         }
 
         [Fact]
@@ -1136,6 +1261,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("938", Currency.SDG.NumericCode);
             Assert.Equal("Sudanese Pound", Currency.SDG.Name);
             Assert.Equal(2, Currency.SDG.MinorUnits);
+            Assert.Equal("£", Currency.SDG.Sign);
         }
 
         [Fact]
@@ -1145,6 +1271,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("752", Currency.SEK.NumericCode);
             Assert.Equal("Swedish Krona", Currency.SEK.Name);
             Assert.Equal(2, Currency.SEK.MinorUnits);
+            Assert.Equal("kr", Currency.SEK.Sign);
         }
 
         [Fact]
@@ -1154,6 +1281,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("702", Currency.SGD.NumericCode);
             Assert.Equal("Singapore Dollar", Currency.SGD.Name);
             Assert.Equal(2, Currency.SGD.MinorUnits);
+            Assert.Equal("$", Currency.SGD.Sign);
         }
 
         [Fact]
@@ -1163,6 +1291,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("654", Currency.SHP.NumericCode);
             Assert.Equal("Saint Helena Pound", Currency.SHP.Name);
             Assert.Equal(2, Currency.SHP.MinorUnits);
+            Assert.Equal("£", Currency.SHP.Sign);
         }
 
         [Fact]
@@ -1172,6 +1301,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("694", Currency.SLL.NumericCode);
             Assert.Equal("Leone", Currency.SLL.Name);
             Assert.Equal(2, Currency.SLL.MinorUnits);
+            Assert.Equal("Le", Currency.SLL.Sign);
         }
 
         [Fact]
@@ -1181,6 +1311,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("706", Currency.SOS.NumericCode);
             Assert.Equal("Somali Shilling", Currency.SOS.Name);
             Assert.Equal(2, Currency.SOS.MinorUnits);
+            Assert.Equal("Sh", Currency.SOS.Sign);
         }
 
         [Fact]
@@ -1190,6 +1321,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("968", Currency.SRD.NumericCode);
             Assert.Equal("Surinam Dollar", Currency.SRD.Name);
             Assert.Equal(2, Currency.SRD.MinorUnits);
+            Assert.Equal("$", Currency.SRD.Sign);
         }
 
         [Fact]
@@ -1199,6 +1331,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("728", Currency.SSP.NumericCode);
             Assert.Equal("South Sudanese Pound", Currency.SSP.Name);
             Assert.Equal(2, Currency.SSP.MinorUnits);
+            Assert.Equal(null, Currency.SSP.Sign);
         }
 
         [Fact]
@@ -1208,6 +1341,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("678", Currency.STD.NumericCode);
             Assert.Equal("Dobra", Currency.STD.Name);
             Assert.Equal(2, Currency.STD.MinorUnits);
+            Assert.Equal("Db", Currency.STD.Sign);
         }
 
         [Fact]
@@ -1217,6 +1351,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("222", Currency.SVC.NumericCode);
             Assert.Equal("El Salvador Colon", Currency.SVC.Name);
             Assert.Equal(2, Currency.SVC.MinorUnits);
+            Assert.Equal("$", Currency.SVC.Sign);
         }
 
         [Fact]
@@ -1226,6 +1361,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("760", Currency.SYP.NumericCode);
             Assert.Equal("Syrian Pound", Currency.SYP.Name);
             Assert.Equal(2, Currency.SYP.MinorUnits);
+            Assert.Equal("ل.س", Currency.SYP.Sign);
         }
 
         [Fact]
@@ -1235,6 +1371,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("748", Currency.SZL.NumericCode);
             Assert.Equal("Lilangeni", Currency.SZL.Name);
             Assert.Equal(2, Currency.SZL.MinorUnits);
+            Assert.Equal("L", Currency.SZL.Sign);
         }
 
         [Fact]
@@ -1244,6 +1381,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("764", Currency.THB.NumericCode);
             Assert.Equal("Baht", Currency.THB.Name);
             Assert.Equal(2, Currency.THB.MinorUnits);
+            Assert.Equal("฿", Currency.THB.Sign);
         }
 
         [Fact]
@@ -1253,6 +1391,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("972", Currency.TJS.NumericCode);
             Assert.Equal("Somoni", Currency.TJS.Name);
             Assert.Equal(2, Currency.TJS.MinorUnits);
+            Assert.Equal("SM", Currency.TJS.Sign);
         }
 
         [Fact]
@@ -1262,6 +1401,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("934", Currency.TMT.NumericCode);
             Assert.Equal("Turkmenistan New Manat", Currency.TMT.Name);
             Assert.Equal(2, Currency.TMT.MinorUnits);
+            Assert.Equal("m", Currency.TMT.Sign);
         }
 
         [Fact]
@@ -1271,6 +1411,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("788", Currency.TND.NumericCode);
             Assert.Equal("Tunisian Dinar", Currency.TND.Name);
             Assert.Equal(3, Currency.TND.MinorUnits);
+            Assert.Equal("د.ت", Currency.TND.Sign);
         }
 
         [Fact]
@@ -1280,6 +1421,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("776", Currency.TOP.NumericCode);
             Assert.Equal("Pa’anga", Currency.TOP.Name);
             Assert.Equal(2, Currency.TOP.MinorUnits);
+            Assert.Equal("T$", Currency.TOP.Sign);
         }
 
         [Fact]
@@ -1289,6 +1431,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("949", Currency.TRY.NumericCode);
             Assert.Equal("Turkish Lira", Currency.TRY.Name);
             Assert.Equal(2, Currency.TRY.MinorUnits);
+            Assert.Equal("₤", Currency.TRY.Sign);
         }
 
         [Fact]
@@ -1298,6 +1441,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("780", Currency.TTD.NumericCode);
             Assert.Equal("Trinidad and Tobago Dollar", Currency.TTD.Name);
             Assert.Equal(2, Currency.TTD.MinorUnits);
+            Assert.Equal("$", Currency.TTD.Sign);
         }
 
         [Fact]
@@ -1307,6 +1451,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("901", Currency.TWD.NumericCode);
             Assert.Equal("New Taiwan Dollar", Currency.TWD.Name);
             Assert.Equal(2, Currency.TWD.MinorUnits);
+            Assert.Equal("$", Currency.TWD.Sign);
         }
 
         [Fact]
@@ -1316,6 +1461,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("834", Currency.TZS.NumericCode);
             Assert.Equal("Tanzanian Shilling", Currency.TZS.Name);
             Assert.Equal(2, Currency.TZS.MinorUnits);
+            Assert.Equal("Sh", Currency.TZS.Sign);
         }
 
         [Fact]
@@ -1325,6 +1471,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("980", Currency.UAH.NumericCode);
             Assert.Equal("Hryvnia", Currency.UAH.Name);
             Assert.Equal(2, Currency.UAH.MinorUnits);
+            Assert.Equal("₴", Currency.UAH.Sign);
         }
 
         [Fact]
@@ -1334,6 +1481,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("800", Currency.UGX.NumericCode);
             Assert.Equal("Uganda Shilling", Currency.UGX.Name);
             Assert.Equal(0, Currency.UGX.MinorUnits);
+            Assert.Equal("Sh", Currency.UGX.Sign);
         }
 
         [Fact]
@@ -1343,6 +1491,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("840", Currency.USD.NumericCode);
             Assert.Equal("US Dollar", Currency.USD.Name);
             Assert.Equal(2, Currency.USD.MinorUnits);
+            Assert.Equal("$", Currency.USD.Sign);
         }
 
         [Fact]
@@ -1352,6 +1501,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("997", Currency.USN.NumericCode);
             Assert.Equal("US Dollar (Next day)", Currency.USN.Name);
             Assert.Equal(2, Currency.USN.MinorUnits);
+            Assert.Equal("$", Currency.USN.Sign);
         }
 
         [Fact]
@@ -1361,6 +1511,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("940", Currency.UYI.NumericCode);
             Assert.Equal("Uruguay Peso en Unidades Indexadas (URUIURUI)", Currency.UYI.Name);
             Assert.Equal(0, Currency.UYI.MinorUnits);
+            Assert.Equal(null, Currency.UYI.Sign);
         }
 
         [Fact]
@@ -1370,6 +1521,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("858", Currency.UYU.NumericCode);
             Assert.Equal("Peso Uruguayo", Currency.UYU.Name);
             Assert.Equal(2, Currency.UYU.MinorUnits);
+            Assert.Equal("$", Currency.UYU.Sign);
         }
 
         [Fact]
@@ -1379,6 +1531,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("860", Currency.UZS.NumericCode);
             Assert.Equal("Uzbekistan Sum", Currency.UZS.Name);
             Assert.Equal(2, Currency.UZS.MinorUnits);
+            Assert.Equal("", Currency.UZS.Sign);
         }
 
         [Fact]
@@ -1388,6 +1541,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("937", Currency.VEF.NumericCode);
             Assert.Equal("Bolívar", Currency.VEF.Name);
             Assert.Equal(2, Currency.VEF.MinorUnits);
+            Assert.Equal("Bs F", Currency.VEF.Sign);
         }
 
         [Fact]
@@ -1397,6 +1551,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("704", Currency.VND.NumericCode);
             Assert.Equal("Dong", Currency.VND.Name);
             Assert.Equal(0, Currency.VND.MinorUnits);
+            Assert.Equal("₫", Currency.VND.Sign);
         }
 
         [Fact]
@@ -1406,6 +1561,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("548", Currency.VUV.NumericCode);
             Assert.Equal("Vatu", Currency.VUV.Name);
             Assert.Equal(0, Currency.VUV.MinorUnits);
+            Assert.Equal("Vt", Currency.VUV.Sign);
         }
 
         [Fact]
@@ -1415,6 +1571,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("882", Currency.WST.NumericCode);
             Assert.Equal("Tala", Currency.WST.Name);
             Assert.Equal(2, Currency.WST.MinorUnits);
+            Assert.Equal("WST", Currency.WST.Sign);
         }
 
         [Fact]
@@ -1424,6 +1581,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("950", Currency.XAF.NumericCode);
             Assert.Equal("CFA Franc BEAC", Currency.XAF.Name);
             Assert.Equal(0, Currency.XAF.MinorUnits);
+            Assert.Equal("₣", Currency.XAF.Sign);
         }
 
         [Fact]
@@ -1433,6 +1591,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("961", Currency.XAG.NumericCode);
             Assert.Equal("Silver", Currency.XAG.Name);
             Assert.Equal(0, Currency.XAG.MinorUnits);
+            Assert.Equal(null, Currency.XAG.Sign);
         }
 
         [Fact]
@@ -1442,6 +1601,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("959", Currency.XAU.NumericCode);
             Assert.Equal("Gold", Currency.XAU.Name);
             Assert.Equal(0, Currency.XAU.MinorUnits);
+            Assert.Equal(null, Currency.XAU.Sign);
         }
 
         [Fact]
@@ -1451,6 +1611,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("955", Currency.XBA.NumericCode);
             Assert.Equal("Bond Markets Unit European Composite Unit (EURCO)", Currency.XBA.Name);
             Assert.Equal(0, Currency.XBA.MinorUnits);
+            Assert.Equal(null, Currency.XBA.Sign);
         }
 
         [Fact]
@@ -1460,6 +1621,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("956", Currency.XBB.NumericCode);
             Assert.Equal("Bond Markets Unit European Monetary Unit (E.M.U.-6)", Currency.XBB.Name);
             Assert.Equal(0, Currency.XBB.MinorUnits);
+            Assert.Equal(null, Currency.XBB.Sign);
         }
 
         [Fact]
@@ -1469,6 +1631,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("957", Currency.XBC.NumericCode);
             Assert.Equal("Bond Markets Unit European Unit of Account 9 (E.U.A.-9)", Currency.XBC.Name);
             Assert.Equal(0, Currency.XBC.MinorUnits);
+            Assert.Equal(null, Currency.XBC.Sign);
         }
 
         [Fact]
@@ -1478,6 +1641,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("958", Currency.XBD.NumericCode);
             Assert.Equal("Bond Markets Unit European Unit of Account 17 (E.U.A.-17)", Currency.XBD.Name);
             Assert.Equal(0, Currency.XBD.MinorUnits);
+            Assert.Equal(null, Currency.XBD.Sign);
         }
 
         [Fact]
@@ -1487,6 +1651,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("951", Currency.XCD.NumericCode);
             Assert.Equal("East Caribbean Dollar", Currency.XCD.Name);
             Assert.Equal(2, Currency.XCD.MinorUnits);
+            Assert.Equal("$", Currency.XCD.Sign);
         }
 
         [Fact]
@@ -1496,6 +1661,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("960", Currency.XDR.NumericCode);
             Assert.Equal("SDR (Special Drawing Right)", Currency.XDR.Name);
             Assert.Equal(0, Currency.XDR.MinorUnits);
+            Assert.Equal(null, Currency.XDR.Sign);
         }
 
         [Fact]
@@ -1505,6 +1671,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("952", Currency.XOF.NumericCode);
             Assert.Equal("CFA Franc BCEAO", Currency.XOF.Name);
             Assert.Equal(0, Currency.XOF.MinorUnits);
+            Assert.Equal(null, Currency.XOF.Sign);
         }
 
         [Fact]
@@ -1514,6 +1681,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("964", Currency.XPD.NumericCode);
             Assert.Equal("Palladium", Currency.XPD.Name);
             Assert.Equal(0, Currency.XPD.MinorUnits);
+            Assert.Equal(null, Currency.XPD.Sign);
         }
 
         [Fact]
@@ -1523,6 +1691,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("953", Currency.XPF.NumericCode);
             Assert.Equal("CFP Franc", Currency.XPF.Name);
             Assert.Equal(0, Currency.XPF.MinorUnits);
+            Assert.Equal("₣", Currency.XPF.Sign);
         }
 
         [Fact]
@@ -1532,6 +1701,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("962", Currency.XPT.NumericCode);
             Assert.Equal("Platinum", Currency.XPT.Name);
             Assert.Equal(0, Currency.XPT.MinorUnits);
+            Assert.Equal(null, Currency.XPT.Sign);
         }
 
         [Fact]
@@ -1541,6 +1711,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("994", Currency.XSU.NumericCode);
             Assert.Equal("Sucre", Currency.XSU.Name);
             Assert.Equal(0, Currency.XSU.MinorUnits);
+            Assert.Equal(null, Currency.XSU.Sign);
         }
 
         [Fact]
@@ -1550,6 +1721,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("963", Currency.XTS.NumericCode);
             Assert.Equal("Codes specifically reserved for testing purposes", Currency.XTS.Name);
             Assert.Equal(0, Currency.XTS.MinorUnits);
+            Assert.Equal(null, Currency.XTS.Sign);
         }
 
         [Fact]
@@ -1559,6 +1731,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("965", Currency.XUA.NumericCode);
             Assert.Equal("ADB Unit of Account", Currency.XUA.Name);
             Assert.Equal(0, Currency.XUA.MinorUnits);
+            Assert.Equal(null, Currency.XUA.Sign);
         }
 
         [Fact]
@@ -1568,6 +1741,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("999", Currency.XXX.NumericCode);
             Assert.Equal("The codes assigned for transactions where no currency is involved", Currency.XXX.Name);
             Assert.Equal(0, Currency.XXX.MinorUnits);
+            Assert.Equal("", Currency.XXX.Sign);
         }
 
         [Fact]
@@ -1577,6 +1751,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("886", Currency.YER.NumericCode);
             Assert.Equal("Yemeni Rial", Currency.YER.Name);
             Assert.Equal(2, Currency.YER.MinorUnits);
+            Assert.Equal("﷼", Currency.YER.Sign);
         }
 
         [Fact]
@@ -1586,6 +1761,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("710", Currency.ZAR.NumericCode);
             Assert.Equal("Rand", Currency.ZAR.Name);
             Assert.Equal(2, Currency.ZAR.MinorUnits);
+            Assert.Equal("R", Currency.ZAR.Sign);
         }
 
         [Fact]
@@ -1595,6 +1771,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("967", Currency.ZMW.NumericCode);
             Assert.Equal("Zambian Kwacha", Currency.ZMW.Name);
             Assert.Equal(2, Currency.ZMW.MinorUnits);
+            Assert.Equal("ZK", Currency.ZMW.Sign);
         }
 
         [Fact]
@@ -1604,6 +1781,7 @@ namespace TeixeiraSoftware.Finance
             Assert.Equal("932", Currency.ZWL.NumericCode);
             Assert.Equal("Zimbabwe Dollar", Currency.ZWL.Name);
             Assert.Equal(2, Currency.ZWL.MinorUnits);
+            Assert.Equal("$", Currency.ZWL.Sign);
         }
     }
 }

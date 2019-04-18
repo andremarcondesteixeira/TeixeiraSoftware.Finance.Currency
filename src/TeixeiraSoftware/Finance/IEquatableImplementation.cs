@@ -20,7 +20,7 @@ namespace TeixeiraSoftware.Finance
             }
 
             throw new ArgumentException(
-                $"{currency.ToString()} is not an instance of TeixeiraSoftware.Finance.Currency"
+                $"{currency.ToString()} is not an instance of TeixeiraSoftware.Finance.ICurrency"
             );
         }
 
