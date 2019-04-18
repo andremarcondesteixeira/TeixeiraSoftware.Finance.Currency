@@ -25,6 +25,7 @@ namespace TeixeiraSoftware.Finance
                     currency.AlphabeticCode,
                     currency.NumericCode,
                     currency.MinorUnits,
+                    currency.Sign,
                     currency.Name
                 );
             }
@@ -54,6 +55,7 @@ namespace TeixeiraSoftware.Finance
                     currency.AlphabeticCode,
                     currency.NumericCode,
                     currency.MinorUnits,
+                    currency.Sign,
                     currency.Name
                 );
             }

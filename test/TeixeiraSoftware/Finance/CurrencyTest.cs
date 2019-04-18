@@ -33,10 +33,10 @@ namespace TeixeiraSoftware.Finance
         [Fact]
         public void Currency_Instances_Are_Compared_Through_Their_Symbol_Properties()
         {
-            var xxx = new Currency("XXX", "999", 0, "The codes assigned for transactions where no currency is involved");
+            var xxx = new Currency("XXX", "999", 0, "", "The codes assigned for transactions where no currency is involved");
 
             Assert.Equal(xxx, Currency.XXX);
-            Assert.Equal(xxx, new Currency("XXX", "987", 1, "A different name"));
+            Assert.Equal(xxx, new Currency("XXX", "987", 1, "", "A different name"));
             Assert.NotEqual(Currency.XTS, Currency.XXX);
         }
 

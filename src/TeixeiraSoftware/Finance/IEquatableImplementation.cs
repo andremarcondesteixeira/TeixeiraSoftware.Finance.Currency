@@ -47,6 +47,7 @@ namespace TeixeiraSoftware.Finance
             hashCode = hashCode * -1521134295 + Hash(Name);
             hashCode = hashCode * -1521134295 + Hash(AlphabeticCode);
             hashCode = hashCode * -1521134295 + Hash(NumericCode);
+            hashCode = hashCode * -1521134295 + Hash(Sign);
             hashCode = hashCode * -1521134295 + MinorUnits.GetHashCode();
 
             return hashCode;

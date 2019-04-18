@@ -46,6 +46,9 @@ namespace TeixeiraSoftware.Finance
 
         /// <summary>The minor units of the currency</summary>
         public byte MinorUnits { get; }
+        
+        /// <summary>The sign symbol of the currency</summary>
+        public string Sign { get; }
 
         /// <summary>Initializes a new instance of the <see cref="Currency"/> class</summary>
         /// <remarks>
@@ -65,17 +68,20 @@ namespace TeixeiraSoftware.Finance
         /// <param name="alphabeticCode">The 3 alphabetic ISO code of the currency</param>
         /// <param name="numericCode">The 3 digits numeric ISO code of the currency</param>
         /// <param name="minorUnits">The ISO minor units of the currency</param>
+        /// <param name="sign">The sign symbol of the currency</param>
         /// <param name="name">The ISO name of the currency</param>
         public Currency(
             string alphabeticCode,
             string numericCode,
             byte minorUnits,
+            string sign,
             string name
         )
         {
             Symbol = alphabeticCode;
             NumericCode = numericCode;
             MinorUnits = minorUnits;
+            Sign = sign;
             Name = name;
         }
     }

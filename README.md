@@ -58,6 +58,9 @@ public partial struct Currency : ICurrency, IComparable, IComparable<ICurrency>
 
     // The minor units of the currency
     public byte MinorUnits { get; }
+
+    // The sign symbol of the currency
+    public string Sign { get; }
 }
 ```
 
@@ -83,6 +86,7 @@ foreach (var currency in allCurrencies)
     var currencyISOAlphabeticCode = currency.AlphabeticCode;
     var currencyISONumericCode = currency.NumericCode;
     var currencyMinorUnits = currency.MinorUnits;
+    var currencySign = currency.Sign;
 }
 ```
 
